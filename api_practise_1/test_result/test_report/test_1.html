@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>测试报告第一轮</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 120%; }
+table       { font-size: 100%; }
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 调整增加只显示通过用例的分类 --Findyou
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+	//console.log(detail_class.length)
+	if (level == 3) {
+		for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="收起"
+		}
+	}
+	else{
+			for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="详细"
+		}
+	}
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        //ID修改 点 为 下划线 -Findyou
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+</script>
+<div class='heading'>
+<h1 style="font-family: Microsoft YaHei">测试报告第一轮</h1>
+<p class='attribute'><strong>测试人员 : </strong> 李开</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-04-02 09:44:51</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.945477</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 4，通过 4，通过率= 100.00%</p>
+
+<p class='description'>接口自动化测试报告</p>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 4 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 4 }</a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 16px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>test_data.getWarningDetail.TestCases</td>
+    <td class="text-center">2</td>
+    <td class="text-center">2</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_001_1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse in" align="left">
+    <pre>
+    
+pt1_1: 现在的param是{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-04-02 09:44:51,220-INFO-&lt;string&gt;-python14-日志信息：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-04-02 09:44:51,223-INFO-&lt;string&gt;-python14-日志信息：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-04-02 09:44:51,296-INFO-&lt;string&gt;-python14-日志信息：post请求成功
+{"code":0,"codeMsg":"成功","msg":null,"data":null,"timestamp":"2020-04-02 09:44:52:645"}
+2020-04-02 09:44:51,298-INFO-&lt;string&gt;-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-02 09:44:52:645'}
+2020-04-02 09:44:51,300-INFO-&lt;string&gt;-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None}
+2020-04-02 09:44:51,303-INFO-&lt;string&gt;-python14-日志信息：测试通过了
+2020-04-02 09:44:51,368-INFO-&lt;string&gt;-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":null,"timestamp":"2020-04-02 09:44:52:645"}
+2020-04-02 09:44:51,375-INFO-&lt;string&gt;-python14-日志信息：写入test_result成功 ：pass
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_001_2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse in" align="left">
+    <pre>
+    
+pt1_2: 现在的param是{
+ "flag": "2000000000000000056624b34d6b04b2fb58f301ccd1eb4a2,10"
+}
+2020-04-02 09:44:51,481-INFO-&lt;string&gt;-python14-日志信息：正在发起违法处理模块中的第2条用例:获取图片细类信息
+2020-04-02 09:44:51,483-INFO-&lt;string&gt;-python14-日志信息：测试数据是：{
+ "flag": "2000000000000000056624b34d6b04b2fb58f301ccd1eb4a2,10"
+}
+2020-04-02 09:44:51,523-INFO-&lt;string&gt;-python14-日志信息：post请求成功
+{"code":"success","data":{"ExtInfo3":"10","uuid":"000000000000000056624b34d6b04b2fb58f301ccd1eb4a2","plateColor":"蓝","peccancy":10,"imgurl":"http://172.16.1.107:8082//picture_0/00/21/330130.jpg","handleState":0,"beforesrc":"","TimeInDay":161923,"Lane":"","objtype":2,"PlateLicence":"粤BK6T6","license":"粤BK6T6","IsHighSpeedIntersection":0,"LightCarRight":0,"PlateColorName":"蓝","Serialnumber":"1585635075481028659","VehicleKindCode":"2","Id":"000000000000000056624b34d6b04b2fb58f301ccd1eb4a2","VehicleKind":"越野车","CustomDirection":"","ImageDetail":"http://172.16.1.107:8082//picture_0/00/21/330130.jpg","ImageCompose":"http://172.16.1.107:8082//picture_0/00/21/330137.jpg","aftersrc":"","Direction":2,"EndFrameIdx":4567,"vehicleBrand":"日产","StartFrameIdx":4224,"infoWz1":"http://172.16.1.107:8082//picture_0/00/21/330137.jpg","IsStopHead":"","ViolationType":"12","infoWz2":"http://172.16.1.107:8082//video_0/00/01/13475.mp4","bigsrc":"http://172.16.1.107:8082//picture_0/00/21/330134.jpg","RecordId":"000000000000000056624b34d6b04b2fb58f301ccd1eb4a2","cameraName":"ws-video4-城市","Datetime":"2020-03-31 16:19:23","wztype":2,"ViolationVideoPath":"http://172.16.1.107:8082//video_0/00/01/13475.mp4","Image3":"","Image2":"","LocationId":"1562225808220","Image1":"http://172.16.1.107:8082//picture_0/00/21/330134.jpg","VehicleYear":"2014_2015","VehicleBrand":"日产","peccancyName":"违法变道","VehicleColorName":"","vehicleKind":"越野车","ObjType":2,"createTime":"2020-03-31 16:19:23","vehicleSeries":"奇骏","VehicleSeries":"奇骏","PlateClassCode":"1"},"state":true}
+2020-04-02 09:44:51,526-INFO-&lt;string&gt;-python14-日志信息：测试结果是：{'code': 'success', 'data': {'ExtInfo3': '10', 'uuid': '000000000000000056624b34d6b04b2fb58f301ccd1eb4a2', 'plateColor': '蓝', 'peccancy': 10, 'imgurl': 'http://172.16.1.107:8082//picture_0/00/21/330130.jpg', 'handleState': 0, 'beforesrc': '', 'TimeInDay': 161923, 'Lane': '', 'objtype': 2, 'PlateLicence': '粤BK6T6', 'license': '粤BK6T6', 'IsHighSpeedIntersection': 0, 'LightCarRight': 0, 'PlateColorName': '蓝', 'Serialnumber': '1585635075481028659', 'VehicleKindCode': '2', 'Id': '000000000000000056624b34d6b04b2fb58f301ccd1eb4a2', 'VehicleKind': '越野车', 'CustomDirection': '', 'ImageDetail': 'http://172.16.1.107:8082//picture_0/00/21/330130.jpg', 'ImageCompose': 'http://172.16.1.107:8082//picture_0/00/21/330137.jpg', 'aftersrc': '', 'Direction': 2, 'EndFrameIdx': 4567, 'vehicleBrand': '日产', 'StartFrameIdx': 4224, 'infoWz1': 'http://172.16.1.107:8082//picture_0/00/21/330137.jpg', 'IsStopHead': '', 'ViolationType': '12', 'infoWz2': 'http://172.16.1.107:8082//video_0/00/01/13475.mp4', 'bigsrc': 'http://172.16.1.107:8082//picture_0/00/21/330134.jpg', 'RecordId': '000000000000000056624b34d6b04b2fb58f301ccd1eb4a2', 'cameraName': 'ws-video4-城市', 'Datetime': '2020-03-31 16:19:23', 'wztype': 2, 'ViolationVideoPath': 'http://172.16.1.107:8082//video_0/00/01/13475.mp4', 'Image3': '', 'Image2': '', 'LocationId': '1562225808220', 'Image1': 'http://172.16.1.107:8082//picture_0/00/21/330134.jpg', 'VehicleYear': '2014_2015', 'VehicleBrand': '日产', 'peccancyName': '违法变道', 'VehicleColorName': '', 'vehicleKind': '越野车', 'ObjType': 2, 'createTime': '2020-03-31 16:19:23', 'vehicleSeries': '奇骏', 'VehicleSeries': '奇骏', 'PlateClassCode': '1'}, 'state': True}
+2020-04-02 09:44:51,528-INFO-&lt;string&gt;-python14-日志信息：预期结果是：{'code': 'success'}
+2020-04-02 09:44:51,531-INFO-&lt;string&gt;-python14-日志信息：测试通过了
+2020-04-02 09:44:51,583-INFO-&lt;string&gt;-python14-日志信息：写入test_result成功 ：{"code":"success","data":{"ExtInfo3":"10","uuid":"000000000000000056624b34d6b04b2fb58f301ccd1eb4a2","plateColor":"蓝","peccancy":10,"imgurl":"http://172.16.1.107:8082//picture_0/00/21/330130.jpg","handleState":0,"beforesrc":"","TimeInDay":161923,"Lane":"","objtype":2,"PlateLicence":"粤BK6T6","license":"粤BK6T6","IsHighSpeedIntersection":0,"LightCarRight":0,"PlateColorName":"蓝","Serialnumber":"1585635075481028659","VehicleKindCode":"2","Id":"000000000000000056624b34d6b04b2fb58f301ccd1eb4a2","VehicleKind":"越野车","CustomDirection":"","ImageDetail":"http://172.16.1.107:8082//picture_0/00/21/330130.jpg","ImageCompose":"http://172.16.1.107:8082//picture_0/00/21/330137.jpg","aftersrc":"","Direction":2,"EndFrameIdx":4567,"vehicleBrand":"日产","StartFrameIdx":4224,"infoWz1":"http://172.16.1.107:8082//picture_0/00/21/330137.jpg","IsStopHead":"","ViolationType":"12","infoWz2":"http://172.16.1.107:8082//video_0/00/01/13475.mp4","bigsrc":"http://172.16.1.107:8082//picture_0/00/21/330134.jpg","RecordId":"000000000000000056624b34d6b04b2fb58f301ccd1eb4a2","cameraName":"ws-video4-城市","Datetime":"2020-03-31 16:19:23","wztype":2,"ViolationVideoPath":"http://172.16.1.107:8082//video_0/00/01/13475.mp4","Image3":"","Image2":"","LocationId":"1562225808220","Image1":"http://172.16.1.107:8082//picture_0/00/21/330134.jpg","VehicleYear":"2014_2015","VehicleBrand":"日产","peccancyName":"违法变道","VehicleColorName":"","vehicleKind":"越野车","ObjType":2,"createTime":"2020-03-31 16:19:23","vehicleSeries":"奇骏","VehicleSeries":"奇骏","PlateClassCode":"1"},"state":true}
+2020-04-02 09:44:51,586-INFO-&lt;string&gt;-python14-日志信息：写入test_result成功 ：pass
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>test_data.getserialnumber.TestCases</td>
+    <td class="text-center">2</td>
+    <td class="text-center">2</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',2)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+<tr id='pt2_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_001_1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse in" align="left">
+    <pre>
+    
+pt2_1: 2020-04-02 09:44:51,709-INFO-&lt;string&gt;-python14-日志信息：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-04-02 09:44:51,711-INFO-&lt;string&gt;-python14-日志信息：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-04-02 09:44:51,759-INFO-&lt;string&gt;-python14-日志信息：post请求成功
+{"code":0,"codeMsg":"成功","msg":null,"data":null,"timestamp":"2020-04-02 09:44:53:129"}
+2020-04-02 09:44:51,764-INFO-&lt;string&gt;-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-02 09:44:53:129'}
+2020-04-02 09:44:51,770-INFO-&lt;string&gt;-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None}
+2020-04-02 09:44:51,775-INFO-&lt;string&gt;-python14-日志信息：测试通过了
+2020-04-02 09:44:51,842-INFO-&lt;string&gt;-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":null,"timestamp":"2020-04-02 09:44:53:129"}
+2020-04-02 09:44:51,846-INFO-&lt;string&gt;-python14-日志信息：写入test_result成功 ：pass
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_001_2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse in" align="left">
+    <pre>
+    
+pt2_2: 2020-04-02 09:44:51,938-INFO-&lt;string&gt;-python14-日志信息：正在发起任务号关键字查询接口模块中的第2条用例:查找文件名
+2020-04-02 09:44:51,941-INFO-&lt;string&gt;-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', '变道'),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-02 09:44:51,970-INFO-&lt;string&gt;-python14-日志信息：get请求成功
+{"code":0,"codeMsg":"成功","msg":null,"data":{"total":3,"list":[{"fileName":"实线变道-冲之大道贝尔路西贝尔路反向-卡口10分钟_52变道数.mp4","fileUrl":"http://172.16.1.107:8081/upload/3563427286.mp4","cameraName":"城市离线测试","isHighSpeedIntersection":0,"serialnumber":"1585725252358931716","createTime":"2020-04-01 15:14:13","type":"traffic","progress":100,"status":2,"cameraFileId":3563427286,"cameraId":1562225808212},{"fileName":"实线变道-冲之大道贝尔路西贝尔路反向-卡口9_003_2018-07-02-08-00-00_2018-07-02-08-30-00.mp4","fileUrl":"http://172.16.1.107:8081/upload/9642215891.mp4","cameraName":"test-城市","isHighSpeedIntersection":0,"serialnumber":"1585707444492284617","createTime":"2020-04-01 10:17:25","type":"traffic","progress":100,"status":2,"cameraFileId":9642215891,"cameraId":1562225808208},{"fileName":"实线变道-冲之大道贝尔路西贝尔路反向-卡口9_003_2018-07-02-08-00-00_2018-07-02-08-30-00.mp4","fileUrl":"http://172.16.1.107:8081/upload/1782968568.mp4","cameraName":"test-城市","isHighSpeedIntersection":0,"serialnumber":"1585625645234037663","createTime":"2020-03-31 11:34:05","type":"traffic","progress":100,"status":2,"cameraFileId":1782968568,"cameraId":1562225808208}],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-02 09:44:53:378"}
+2020-04-02 09:44:51,980-INFO-&lt;string&gt;-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 3, 'list': [{'fileName': '实线变道-冲之大道贝尔路西贝尔路反向-卡口10分钟_52变道数.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/3563427286.mp4', 'cameraName': '城市离线测试', 'isHighSpeedIntersection': 0, 'serialnumber': '1585725252358931716', 'createTime': '2020-04-01 15:14:13', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 3563427286, 'cameraId': 1562225808212}, {'fileName': '实线变道-冲之大道贝尔路西贝尔路反向-卡口9_003_2018-07-02-08-00-00_2018-07-02-08-30-00.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/9642215891.mp4', 'cameraName': 'test-城市', 'isHighSpeedIntersection': 0, 'serialnumber': '1585707444492284617', 'createTime': '2020-04-01 10:17:25', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 9642215891, 'cameraId': 1562225808208}, {'fileName': '实线变道-冲之大道贝尔路西贝尔路反向-卡口9_003_2018-07-02-08-00-00_2018-07-02-08-30-00.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/1782968568.mp4', 'cameraName': 'test-城市', 'isHighSpeedIntersection': 0, 'serialnumber': '1585625645234037663', 'createTime': '2020-03-31 11:34:05', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 1782968568, 'cameraId': 1562225808208}], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-02 09:44:53:378'}
+2020-04-02 09:44:51,983-INFO-&lt;string&gt;-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-02 09:44:51,989-INFO-&lt;string&gt;-python14-日志信息：测试通过了
+2020-04-02 09:44:52,039-INFO-&lt;string&gt;-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":3,"list":[{"fileName":"实线变道-冲之大道贝尔路西贝尔路反向-卡口10分钟_52变道数.mp4","fileUrl":"http://172.16.1.107:8081/upload/3563427286.mp4","cameraName":"城市离线测试","isHighSpeedIntersection":0,"serialnumber":"1585725252358931716","createTime":"2020-04-01 15:14:13","type":"traffic","progress":100,"status":2,"cameraFileId":3563427286,"cameraId":1562225808212},{"fileName":"实线变道-冲之大道贝尔路西贝尔路反向-卡口9_003_2018-07-02-08-00-00_2018-07-02-08-30-00.mp4","fileUrl":"http://172.16.1.107:8081/upload/9642215891.mp4","cameraName":"test-城市","isHighSpeedIntersection":0,"serialnumber":"1585707444492284617","createTime":"2020-04-01 10:17:25","type":"traffic","progress":100,"status":2,"cameraFileId":9642215891,"cameraId":1562225808208},{"fileName":"实线变道-冲之大道贝尔路西贝尔路反向-卡口9_003_2018-07-02-08-00-00_2018-07-02-08-30-00.mp4","fileUrl":"http://172.16.1.107:8081/upload/1782968568.mp4","cameraName":"test-城市","isHighSpeedIntersection":0,"serialnumber":"1585625645234037663","createTime":"2020-03-31 11:34:05","type":"traffic","progress":100,"status":2,"cameraFileId":1782968568,"cameraId":1562225808208}],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-02 09:44:53:378"}
+2020-04-02 09:44:52,041-INFO-&lt;string&gt;-python14-日志信息：写入test_result成功 ：pass
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>总计</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td>通过率：100.00%</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

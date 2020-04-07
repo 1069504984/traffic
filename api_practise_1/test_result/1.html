@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta name="renderer" content="webkit">
+<title>登录-简单好用的互动课堂管理工具</title>
+<meta name="keywords" content="课堂派、LMS、PPT互动、课中互动、助教神器、老师神器、作业收发系统、作业批改、在线作业、杜绝作业作弊、本地化部署">
+<meta name="description" content="教学改革，互动课堂，你可以在这里，组织课中互动，PPT互动，快速发布作业、在线批阅作业、作业查重、统计成绩，随时与你的学生进行沟通，是老师，教务管理的好帮手。支持本地化部署。" />
+<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+<link href="/Public/Common/js/lib/layer/skin/layer.css?v=2020010701" rel="stylesheet" type="text/css">
+<script src="/Public/Home/language/zh-cn.js?v=2020010701"></script>
+<script src="/Public/Common/js/sea.js?v=2020010701" id="seajsnode"></script>
+<script src="/Public/Common/js/config/config.js?v=2020010701"></script>
+
+<link href="/Public/Common/css/main.css?v=2020010701" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="/Public/Home/css/login.css?v=2020010701"/>
+
+</head>
+<body>
+	<div id="indextop" class="header  header-theme-none">
+    <div class="logo fl">
+        <a href="/" class=""></a>
+    </div>
+    <div class="nav fl">
+        <a href="/">首页</a>
+        <a href="/index/mobile.html">移动教学</a>
+        <a href="/ExcellentResources/indexmain.html?type=2">精品专区</a>
+        <div id="solutiontop" style="float:left;" class="">
+            <a target="_blank" style="cursor: pointer;">解决方案</a>
+            <ul id="solutionul">
+                <div style="height:10px;"></div>
+                <li class="solutionli"><a href="/index/aplus.html" class='nobg'>申请机构版</a></li>
+                <li class="solutionli"><a href="/index/localprivate.html" class="nobg">本地化部署</a></li>
+                <div style="height:10px;"></div>
+            </ul>
+        </div>
+        <a href="/VipActivity/vipequitys" class="" target="_blank">会员权益</a>
+        <a href="/help/index.html">帮助中心</a>
+        <a href="/index/updateDynamics" class="">产品动态</a>
+            </div>
+    <style>
+        #solutiontop{
+            position: relative;
+        }
+        #solutiontop:hover #solutionul{
+            /* height: auto !important; */
+            display: block
+        }
+        #solutionul{
+            background: white;
+            width: 120px;
+            box-shadow: 0px 0px 5px 1px rgba(80,80,80,0.4);
+            position: absolute;
+            z-index: 20;
+            top: 60px;
+            left: 0;
+            display: none;
+        }
+        .solutionli a{
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+            color: #333 !important;
+            padding: 0 10px !important;
+            height: 40px !important;
+            line-height: 40px !important;
+        }
+        .solutionli{
+            height: 40px;
+        }
+    </style>
+    <div class="log-reg fr">
+        <a href="/User/login.html" class="login">登录</a>
+        <a href="/User/register.html" class="regist">注册</a>
+    </div>
+    </div>
+    <div class="login-bg"><img src="/Public/Home/img/login-bg2-01.jpg" alt="" srcset=""></div>
+    <div class="login-bg2"></div>
+    <div class="logincon">
+        <!-- <div class="logninfo">
+            <a href="/" style="border: none;"><img src="/Public/Home/img/logo3.png" alt="" srcset=""></a>
+            <p>中国领先的互动课堂管理平台</p>
+            <a href="/User/register.html">还没有账号？去注册</a>
+        </div> -->
+        <div class="reg-log">
+            <div class="login-box" id="wechatLogin" data-domain="www">
+                <a href="javascript:;" class="wechatlogin-return"></a>
+                <div class="wechat-container" id="login_container">
+                </div>
+            </div>
+            <div class="login-box" id="login">
+                <div class="title items">
+
+                   <a href="javascript:;" class="active">账号登录</a>
+                   <a href="javascript:;">手机短信登录</a>
+                   <a href="javascript:;">微信登录</a>
+                </div>
+                <p id="wSchoolLog">请使用课堂派账号登录</p>
+                <div class="padding-cont pt-login">
+                    <div class="input" style="margin-top: 0;">
+                        <!-- <span>账号：</span> -->
+                        <input type="text" autocomplete="off" name="account" placeholder="邮箱/账号/手机号">
+                    </div>
+                    <div class="input">
+                        <!-- <span>密码：</span> -->
+                        <input type="password" autocomplete="off" name="pass" placeholder="密码">
+                    </div>
+                    <div class="opt clearfix">
+                        <a href="javascript:;" class="auto-login fl">下次自动登录</a>
+                        <a href="/User/forgetpassword.html" class="forget fr">忘记密码？</a>
+                    </div>
+                    <a href="javascript:;" class="btn-btn">登录</a>
+                    <a href="/User/register.html" class="btn-register"><span class="str1">还没有账号？</span><span class="str2">去注册</span></a>
+                </div>
+                <div class="padding-cont tel-login hide">
+                    <div class="input">
+                        <!-- <span>手机号：</span> -->
+                        <input type="text" autocomplete="off" name="tel" placeholder="手机号">
+                    </div>
+                    <div class="yzm-box clearfix">
+                        <div class="input fl short">
+                            <!-- <span>验证码：</span> -->
+                            <input type="text" autocomplete="off" name="yzm" placeholder="验证码">
+                        </div>
+                        <a href="javascript:;" class="get-yzm">获取验证码</a>
+                    </div>
+                    <div class="opt clearfix">
+                        <a href="javascript:;" class="auto-login fl">下次自动登录</a>
+                        <a href="/User/forgetpassword.html" class="forget fr">忘记密码？</a>
+                    </div>
+                    <a href="javascript:;" class="btn-btn">登录</a>
+                    <a href="/User/register.html" class="btn-register"><span class="str1">还没有账号？</span><span class="str2">去注册</span></a>
+                </div>
+                <a class="qr-sj"></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="myshade" id="picyzmshow" style="height:100%;width:100%;position:fixed;top:0;left: 0;background: rgba(0,0,0,0.4);display:none;">
+        <div class="picyzmbox" style="width: 300px;padding: 30px;position:relative;top: 50%;left: 50%;transform: translate(-50%,-50%);background: white;border-radius: 5px;">
+            <h3 style="font-size: 16px;text-align: center;font-weight: normal;">请输入图形验证码</h3>
+            <img src="" alt="" id="picyzm" style="display:block;width:100%;min-height: 30px;margin-top: 30px;">
+            <input type="text" id="picyzminput" style="display:block;width:100%;height:20px;line-height:20px;border-bottom:1px solid #ccc;margin-top: 30px;" placeholder="请输入计算结果">
+            <div class="picyzmok" style="height:30px;line-height:30px;width:80%;margin:40px auto 0;text-align:center;cursor:pointer;background:#328eeb;color:white;user-select:none;">确认</div>
+        </div>
+    </div>
+
+	<div class="footer">
+    <div class="cWidth">
+        <div class="nav-new clearfix">
+            <a href="/index/abouts.html">关于我们</a>
+            <a href="/index/contact.html">联系我们</a>
+            <a href="/index/service.html">服务条款</a>
+            <a href="/index/older.html" target="_blank">浏览器下载</a>
+            <a href="/index/updateDynamics">更新动态</a>
+        </div>
+        <p>Copyright © 2014 ketangpai.com All Rights Reserved. 京ICP备14023276号-4</p>
+    </div>
+</div>	<span style="display: none">
+<script type='text/javascript'>
+var localToken = localStorage['token'];
+if(localToken == null || localToken == ""){
+	var token = '';
+	if(token != ""){
+		localStorage['token'] =  token;
+	}
+}
+</script>
+<script>
+  	var _mtac = {"performanceMonitor":1,"senseQuery":1};
+  	(function() {
+  		var mta = document.createElement("script");
+  		mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+  		mta.setAttribute("name", "MTAH5");
+  		mta.setAttribute("sid", "500691206");
+  		mta.setAttribute("cid", "500692422");
+  		var s = document.getElementsByTagName("script")[0];
+  		s.parentNode.insertBefore(mta, s);
+  	})();
+</script>
+
+<script>
+    (function(config) {
+        window.AnalysysAgent = window.AnalysysAgent || [];
+        window.AnalysysAgent.methods = 'identify alias reset track profileSet profileSetOnce profileIncrement profileAppend profileUnset profileDelete registerSuperProperty registerSuperProperties unRegisterSuperProperty clearSuperProperties getSuperProperty getSuperProperties pageView getDistinctId getPresetProperties'.split(' ');
+
+        function factory(b) {
+            return function () {
+                var a = Array.prototype.slice.call(arguments);
+                a.unshift(b);
+                window.AnalysysAgent.push(a);
+                return window.AnalysysAgent;
+            }
+        };
+        for (var i = 0; i < AnalysysAgent.methods.length; i++) {
+            var key = window.AnalysysAgent.methods[i];
+            AnalysysAgent[key] = factory(key);
+        }
+        for (var key in config) {
+            if (!AnalysysAgent[key]) AnalysysAgent[key] = factory(key);
+            AnalysysAgent[key](config[key]);
+        }
+        var date = new Date();
+        var time = new String(date.getFullYear()) + new String(date.getMonth() + 1) + new String(date.getDate());
+
+        var d = document,
+            c = d.createElement('script'),
+            n = d.getElementsByTagName('script')[0];
+        c.type = 'text/javascript';
+        c.async = true;
+        c.id = 'ARK_SDK';
+        c.src = 'https://assets.ketangpai.cn/argo/4.3.5/AnalysysAgent_JS_SDK.min.js' +'?v=' +time;
+        n.parentNode.insertBefore(c, n);
+        var userinfo = '-1';
+        if(userinfo != "-1"){
+        	var userArray = JSON.parse(userinfo);
+        	userArray["source"] = "pc";
+        	AnalysysAgent.profileSet(userArray);
+        }
+    })({
+        appkey: 'fd9cb8b5387b4bf3', //APPKEY
+        uploadURL: 'https://argouploader.ketangpai.cn',
+        visitorConfigURL: 'https://argouploader.ketangpai.cn',
+        autoHeatmap: true,
+        autoWebstay: true,
+    })
+</script>
+
+</span>
+
+<script src="//res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+    <script>
+        seajs.use('/Public/Home/js/indextop.js',function(ex){
+            ex.loginAll();
+        });
+    </script>
+
+	<script type="text/javascript">seajs.use('/Public/Home/js/thirdheader.js',function(ex){ex.headerActive();});</script>
+</body>
+</html>
+
+Process finished with exit code 0
