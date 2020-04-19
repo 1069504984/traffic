@@ -10888,3 +10888,237 @@
 2020-04-03 11:12:11,285-INFO-<string>-python14-日志信息：正在发起登录模块中的第1条用例:登录接口正常验证
 2020-04-03 11:12:19,759-INFO-<string>-python14-日志信息：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
 2020-04-03 11:16:23,065-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:24:27,323-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:24:27,328-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第1条用例:查找文件名
+2020-04-19 20:24:27,329-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', '变道'),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:24:27,387-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:24:27,390-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 0, 'list': [], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:24:27:371'}
+2020-04-19 20:24:27,396-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:24:27,401-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:24:27,455-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":0,"list":[],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:24:27:371"}
+2020-04-19 20:24:27,457-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:24:27,771-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:24:27,775-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第2条用例:查找文件名
+2020-04-19 20:24:27,778-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', '变'),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:24:27,834-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:24:27,837-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 0, 'list': [], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:24:27:820'}
+2020-04-19 20:24:27,839-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:24:27,841-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:24:27,891-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":0,"list":[],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:24:27:820"}
+2020-04-19 20:24:27,892-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:24:28,225-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:24:28,231-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第3条用例:查找文件名
+2020-04-19 20:24:28,233-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', ''),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:24:28,304-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:24:28,306-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 21, 'list': [{'fileName': '闯红灯.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/7418495931.mp4', 'cameraName': '默认监控点123123 ', 'isHighSpeedIntersection': 1, 'serialnumber': '1587206938059877639', 'createTime': '2020-04-18 18:48:58', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 7418495931, 'cameraId': 1562225808299}, {'fileName': 'video3.avi', 'fileUrl': 'http://172.16.1.107:8081/upload/8218118547.avi', 'cameraName': 'test', 'isHighSpeedIntersection': 0, 'serialnumber': '1587114592775650630', 'createTime': '2020-04-17 17:09:53', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 8218118547, 'cameraId': 1562225808214}, {'fileName': '遗撒.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/3151618722.mp4', 'cameraName': 'yj_城市离线', 'isHighSpeedIntersection': 0, 'serialnumber': '1586941750364134642', 'createTime': '2020-04-15 17:09:10', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 3151618722, 'cameraId': 1562225808324}, {'fileName': '占用公交车道.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/2285393542.mp4', 'cameraName': 'hahahah', 'isHighSpeedIntersection': 0, 'serialnumber': '1586930546434061110', 'createTime': '2020-04-15 14:02:27', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 2285393542, 'cameraId': 1562225808307}], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:24:28:289'}
+2020-04-19 20:24:28,308-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:24:28,310-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:24:28,356-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":21,"list":[{"fileName":"闯红灯.mp4","fileUrl":"http://172.16.1.107:8081/upload/7418495931.mp4","cameraName":"默认监控点123123 ","isHighSpeedIntersection":1,"serialnumber":"1587206938059877639","createTime":"2020-04-18 18:48:58","type":"traffic","progress":100,"status":2,"cameraFileId":7418495931,"cameraId":1562225808299},{"fileName":"video3.avi","fileUrl":"http://172.16.1.107:8081/upload/8218118547.avi","cameraName":"test","isHighSpeedIntersection":0,"serialnumber":"1587114592775650630","createTime":"2020-04-17 17:09:53","type":"traffic","progress":100,"status":2,"cameraFileId":8218118547,"cameraId":1562225808214},{"fileName":"遗撒.mp4","fileUrl":"http://172.16.1.107:8081/upload/3151618722.mp4","cameraName":"yj_城市离线","isHighSpeedIntersection":0,"serialnumber":"1586941750364134642","createTime":"2020-04-15 17:09:10","type":"traffic","progress":100,"status":2,"cameraFileId":3151618722,"cameraId":1562225808324},{"fileName":"占用公交车道.mp4","fileUrl":"http://172.16.1.107:8081/upload/2285393542.mp4","cameraName":"hahahah","isHighSpeedIntersection":0,"serialnumber":"1586930546434061110","createTime":"2020-04-15 14:02:27","type":"traffic","progress":100,"status":2,"cameraFileId":2285393542,"cameraId":1562225808307}],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:24:28:289"}
+2020-04-19 20:24:28,358-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:24:29,070-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:24:29,074-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第4条用例:查找文件名
+2020-04-19 20:24:29,077-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', '机'),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:24:29,133-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:24:29,136-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 0, 'list': [], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:24:29:116'}
+2020-04-19 20:24:29,138-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:24:29,140-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:24:29,187-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":0,"list":[],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:24:29:116"}
+2020-04-19 20:24:29,188-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:26:07,655-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:26:07,662-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第1条用例:查找文件名
+2020-04-19 20:26:07,663-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', '变道'),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:26:07,720-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:26:07,723-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 0, 'list': [], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:26:07:705'}
+2020-04-19 20:26:07,725-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:26:07,728-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:26:07,774-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":0,"list":[],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:26:07:705"}
+2020-04-19 20:26:07,776-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:26:08,063-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:26:08,067-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第2条用例:查找文件名
+2020-04-19 20:26:08,069-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', '变'),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:26:08,123-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:26:08,129-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 0, 'list': [], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:26:08:107'}
+2020-04-19 20:26:08,131-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:26:08,133-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:26:08,180-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":0,"list":[],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:26:08:107"}
+2020-04-19 20:26:08,182-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:26:08,475-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:26:08,483-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第3条用例:查找文件名
+2020-04-19 20:26:08,486-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', ''),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:26:08,556-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:26:08,561-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 21, 'list': [{'fileName': '闯红灯.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/7418495931.mp4', 'cameraName': '默认监控点123123 ', 'isHighSpeedIntersection': 1, 'serialnumber': '1587206938059877639', 'createTime': '2020-04-18 18:48:58', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 7418495931, 'cameraId': 1562225808299}, {'fileName': 'video3.avi', 'fileUrl': 'http://172.16.1.107:8081/upload/8218118547.avi', 'cameraName': 'test', 'isHighSpeedIntersection': 0, 'serialnumber': '1587114592775650630', 'createTime': '2020-04-17 17:09:53', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 8218118547, 'cameraId': 1562225808214}, {'fileName': '遗撒.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/3151618722.mp4', 'cameraName': 'yj_城市离线', 'isHighSpeedIntersection': 0, 'serialnumber': '1586941750364134642', 'createTime': '2020-04-15 17:09:10', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 3151618722, 'cameraId': 1562225808324}, {'fileName': '占用公交车道.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/2285393542.mp4', 'cameraName': 'hahahah', 'isHighSpeedIntersection': 0, 'serialnumber': '1586930546434061110', 'createTime': '2020-04-15 14:02:27', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 2285393542, 'cameraId': 1562225808307}], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:26:08:538'}
+2020-04-19 20:26:08,563-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:26:08,565-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:26:08,613-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":21,"list":[{"fileName":"闯红灯.mp4","fileUrl":"http://172.16.1.107:8081/upload/7418495931.mp4","cameraName":"默认监控点123123 ","isHighSpeedIntersection":1,"serialnumber":"1587206938059877639","createTime":"2020-04-18 18:48:58","type":"traffic","progress":100,"status":2,"cameraFileId":7418495931,"cameraId":1562225808299},{"fileName":"video3.avi","fileUrl":"http://172.16.1.107:8081/upload/8218118547.avi","cameraName":"test","isHighSpeedIntersection":0,"serialnumber":"1587114592775650630","createTime":"2020-04-17 17:09:53","type":"traffic","progress":100,"status":2,"cameraFileId":8218118547,"cameraId":1562225808214},{"fileName":"遗撒.mp4","fileUrl":"http://172.16.1.107:8081/upload/3151618722.mp4","cameraName":"yj_城市离线","isHighSpeedIntersection":0,"serialnumber":"1586941750364134642","createTime":"2020-04-15 17:09:10","type":"traffic","progress":100,"status":2,"cameraFileId":3151618722,"cameraId":1562225808324},{"fileName":"占用公交车道.mp4","fileUrl":"http://172.16.1.107:8081/upload/2285393542.mp4","cameraName":"hahahah","isHighSpeedIntersection":0,"serialnumber":"1586930546434061110","createTime":"2020-04-15 14:02:27","type":"traffic","progress":100,"status":2,"cameraFileId":2285393542,"cameraId":1562225808307}],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:26:08:538"}
+2020-04-19 20:26:08,615-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:26:09,049-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:26:09,053-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第4条用例:查找文件名
+2020-04-19 20:26:09,060-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', '机'),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:26:09,112-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:26:09,116-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 0, 'list': [], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:26:09:097'}
+2020-04-19 20:26:09,118-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:26:09,121-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:26:09,175-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":0,"list":[],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:26:09:097"}
+2020-04-19 20:26:09,176-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:32:23,215-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:32:23,220-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第1条用例:查找文件名
+2020-04-19 20:32:23,223-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', '变道'),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:32:23,284-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:32:23,289-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 0, 'list': [], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:32:23:261'}
+2020-04-19 20:32:23,292-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:32:23,293-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:32:23,339-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":0,"list":[],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:32:23:261"}
+2020-04-19 20:32:23,341-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:32:23,661-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:32:23,665-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第2条用例:查找文件名
+2020-04-19 20:32:23,667-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', '变'),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:32:23,724-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:32:23,727-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 0, 'list': [], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:32:23:704'}
+2020-04-19 20:32:23,729-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:32:23,731-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:32:23,779-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":0,"list":[],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:32:23:704"}
+2020-04-19 20:32:23,780-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:32:24,053-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:32:24,057-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第3条用例:查找文件名
+2020-04-19 20:32:24,060-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', ''),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:32:24,127-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:32:24,131-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 21, 'list': [{'fileName': '闯红灯.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/7418495931.mp4', 'cameraName': '默认监控点123123 ', 'isHighSpeedIntersection': 1, 'serialnumber': '1587206938059877639', 'createTime': '2020-04-18 18:48:58', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 7418495931, 'cameraId': 1562225808299}, {'fileName': 'video3.avi', 'fileUrl': 'http://172.16.1.107:8081/upload/8218118547.avi', 'cameraName': 'test', 'isHighSpeedIntersection': 0, 'serialnumber': '1587114592775650630', 'createTime': '2020-04-17 17:09:53', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 8218118547, 'cameraId': 1562225808214}, {'fileName': '遗撒.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/3151618722.mp4', 'cameraName': 'yj_城市离线', 'isHighSpeedIntersection': 0, 'serialnumber': '1586941750364134642', 'createTime': '2020-04-15 17:09:10', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 3151618722, 'cameraId': 1562225808324}, {'fileName': '占用公交车道.mp4', 'fileUrl': 'http://172.16.1.107:8081/upload/2285393542.mp4', 'cameraName': 'hahahah', 'isHighSpeedIntersection': 0, 'serialnumber': '1586930546434061110', 'createTime': '2020-04-15 14:02:27', 'type': 'traffic', 'progress': 100, 'status': 2, 'cameraFileId': 2285393542, 'cameraId': 1562225808307}], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:32:24:105'}
+2020-04-19 20:32:24,133-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:32:24,134-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:32:24,181-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":21,"list":[{"fileName":"闯红灯.mp4","fileUrl":"http://172.16.1.107:8081/upload/7418495931.mp4","cameraName":"默认监控点123123 ","isHighSpeedIntersection":1,"serialnumber":"1587206938059877639","createTime":"2020-04-18 18:48:58","type":"traffic","progress":100,"status":2,"cameraFileId":7418495931,"cameraId":1562225808299},{"fileName":"video3.avi","fileUrl":"http://172.16.1.107:8081/upload/8218118547.avi","cameraName":"test","isHighSpeedIntersection":0,"serialnumber":"1587114592775650630","createTime":"2020-04-17 17:09:53","type":"traffic","progress":100,"status":2,"cameraFileId":8218118547,"cameraId":1562225808214},{"fileName":"遗撒.mp4","fileUrl":"http://172.16.1.107:8081/upload/3151618722.mp4","cameraName":"yj_城市离线","isHighSpeedIntersection":0,"serialnumber":"1586941750364134642","createTime":"2020-04-15 17:09:10","type":"traffic","progress":100,"status":2,"cameraFileId":3151618722,"cameraId":1562225808324},{"fileName":"占用公交车道.mp4","fileUrl":"http://172.16.1.107:8081/upload/2285393542.mp4","cameraName":"hahahah","isHighSpeedIntersection":0,"serialnumber":"1586930546434061110","createTime":"2020-04-15 14:02:27","type":"traffic","progress":100,"status":2,"cameraFileId":2285393542,"cameraId":1562225808307}],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:32:24:105"}
+2020-04-19 20:32:24,182-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:32:24,465-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:32:24,473-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第4条用例:查找文件名
+2020-04-19 20:32:24,477-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', '机'),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:32:24,532-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:32:24,537-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 0, 'list': [], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:32:24:510'}
+2020-04-19 20:32:24,539-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:32:24,541-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:32:24,587-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":0,"list":[],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:32:24:510"}
+2020-04-19 20:32:24,589-INFO-<string>-python14-日志信息：写入test_result成功 ：pass
+2020-04-19 20:36:26,678-INFO-<string>-python14-日志信息：post请求成功
+2020-04-19 20:36:26,682-INFO-<string>-python14-日志信息：正在发起任务号关键字查询接口模块中的第1条用例:查找文件名
+2020-04-19 20:36:26,684-INFO-<string>-python14-日志信息：测试数据是：(
+    ('', ''),
+    ('fileName', '变道'),
+    ('startTime', ''),
+    ('endTime', ''),
+    ('status', ''),
+    ('pageNo', '1'),
+    ('pageSize', '15'),
+    ('_', '1585730414433'),
+)
+2020-04-19 20:36:26,744-INFO-<string>-python14-日志信息：get请求成功
+2020-04-19 20:36:26,746-INFO-<string>-python14-日志信息：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': {'total': 0, 'list': [], 'pageNum': 0, 'pageSize': 0, 'size': 15, 'startRow': 0, 'endRow': 0, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': False, 'isLastPage': False, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 0, 'navigatepageNums': None, 'navigateFirstPage': 0, 'navigateLastPage': 0, 'firstPage': 0, 'lastPage': 0}, 'timestamp': '2020-04-19 20:36:26:721'}
+2020-04-19 20:36:26,748-INFO-<string>-python14-日志信息：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-04-19 20:36:26,750-INFO-<string>-python14-日志信息：测试通过了
+2020-04-19 20:36:26,801-INFO-<string>-python14-日志信息：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":{"total":0,"list":[],"pageNum":0,"pageSize":0,"size":15,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":null,"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-04-19 20:36:26:721"}
+2020-04-19 20:36:26,802-INFO-<string>-python14-日志信息：写入test_result成功 ：pass

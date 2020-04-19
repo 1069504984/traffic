@@ -3,7 +3,7 @@ __author__ = '程程'
 import unittest
 import HTMLTestRunnerNew
 from  test_data import login_cases
-from  test_data import getserialnumber
+from  test_data import test_get
 from  test_data import generate_repayments
 from  test_data import getWarningDetail
 from  test_data import get_InvestsByLoanId
@@ -21,7 +21,7 @@ suite=unittest.TestSuite()
 loader=unittest.TestLoader()
 # suite.addTest(loader.loadTestsFromModule(login_cases))
 suite.addTest(loader.loadTestsFromModule(getWarningDetail))
-suite.addTest(loader.loadTestsFromModule(getserialnumber))
+suite.addTest(loader.loadTestsFromModule(test_get))
 # suite.addTest(loader.loadTestsFromModule(generate_repayments))
 # suite.addTest(loader.loadTestsFromModule(get_FinanceLogList))
 # suite.addTest(loader.loadTestsFromModule(get_loanlist))
