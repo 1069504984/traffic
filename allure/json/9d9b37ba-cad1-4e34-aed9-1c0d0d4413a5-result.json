@@ -1,0 +1,72 @@
+{
+  "name": "修改监控点",
+  "status": "passed",
+  "description": "修改监控点",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "49868b73-bc7c-40e3-a818-c47eb0e725e9-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "c18b9aa5-7c97-49e8-833b-46c8f2c9185e-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "bf534964-6317-4ace-9e93-9ecf7a9ad0dc-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 4, 'modular': '修改监控点', 'method': 'put', 'url': 'http://172.16.1.129:9088/camera', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '修改监控点', 'param': '{ \"crossingNumber\": \"修改之后111\", \"direction\": \"修改之后往北\", \"extcameraid\": \"修改之后11222\", \"id\":#cameraId#, \"name\": \"#sql_update_name#\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "start": 1589782287564,
+  "stop": 1589782287956,
+  "uuid": "76e9c583-752f-481a-aea0-a2b3710b9450",
+  "historyId": "26b2f1f7809c0d31b4395d3e82423c13",
+  "testCaseId": "496da03502134d454b0e78eb466db09f",
+  "fullName": "test_data.test_camera.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "监控点"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_camera"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_camera"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "uid": "cf43c5d21ed39131",
+  "name": "新增监控点",
+  "fullName": "test_data.test_add_task.TestCases#test_001",
+  "historyId": "1e4e002c703f98417f21bd13d2b3aeed",
+  "time": {
+    "start": 1589782262853,
+    "stop": 1589782263381,
+    "duration": 528
+  },
+  "description": "新增监控点",
+  "descriptionHtml": "<p>新增监控点</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [
+    {
+      "name": "setUp",
+      "time": {
+        "start": 1589782262353,
+        "stop": 1589782262853,
+        "duration": 500
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "testStage": {
+    "description": "新增监控点",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "3448ef796c58e61c",
+        "name": "log",
+        "source": "3448ef796c58e61c.txt",
+        "type": "text/plain",
+        "size": 1325
+      },
+      {
+        "uid": "2031062b72bea392",
+        "name": "stdout",
+        "source": "2031062b72bea392.txt",
+        "type": "text/plain",
+        "size": 470
+      },
+      {
+        "uid": "6127490ad45718ac",
+        "name": "stderr",
+        "source": "6127490ad45718ac.txt",
+        "type": "text/plain",
+        "size": 1491
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "结构化任务添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_add_task"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":#sceneId#,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "cf43c5d21ed39131.json",
+  "parameterValues": [
+    "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":#sceneId#,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+  ]
+}

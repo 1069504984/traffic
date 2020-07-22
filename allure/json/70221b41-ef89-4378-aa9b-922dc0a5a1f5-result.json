@@ -1,0 +1,72 @@
+{
+  "name": "删除已添加监控点",
+  "status": "passed",
+  "description": "删除已添加监控点",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "fe2f6cc5-aa4b-4013-a588-cbc21af52852-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "15c0046f-3960-486f-ab0b-559e1fac76b2-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "38229aad-8b4e-42a9-bc4e-f9ba2f512b22-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 9, 'modular': '删除监控点', 'method': 'delete', 'url': 'http://172.16.1.129:9088/camera', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n\\n}\", 'title': '删除已添加监控点', 'param': \"\\n    \\n(\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "start": 1589782341246,
+  "stop": 1589782341520,
+  "uuid": "411952df-c322-4f64-a539-fbeb2fee11fe",
+  "historyId": "c907cc3808482dff169fde30decb783c",
+  "testCaseId": "5a5bb8091b58b47ff52652e366c77814",
+  "fullName": "test_data.test_online_video.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "实时流添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_online_video"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_online_video"
+    }
+  ]
+}

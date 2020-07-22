@@ -1,0 +1,8 @@
+INFO     Traffic:<string>:1 正在发起离线文件模块中的第7条用例:分页查询
+INFO     Traffic:<string>:1 测试数据是：'
+INFO     Traffic:<string>:1 get请求成功
+INFO     Traffic:<string>:1 测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': {'total': 1, 'list': [{'id': 8683361314, 'fileName': 'test_video.mp4', 'filePathafterupload': 'http://172.16.1.129:8081/jiuling/orgvideos/8683361314.mp4', 'cameraId': 1562225808217, 'cameraName': '测试test', 'framerate': 25}], 'pageNum': 1, 'pageSize': 1, 'size': 1, 'startRow': 1, 'endRow': 1, 'pages': 1, 'prePage': 0, 'nextPage': 0, 'isFirstPage': True, 'isLastPage': True, 'hasPreviousPage': False, 'hasNextPage': False, 'navigatePages': 8, 'navigatepageNums': [1], 'navigateFirstPage': 1, 'navigateLastPage': 1, 'firstPage': 1, 'lastPage': 1}, 'timestamp': '2020-05-18 14:11:24:039'}
+INFO     Traffic:<string>:1 预期结果是：{'code': 0, 'codeMsg': '成功'}
+INFO     Traffic:<string>:1 测试通过了
+INFO     Traffic:<string>:1 写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":{"total":1,"list":[{"id":8683361314,"fileName":"test_video.mp4","filePathafterupload":"http://172.16.1.129:8081/jiuling/orgvideos/8683361314.mp4","cameraId":1562225808217,"cameraName":"测试test","framerate":25}],"pageNum":1,"pageSize":1,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1,"firstPage":1,"lastPage":1},"timestamp":"2020-05-18 14:11:24:039"}
+INFO     Traffic:<string>:1 写入result成功 ：pass

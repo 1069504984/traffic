@@ -1,0 +1,128 @@
+{
+  "uid": "bf54441dd9a3f760",
+  "name": "分页查询离线任务",
+  "fullName": "test_data.test_add_task.TestCases#test_001",
+  "historyId": "02c4df9756c53eef070feff103c75f96",
+  "time": {
+    "start": 1589782280602,
+    "stop": 1589782280810,
+    "duration": 208
+  },
+  "description": "分页查询离线任务",
+  "descriptionHtml": "<p>分页查询离线任务</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [
+    {
+      "name": "setUp",
+      "time": {
+        "start": 1589782280101,
+        "stop": 1589782280602,
+        "duration": 501
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "testStage": {
+    "description": "分页查询离线任务",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "e2caf738fa642b06",
+        "name": "log",
+        "source": "e2caf738fa642b06.txt",
+        "type": "text/plain",
+        "size": 2632
+      },
+      {
+        "uid": "5b55fda47fca87b",
+        "name": "stdout",
+        "source": "5b55fda47fca87b.txt",
+        "type": "text/plain",
+        "size": 1155
+      },
+      {
+        "uid": "822af548a4a57ba5",
+        "name": "stderr",
+        "source": "822af548a4a57ba5.txt",
+        "type": "text/plain",
+        "size": 2721
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "结构化任务添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_add_task"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 4, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/offLine/list', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询离线任务', 'param': \"'\", 'sql': '{\"sql_3\":\"SELECT max(serialnumber) FROM u2s.vsd_task\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "bf54441dd9a3f760.json",
+  "parameterValues": [
+    "{'case_id': 4, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/offLine/list', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询离线任务', 'param': \"'\", 'sql': '{\"sql_3\":\"SELECT max(serialnumber) FROM u2s.vsd_task\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+  ]
+}

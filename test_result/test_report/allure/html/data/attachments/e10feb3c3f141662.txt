@@ -1,0 +1,17 @@
+INFO     python14:<string>:1 参数化的数据是：1562225808492
+INFO     python14:<string>:1 参数化的数据是：'测试test'
+INFO     python14:<string>:1 正在发起删除监控点模块中的第4条用例:删除已添加监控点
+INFO     python14:<string>:1 测试数据是：
+    
+(
+    ('cameraId', '1562225808492'),
+)
+INFO     python14:<string>:1 delete请求成功
+INFO     python14:<string>:1 数据库连接成功
+INFO     python14:<string>:1 数据库查询数据成功，返回数据为None
+INFO     python14:<string>:1 监控点删除成功
+INFO     python14:<string>:1 测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-20 15:09:01:439'}
+INFO     python14:<string>:1 预期结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+INFO     python14:<string>:1 测试通过了
+INFO     python14:<string>:1 写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":null,"data":null,"timestamp":"2020-04-20 15:09:01:439"}
+INFO     python14:<string>:1 写入test_result成功 ：pass

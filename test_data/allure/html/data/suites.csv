@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_video.TestCases#test_001","273","删除已添加监控点"
+"passed","test_video.TestCases#test_001","2075","上传测试视频"
+"passed","test_video.TestCases#test_001","265","新增监控点"
+"passed","test_video.TestCases#test_001","328","删除测试视频"
+"passed","test_video.TestCases#test_001","228","登录接口正常验证"

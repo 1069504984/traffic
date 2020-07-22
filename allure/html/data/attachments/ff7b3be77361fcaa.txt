@@ -1,0 +1,14 @@
+2020-05-18 14:11:27,370-INFO-Traffic：参数化的数据是：测试test
+2020-05-18 14:11:27,375-INFO-Traffic：参数化的数据是：'测试test'
+2020-05-18 14:11:27,378-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-05-18 14:11:27,381-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-05-18 14:11:27,394-INFO-Traffic：post请求成功
+2020-05-18 14:11:27,399-INFO-Traffic：数据库连接成功
+2020-05-18 14:11:27,402-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808218,)
+2020-05-18 14:11:27,408-INFO-Traffic：数据库连接成功
+2020-05-18 14:11:27,411-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808218,)
+2020-05-18 14:11:27,414-INFO-Traffic：测试结果是：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-05-18 14:11:28:700'}
+2020-05-18 14:11:27,416-INFO-Traffic：预期结果是：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-05-18 14:11:27,419-INFO-Traffic：测试通过了
+2020-05-18 14:11:27,472-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-05-18 14:11:28:700"}
+2020-05-18 14:11:27,474-INFO-Traffic：写入result成功 ：pass

@@ -1,0 +1,111 @@
+{
+  "uid": "8386f2361659cc11",
+  "name": "登录接口正常验证",
+  "fullName": "test_data.test_query_task.TestCases#test_001",
+  "historyId": "529b0d267181c0b0da964dccf9899e65",
+  "time": {
+    "start": 1589782341534,
+    "stop": 1589782344837,
+    "duration": 3303
+  },
+  "description": "登录接口正常验证",
+  "descriptionHtml": "<p>登录接口正常验证</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [],
+  "testStage": {
+    "description": "登录接口正常验证",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "c2c65aba7276d99a",
+        "name": "log",
+        "source": "c2c65aba7276d99a.txt",
+        "type": "text/plain",
+        "size": 779
+      },
+      {
+        "uid": "f86dd4972b168a08",
+        "name": "stdout",
+        "source": "f86dd4972b168a08.txt",
+        "type": "text/plain",
+        "size": 242
+      },
+      {
+        "uid": "c3443696efa1f7c7",
+        "name": "stderr",
+        "source": "c3443696efa1f7c7.txt",
+        "type": "text/plain",
+        "size": 868
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "各种查询任务接口"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_query_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_query_task"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': 'http://172.16.1.129:9088/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.129:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "8386f2361659cc11.json",
+  "parameterValues": [
+    "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': 'http://172.16.1.129:9088/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.129:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null}'}"
+  ]
+}

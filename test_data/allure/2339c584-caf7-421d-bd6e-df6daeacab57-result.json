@@ -1,0 +1,58 @@
+{
+  "name": "删除测试视频",
+  "status": "passed",
+  "description": "删除测试视频",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "b8978d4c-b5da-4e07-9465-f700028c3723-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 4, 'modular': '删除视频', 'method': 'delete', 'url': 'http://172.16.1.107:9088/ctrlUnitFile', 'header': \"{'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}\", 'title': '删除测试视频', 'param': \"(\\n    ('ctrlUnitFileId', '#fileId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "start": 1595399679115,
+  "stop": 1595399679443,
+  "uuid": "cb941a01-24be-4d60-84b2-2f47baeeb3dd",
+  "historyId": "63e6be8c659c7c659432f3154c29fa93",
+  "testCaseId": "775b8b4de713ebe453489f46308fe713",
+  "fullName": "test_video.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "上传视频"
+    },
+    {
+      "name": "suite",
+      "value": "test_video"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "32008-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_video"
+    }
+  ]
+}

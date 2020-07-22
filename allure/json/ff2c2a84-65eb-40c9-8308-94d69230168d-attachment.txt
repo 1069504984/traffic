@@ -1,0 +1,15 @@
+INFO     Traffic:<string>:1 参数化的数据是：'测试test'
+INFO     Traffic:<string>:1 参数化的数据是：测试test
+INFO     Traffic:<string>:1 参数化的数据是：26
+INFO     Traffic:<string>:1 正在发起新增监控点模块中的第2条用例:新增监控点（实时流）
+INFO     Traffic:<string>:1 测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":1,"latitude":22.55063637941823,"longitude":114.05105004186606,"url":"rtsp://172.16.1.76:1554/yongdu.mp4","sceneId":26,"direction":"南往北","crossingNumber":"111"}
+INFO     Traffic:<string>:1 post请求成功
+INFO     Traffic:<string>:1 数据库连接成功
+INFO     Traffic:<string>:1 数据库查询数据成功，返回数据为(1562225808219,)
+INFO     Traffic:<string>:1 数据库连接成功
+INFO     Traffic:<string>:1 数据库查询数据成功，返回数据为(1562225808219,)
+INFO     Traffic:<string>:1 测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-05-18 14:11:31:225'}
+INFO     Traffic:<string>:1 预期结果是：{'code': 0, 'codeMsg': '成功'}
+INFO     Traffic:<string>:1 测试通过了
+INFO     Traffic:<string>:1 写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-05-18 14:11:31:225"}
+INFO     Traffic:<string>:1 写入result成功 ：pass

@@ -1,0 +1,72 @@
+{
+  "name": "删除任务",
+  "status": "passed",
+  "description": "删除任务",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "667011b5-2100-432c-998c-36bc4d747511-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "ebd8a9e9-314b-4ff2-bfc6-c3881019df5e-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "a5022b98-bd63-43eb-8d21-5079f795e3bd-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 11, 'modular': '任务管理', 'method': 'delete', 'url': 'http://172.16.1.129:9088/task/query/delete/#serialnumber#', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Referer': 'http://172.16.1.129:9088/vsdtask/taskManagement?returnFlag=1',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'If-Modified-Since': 'Thu, 02 Apr 2020 06:53:49 GMT',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n'Content-Type': 'application/json;charset=UTF-8'\\n}\", 'title': '删除任务', 'param': \"'\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "start": 1589782285396,
+  "stop": 1589782285922,
+  "uuid": "4d3f0186-9fa5-4884-aa32-2deae3321b57",
+  "historyId": "1d38135fded6ca0b1a61121f4faeab97",
+  "testCaseId": "fe2c25558fe97aa3f0100bd83fe61829",
+  "fullName": "test_data.test_add_task.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "结构化任务添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_add_task"
+    }
+  ]
+}

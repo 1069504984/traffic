@@ -1,0 +1,111 @@
+{
+  "uid": "45b8f107d8154671",
+  "name": "上传测试视频",
+  "fullName": "test_data.test_video.TestCases#test_001",
+  "historyId": "c3a88f78057b01ac4a1a7942b0fed587",
+  "time": {
+    "start": 1589782349951,
+    "stop": 1589782350634,
+    "duration": 683
+  },
+  "description": "上传测试视频",
+  "descriptionHtml": "<p>上传测试视频</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [],
+  "testStage": {
+    "description": "上传测试视频",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "dccd87069c3182c5",
+        "name": "log",
+        "source": "dccd87069c3182c5.txt",
+        "type": "text/plain",
+        "size": 1324
+      },
+      {
+        "uid": "ca908982b71fad2e",
+        "name": "stdout",
+        "source": "ca908982b71fad2e.txt",
+        "type": "text/plain",
+        "size": 646
+      },
+      {
+        "uid": "efcac1d48fd70c13",
+        "name": "stderr",
+        "source": "efcac1d48fd70c13.txt",
+        "type": "text/plain",
+        "size": 1424
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "上传视频"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_video"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_video"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 3, 'modular': '上传视频', 'method': 'post', 'url': 'http://172.16.1.129:9088/ctrlUnitFile/addCameraMediaChucks', 'header': \" {\\n    'Connection': 'keep-alive'}\", 'title': '上传测试视频', 'param': '(\\n    {\\'chunks\\': \\'1\\',\\n    \\'chunk\\': \\'1\\',\\n    \\'tokenId\\': \\'0d149844-d6fe-4136-82d1-47ad10d2f66c\\',\\n    \\'id\\': \\'2lqyw4mzjou0000\\',\\n    \\'name\\': \\'test_video.mp4\\',\\n    \\'cameraId\\': \\'#cameraId#\\',\\n    \\'chunkNumber\\':\\'1\\',\\n    \\'currentChunkSize\\':\\'5639608\\',\\n    \\'totalSize\\':\\'5639608\\',\\n    \\'identifier\\':\\'5639608-test_videomp4\\',\\n    \\'filename\\':\\'test_video.mp4\\',\\n    \\'relativePath\\':\\'test_video.mp4\\',\\n    \\'totalChunks\\':\\'1\\',\\n    \\'videoType\\':\\'0\\',\\n    \\'entryTime\\': \\'2020-4-15 16:19:28\\'},{\"file\":open(r\\'D:\\\\test_video.mp4\\',\\'rb\\'),\"Content-Type\":\"application/octet-stream\",\"Content-Disposition\":\"form-data\",\"filename\":\"test_video.mp4\"}\\n)', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "45b8f107d8154671.json",
+  "parameterValues": [
+    "{'case_id': 3, 'modular': '上传视频', 'method': 'post', 'url': 'http://172.16.1.129:9088/ctrlUnitFile/addCameraMediaChucks', 'header': \" {\\n    'Connection': 'keep-alive'}\", 'title': '上传测试视频', 'param': '(\\n    {\\'chunks\\': \\'1\\',\\n    \\'chunk\\': \\'1\\',\\n    \\'tokenId\\': \\'0d149844-d6fe-4136-82d1-47ad10d2f66c\\',\\n    \\'id\\': \\'2lqyw4mzjou0000\\',\\n    \\'name\\': \\'test_video.mp4\\',\\n    \\'cameraId\\': \\'#cameraId#\\',\\n    \\'chunkNumber\\':\\'1\\',\\n    \\'currentChunkSize\\':\\'5639608\\',\\n    \\'totalSize\\':\\'5639608\\',\\n    \\'identifier\\':\\'5639608-test_videomp4\\',\\n    \\'filename\\':\\'test_video.mp4\\',\\n    \\'relativePath\\':\\'test_video.mp4\\',\\n    \\'totalChunks\\':\\'1\\',\\n    \\'videoType\\':\\'0\\',\\n    \\'entryTime\\': \\'2020-4-15 16:19:28\\'},{\"file\":open(r\\'D:\\\\test_video.mp4\\',\\'rb\\'),\"Content-Type\":\"application/octet-stream\",\"Content-Disposition\":\"form-data\",\"filename\":\"test_video.mp4\"}\\n)', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "uid": "b5ef099b0d825d2b",
+  "name": "离线机动车结构化实时统计",
+  "fullName": "test_data.test_add_task.TestCases#test_001",
+  "historyId": "38a45d85cb37f0ef666a27101b246bf8",
+  "time": {
+    "start": 1589782284851,
+    "stop": 1589782284865,
+    "duration": 14
+  },
+  "description": "离线机动车结构化实时统计",
+  "descriptionHtml": "<p>离线机动车结构化实时统计</p>\n",
+  "status": "broken",
+  "statusMessage": "  File \"<string>\", line 1\n    '\n    ^\nSyntaxError: EOL while scanning string literal",
+  "statusTrace": "self = <api_practise_1.test_data.test_add_task.TestCases object at 0x0000027FA7EC33C8>\nitem = {'case_id': 10, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}', 'header': \"{\\n    'accept': '*/*',\\n}\", 'method': 'get', ...}\nsetUp = None\n\n    @pytest.mark.parametrize('item', test_data)\n    def test_001(self, item,setUp):\n        '''\n        任务模块接口流程用例\n        '''\n        global result\n        global COOKIES\n        allure.dynamic.title(item['title'])\n        allure.dynamic.description(item['title'])\n        # 获取item中的用例数据\n        url = item[\"url\"]\n        url = get_data.GetData().replace(url)\n        method = item[\"method\"]\n        param = item[\"param\"]  # 返回的是字符串类型的数据\n        case_id = item[\"case_id\"]\n        modular = item[\"modular\"]\n        header = eval(item[\"header\"])\n        title = item[\"title\"]\n        if title == \"添加结构化任务\":\n            qurey_cameraid = \"SELECT id FROM u2s_traffic.camera WHERE name='测试test'\"\n            cameraid = DoMysql().do_mysql(qurey_cameraid)[0]\n            url=video_data[\"url\"]\n            param = str(eval(video_data[\"param\"])[0])\n            param = get_data.GetData().replace(param)\n            param=eval(param)\n            files=eval(video_data[\"param\"])[-1]\n            header=eval(video_data[\"header\"])\n            test_result = DoRequests(url, method,param, files=files).request(headers=header,\n                                                                                  cookies=getattr(get_data.GetData,\n                                                                                                  \"COOKIES\"))\n    \n            qurey_fileid = \"SELECT id FROM u2s_traffic.ctrl_unit_file WHERE camera_id={}\".format(cameraid)\n            fileid=DoMysql().do_mysql(qurey_fileid)[0]\n            setattr(get_data.GetData, \"cameraFileId\", str(fileid))\n            setattr(get_data.GetData, \"cameraId\",str(cameraid))\n            time.sleep(15)\n    \n    \n        expected = item[\"expected\"]\n        param = item[\"param\"]\n        url = item[\"url\"]\n        url = get_data.GetData().replace(url)\n        sql = item[\"sql\"]\n        if sql is not None:\n            sql = get_data.GetData().replace(sql)\n            print(\"从数据库获取的参数化sql:{}\".format(sql))\n        param = get_data.GetData().replace(param)\n        print(\"目前的param是{}\".format(param))\n        my_log.my_info(\"正在发起{}模块中的第{}条用例:{}\".format(modular, case_id, title))\n        my_log.my_info(\"测试数据是：{}\".format(param))\n        # 执行接口测试，cookies利用反射进行动态的获取\n    \n        if \"application/json\" in item[\"header\"]:\n            new_param = param\n        else:\n>           new_param = eval(param)\nE             File \"<string>\", line 1\nE               '\nE               ^\nE           SyntaxError: EOL while scanning string literal\n\ntest_data\\test_add_task.py:87: SyntaxError",
+  "flaky": false,
+  "beforeStages": [
+    {
+      "name": "setUp",
+      "time": {
+        "start": 1589782284351,
+        "stop": 1589782284851,
+        "duration": 500
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "testStage": {
+    "description": "离线机动车结构化实时统计",
+    "status": "broken",
+    "statusMessage": "  File \"<string>\", line 1\n    '\n    ^\nSyntaxError: EOL while scanning string literal",
+    "statusTrace": "self = <api_practise_1.test_data.test_add_task.TestCases object at 0x0000027FA7EC33C8>\nitem = {'case_id': 10, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}', 'header': \"{\\n    'accept': '*/*',\\n}\", 'method': 'get', ...}\nsetUp = None\n\n    @pytest.mark.parametrize('item', test_data)\n    def test_001(self, item,setUp):\n        '''\n        任务模块接口流程用例\n        '''\n        global result\n        global COOKIES\n        allure.dynamic.title(item['title'])\n        allure.dynamic.description(item['title'])\n        # 获取item中的用例数据\n        url = item[\"url\"]\n        url = get_data.GetData().replace(url)\n        method = item[\"method\"]\n        param = item[\"param\"]  # 返回的是字符串类型的数据\n        case_id = item[\"case_id\"]\n        modular = item[\"modular\"]\n        header = eval(item[\"header\"])\n        title = item[\"title\"]\n        if title == \"添加结构化任务\":\n            qurey_cameraid = \"SELECT id FROM u2s_traffic.camera WHERE name='测试test'\"\n            cameraid = DoMysql().do_mysql(qurey_cameraid)[0]\n            url=video_data[\"url\"]\n            param = str(eval(video_data[\"param\"])[0])\n            param = get_data.GetData().replace(param)\n            param=eval(param)\n            files=eval(video_data[\"param\"])[-1]\n            header=eval(video_data[\"header\"])\n            test_result = DoRequests(url, method,param, files=files).request(headers=header,\n                                                                                  cookies=getattr(get_data.GetData,\n                                                                                                  \"COOKIES\"))\n    \n            qurey_fileid = \"SELECT id FROM u2s_traffic.ctrl_unit_file WHERE camera_id={}\".format(cameraid)\n            fileid=DoMysql().do_mysql(qurey_fileid)[0]\n            setattr(get_data.GetData, \"cameraFileId\", str(fileid))\n            setattr(get_data.GetData, \"cameraId\",str(cameraid))\n            time.sleep(15)\n    \n    \n        expected = item[\"expected\"]\n        param = item[\"param\"]\n        url = item[\"url\"]\n        url = get_data.GetData().replace(url)\n        sql = item[\"sql\"]\n        if sql is not None:\n            sql = get_data.GetData().replace(sql)\n            print(\"从数据库获取的参数化sql:{}\".format(sql))\n        param = get_data.GetData().replace(param)\n        print(\"目前的param是{}\".format(param))\n        my_log.my_info(\"正在发起{}模块中的第{}条用例:{}\".format(modular, case_id, title))\n        my_log.my_info(\"测试数据是：{}\".format(param))\n        # 执行接口测试，cookies利用反射进行动态的获取\n    \n        if \"application/json\" in item[\"header\"]:\n            new_param = param\n        else:\n>           new_param = eval(param)\nE             File \"<string>\", line 1\nE               '\nE               ^\nE           SyntaxError: EOL while scanning string literal\n\ntest_data\\test_add_task.py:87: SyntaxError",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "ef8a4cd6bccd8198",
+        "name": "log",
+        "source": "ef8a4cd6bccd8198.txt",
+        "type": "text/plain",
+        "size": 286
+      },
+      {
+        "uid": "2a390835378e0759",
+        "name": "stdout",
+        "source": "2a390835378e0759.txt",
+        "type": "text/plain",
+        "size": 32
+      },
+      {
+        "uid": "20a50f946c64945",
+        "name": "stderr",
+        "source": "20a50f946c64945.txt",
+        "type": "text/plain",
+        "size": 331
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": true
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "结构化任务添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_add_task"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 10, 'modular': '结构化', 'method': 'get', 'url': 'http://172.16.1.129:9088/objext/motorVehicle/offline/count?ctrlUnitFileId=#cameraFileId#&endFrameIndex=2000&startFrameIndex=1', 'header': \"{\\n    'accept': '*/*',\\n}\", 'title': '离线机动车结构化实时统计', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [
+      {
+        "name": "Test defects",
+        "matchedStatuses": [],
+        "flaky": false
+      }
+    ],
+    "tags": []
+  },
+  "source": "b5ef099b0d825d2b.json",
+  "parameterValues": [
+    "{'case_id': 10, 'modular': '结构化', 'method': 'get', 'url': 'http://172.16.1.129:9088/objext/motorVehicle/offline/count?ctrlUnitFileId=#cameraFileId#&endFrameIndex=2000&startFrameIndex=1', 'header': \"{\\n    'accept': '*/*',\\n}\", 'title': '离线机动车结构化实时统计', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+  ]
+}

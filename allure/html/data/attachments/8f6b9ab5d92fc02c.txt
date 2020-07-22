@@ -1,0 +1,15 @@
+2020-05-18 14:11:27,065-INFO-Traffic：参数化的数据是：测试test
+2020-05-18 14:11:27,068-INFO-Traffic：参数化的数据是：26
+2020-05-18 14:11:27,070-INFO-Traffic：参数化的数据是：'测试test'
+2020-05-18 14:11:27,073-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-05-18 14:11:27,076-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":26,"direction":"111","crossingNumber":"111"}
+2020-05-18 14:11:27,175-INFO-Traffic：post请求成功
+2020-05-18 14:11:27,191-INFO-Traffic：数据库连接成功
+2020-05-18 14:11:27,194-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808218,)
+2020-05-18 14:11:27,209-INFO-Traffic：数据库连接成功
+2020-05-18 14:11:27,212-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808218,)
+2020-05-18 14:11:27,215-INFO-Traffic：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-05-18 14:11:28:481'}
+2020-05-18 14:11:27,218-INFO-Traffic：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-05-18 14:11:27,221-INFO-Traffic：测试通过了
+2020-05-18 14:11:27,276-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-05-18 14:11:28:481"}
+2020-05-18 14:11:27,280-INFO-Traffic：写入result成功 ：pass

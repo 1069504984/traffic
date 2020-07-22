@@ -1,0 +1,72 @@
+{
+  "name": "查询点位下有无任务",
+  "status": "passed",
+  "description": "查询点位下有无任务",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "fd3c9e22-6c0f-44fe-9bfa-948351513fa3-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "87f14cb8-0926-443a-8442-423ef8eed4cf-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "6e665c13-efe8-4b7a-99d1-8c553eaa1a95-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 5, 'modular': '查询监控点', 'method': 'get', 'url': 'http://172.16.1.129:9088/camera/isAnalyzed', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '查询点位下有无任务', 'param': \" (\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "start": 1589782288002,
+  "stop": 1589782288218,
+  "uuid": "7c47c4dd-2ccf-41e4-be4e-a465be2f0ff7",
+  "historyId": "7c48ecb3bcf869185fd947cf1554aba0",
+  "testCaseId": "496da03502134d454b0e78eb466db09f",
+  "fullName": "test_data.test_camera.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "监控点"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_camera"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_camera"
+    }
+  ]
+}

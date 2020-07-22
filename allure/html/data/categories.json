@@ -1,0 +1,69 @@
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Test defects",
+      "children": [
+        {
+          "name": "KeyError: 'code'",
+          "children": [
+            {
+              "name": "监控点维度查询",
+              "uid": "3fef5e159c4f10c6",
+              "parentUid": "ba3ba618c8e4bc902b0551f995fc5cc6",
+              "status": "broken",
+              "time": {
+                "start": 1589782283390,
+                "stop": 1589782283551,
+                "duration": 161
+              },
+              "flaky": false,
+              "parameters": [
+                "{'case_id': 8, 'modular': '离线文件', 'method': 'get', 'url': 'http://172.16.1.129:9088/ctrlUnitFile/queryFileByCameraId?page=1&rows=1', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '监控点维度查询', 'param': \"'\", 'sql': None, 'expected': '{\"state\": true}'}"
+              ]
+            },
+            {
+              "name": "循环更新转码进度",
+              "uid": "9b84ec185947a6d8",
+              "parentUid": "ba3ba618c8e4bc902b0551f995fc5cc6",
+              "status": "broken",
+              "time": {
+                "start": 1589782284172,
+                "stop": 1589782284327,
+                "duration": 155
+              },
+              "flaky": false,
+              "parameters": [
+                "{'case_id': 9, 'modular': '离线文件', 'method': 'post', 'url': 'http://172.16.1.129:9088/ctrlUnitFile/updateTranscodeInfoById', 'header': \"{\\n    'accept': '*/*',\\n}\", 'title': '循环更新转码进度', 'param': \"(\\n    ('fileId',#cameraFileId#),\\n)\", 'sql': None, 'expected': '{\"state\": true}'}"
+              ]
+            }
+          ],
+          "uid": "ba3ba618c8e4bc902b0551f995fc5cc6"
+        },
+        {
+          "name": "  File \"<string>\", line 1\n    '\n    ^\nSyntaxError: EOL while scanning string literal",
+          "children": [
+            {
+              "name": "离线机动车结构化实时统计",
+              "uid": "b5ef099b0d825d2b",
+              "parentUid": "b5778bd5fa9ac2daff8ef5a9115b55d6",
+              "status": "broken",
+              "time": {
+                "start": 1589782284851,
+                "stop": 1589782284865,
+                "duration": 14
+              },
+              "flaky": false,
+              "parameters": [
+                "{'case_id': 10, 'modular': '结构化', 'method': 'get', 'url': 'http://172.16.1.129:9088/objext/motorVehicle/offline/count?ctrlUnitFileId=#cameraFileId#&endFrameIndex=2000&startFrameIndex=1', 'header': \"{\\n    'accept': '*/*',\\n}\", 'title': '离线机动车结构化实时统计', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+              ]
+            }
+          ],
+          "uid": "b5778bd5fa9ac2daff8ef5a9115b55d6"
+        }
+      ],
+      "uid": "bdbf199525818fae7a8651db9eafe741"
+    }
+  ]
+}

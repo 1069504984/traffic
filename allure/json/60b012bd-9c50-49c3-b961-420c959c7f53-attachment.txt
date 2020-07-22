@@ -1,0 +1,5 @@
+休眠0.5秒
+目前的param是(
+    ('fileId',8683361314),
+)
+{"state":true,"row":{"id":8683361314,"fileType":"2","fileSuffix":".mp4","fileName":"test_video.mp4","fileNameafterupload":"8683361314.mp4","filePathafterupload":"http://172.16.1.129:8081/jiuling/orgvideos/8683361314.mp4","fileLocalPath":"/u2s/transcode/www/jiuling/orgvideos/8683361314.mp4","ctrlUnitId":"","cameraId":1562225808217,"fileDescription":"","thumbNail":"http://172.16.1.129:8081/snapshot/ODY4MzM2MTMxNA==.jpg","fileSize":"5.38","createUerid":1,"entryTime":1586938768000,"createTime":1589782265000,"serialnumber":"","transcodingId":"9","transcodingProgress":"100","frameCount":250,"framerate":25,"resolution":"1920x1080","transcodeStatus":1,"tasticsentityid":"","fileFtpPath":"ftp://jiuling:9ling.cn@172.16.1.129/orgvideos/8683361314.mp4","orderByClause":"","fileCount":null,"videoType":"","folderId":"","taskCount":0,"transcodingProgressStr":"100%","cameraName":""}}

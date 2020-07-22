@@ -1,0 +1,76 @@
+{
+  "name": "离线机动车结构化实时统计",
+  "status": "broken",
+  "statusDetails": {
+    "message": "  File \"<string>\", line 1\n    '\n    ^\nSyntaxError: EOL while scanning string literal",
+    "trace": "self = <api_practise_1.test_data.test_add_task.TestCases object at 0x0000027FA7EC33C8>\nitem = {'case_id': 10, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}', 'header': \"{\\n    'accept': '*/*',\\n}\", 'method': 'get', ...}\nsetUp = None\n\n    @pytest.mark.parametrize('item', test_data)\n    def test_001(self, item,setUp):\n        '''\n        任务模块接口流程用例\n        '''\n        global result\n        global COOKIES\n        allure.dynamic.title(item['title'])\n        allure.dynamic.description(item['title'])\n        # 获取item中的用例数据\n        url = item[\"url\"]\n        url = get_data.GetData().replace(url)\n        method = item[\"method\"]\n        param = item[\"param\"]  # 返回的是字符串类型的数据\n        case_id = item[\"case_id\"]\n        modular = item[\"modular\"]\n        header = eval(item[\"header\"])\n        title = item[\"title\"]\n        if title == \"添加结构化任务\":\n            qurey_cameraid = \"SELECT id FROM u2s_traffic.camera WHERE name='测试test'\"\n            cameraid = DoMysql().do_mysql(qurey_cameraid)[0]\n            url=video_data[\"url\"]\n            param = str(eval(video_data[\"param\"])[0])\n            param = get_data.GetData().replace(param)\n            param=eval(param)\n            files=eval(video_data[\"param\"])[-1]\n            header=eval(video_data[\"header\"])\n            test_result = DoRequests(url, method,param, files=files).request(headers=header,\n                                                                                  cookies=getattr(get_data.GetData,\n                                                                                                  \"COOKIES\"))\n    \n            qurey_fileid = \"SELECT id FROM u2s_traffic.ctrl_unit_file WHERE camera_id={}\".format(cameraid)\n            fileid=DoMysql().do_mysql(qurey_fileid)[0]\n            setattr(get_data.GetData, \"cameraFileId\", str(fileid))\n            setattr(get_data.GetData, \"cameraId\",str(cameraid))\n            time.sleep(15)\n    \n    \n        expected = item[\"expected\"]\n        param = item[\"param\"]\n        url = item[\"url\"]\n        url = get_data.GetData().replace(url)\n        sql = item[\"sql\"]\n        if sql is not None:\n            sql = get_data.GetData().replace(sql)\n            print(\"从数据库获取的参数化sql:{}\".format(sql))\n        param = get_data.GetData().replace(param)\n        print(\"目前的param是{}\".format(param))\n        my_log.my_info(\"正在发起{}模块中的第{}条用例:{}\".format(modular, case_id, title))\n        my_log.my_info(\"测试数据是：{}\".format(param))\n        # 执行接口测试，cookies利用反射进行动态的获取\n    \n        if \"application/json\" in item[\"header\"]:\n            new_param = param\n        else:\n>           new_param = eval(param)\nE             File \"<string>\", line 1\nE               '\nE               ^\nE           SyntaxError: EOL while scanning string literal\n\ntest_data\\test_add_task.py:87: SyntaxError"
+  },
+  "description": "离线机动车结构化实时统计",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "c5e6f02e-7342-4829-93a1-8991d7f0bae9-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "ccce31b8-f341-4cf1-8715-d4b56344d9e4-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "7a546a71-b9ab-41e1-8457-482c889fcc8a-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 10, 'modular': '结构化', 'method': 'get', 'url': 'http://172.16.1.129:9088/objext/motorVehicle/offline/count?ctrlUnitFileId=#cameraFileId#&endFrameIndex=2000&startFrameIndex=1', 'header': \"{\\n    'accept': '*/*',\\n}\", 'title': '离线机动车结构化实时统计', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+    }
+  ],
+  "start": 1589782284851,
+  "stop": 1589782284865,
+  "uuid": "37f62e5f-432a-4ccf-bb8d-c7cd59b5148a",
+  "historyId": "38a45d85cb37f0ef666a27101b246bf8",
+  "testCaseId": "fe2c25558fe97aa3f0100bd83fe61829",
+  "fullName": "test_data.test_add_task.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "结构化任务添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_add_task"
+    }
+  ]
+}

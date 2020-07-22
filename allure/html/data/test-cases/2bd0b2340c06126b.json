@@ -1,0 +1,111 @@
+{
+  "uid": "2bd0b2340c06126b",
+  "name": "分页查询实时任务",
+  "fullName": "test_data.test_query_task.TestCases#test_001",
+  "historyId": "2d008562329172b42449a9d375e84d03",
+  "time": {
+    "start": 1589782347706,
+    "stop": 1589782347909,
+    "duration": 203
+  },
+  "description": "分页查询实时任务",
+  "descriptionHtml": "<p>分页查询实时任务</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [],
+  "testStage": {
+    "description": "分页查询实时任务",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "9a738b340c39a420",
+        "name": "log",
+        "source": "9a738b340c39a420.txt",
+        "type": "text/plain",
+        "size": 1840
+      },
+      {
+        "uid": "8febfa9826c18297",
+        "name": "stdout",
+        "source": "8febfa9826c18297.txt",
+        "type": "text/plain",
+        "size": 707
+      },
+      {
+        "uid": "70e687c9108572c",
+        "name": "stderr",
+        "source": "70e687c9108572c.txt",
+        "type": "text/plain",
+        "size": 1929
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "各种查询任务接口"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_query_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_query_task"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 3, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/realTime/list', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询实时任务', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "2bd0b2340c06126b.json",
+  "parameterValues": [
+    "{'case_id': 3, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/realTime/list', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询实时任务', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+  ]
+}

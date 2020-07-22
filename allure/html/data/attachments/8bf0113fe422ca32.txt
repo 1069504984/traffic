@@ -1,0 +1,9 @@
+2020-05-18 14:12:14,536-INFO-Traffic：参数化的数据是：1562225808219
+2020-05-18 14:12:14,540-INFO-Traffic：正在发起结构化实时统计模块中的第7条用例:机动车结构化实时统计
+2020-05-18 14:12:14,545-INFO-Traffic：测试数据是：'
+2020-05-18 14:12:14,562-INFO-Traffic：get请求成功
+2020-05-18 14:12:14,565-INFO-Traffic：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': {'motorVehicleCount': 0, 'nextStartTime': '2019-05-15 20:38:14'}, 'timestamp': '2020-05-18 14:12:15:867'}
+2020-05-18 14:12:14,567-INFO-Traffic：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-05-18 14:12:14,569-INFO-Traffic：测试通过了
+2020-05-18 14:12:14,714-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":{"motorVehicleCount":0,"nextStartTime":"2019-05-15 20:38:14"},"timestamp":"2020-05-18 14:12:15:867"}
+2020-05-18 14:12:14,718-INFO-Traffic：写入result成功 ：pass

@@ -1,0 +1,453 @@
+[
+  {
+    "uid": "ad57f46e86ffd24",
+    "name": "新增监控点",
+    "time": {
+      "start": 1589782287064,
+      "stop": 1589782287355,
+      "duration": 291
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "1e92463fb17cc1e7",
+    "name": "登录接口正常验证",
+    "time": {
+      "start": 1589782262107,
+      "stop": 1589782262338,
+      "duration": 231
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "a84c4fef38c1735d",
+    "name": "查询点位下有无任务",
+    "time": {
+      "start": 1589782288002,
+      "stop": 1589782288218,
+      "duration": 216
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "30866b58f03dfeff",
+    "name": "添加监控点重复",
+    "time": {
+      "start": 1589782287369,
+      "stop": 1589782287549,
+      "duration": 180
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "2a946bececb988d5",
+    "name": "停止实时任务",
+    "time": {
+      "start": 1589782292262,
+      "stop": 1589782312509,
+      "duration": 20247
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "80164f6e24fed535",
+    "name": "根据任务号查询任务配置",
+    "time": {
+      "start": 1589782347922,
+      "stop": 1589782348077,
+      "duration": 155
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "b3651e3b1934c9c9",
+    "name": "机动车结构化实时统计",
+    "time": {
+      "start": 1589782334532,
+      "stop": 1589782334809,
+      "duration": 277
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "f8f8c1dae71717bb",
+    "name": "新增监控点",
+    "time": {
+      "start": 1589782349665,
+      "stop": 1589782349940,
+      "duration": 275
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "e0072cb610256242",
+    "name": "删除实时流(批量)",
+    "time": {
+      "start": 1589782335321,
+      "stop": 1589782340731,
+      "duration": 5410
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "a6b924f9d10b45f3",
+    "name": "查询机动车品牌",
+    "time": {
+      "start": 1589782349152,
+      "stop": 1589782349307,
+      "duration": 155
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "cf43c5d21ed39131",
+    "name": "新增监控点",
+    "time": {
+      "start": 1589782262853,
+      "stop": 1589782263381,
+      "duration": 528
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "d898a0ef64086bfd",
+    "name": "添加实时流任务",
+    "time": {
+      "start": 1589782290590,
+      "stop": 1589782291742,
+      "duration": 1152
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "8386f2361659cc11",
+    "name": "登录接口正常验证",
+    "time": {
+      "start": 1589782341534,
+      "stop": 1589782344837,
+      "duration": 3303
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "f76c70289080b52a",
+    "name": "分页查询离线任务",
+    "time": {
+      "start": 1589782344849,
+      "stop": 1589782347692,
+      "duration": 2843
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "a9354d5ad594fd06",
+    "name": "excel导出功能",
+    "time": {
+      "start": 1589782349321,
+      "stop": 1589782349456,
+      "duration": 135
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7559591e14e622c8",
+    "name": "添加结构化任务",
+    "time": {
+      "start": 1589782263922,
+      "stop": 1589782280088,
+      "duration": 16166
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "ea17e8ec52aa9b0c",
+    "name": "删除测试视频",
+    "time": {
+      "start": 1589782350647,
+      "stop": 1589782350893,
+      "duration": 246
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "9b84ec185947a6d8",
+    "name": "循环更新转码进度",
+    "time": {
+      "start": 1589782284172,
+      "stop": 1589782284327,
+      "duration": 155
+    },
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "9b3b48ad8ad963fb",
+    "name": "删除已添加监控点",
+    "time": {
+      "start": 1589782350907,
+      "stop": 1589782351328,
+      "duration": 421
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "b5ef099b0d825d2b",
+    "name": "离线机动车结构化实时统计",
+    "time": {
+      "start": 1589782284851,
+      "stop": 1589782284865,
+      "duration": 14
+    },
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "34155a375f78474b",
+    "name": "登录接口正常验证",
+    "time": {
+      "start": 1589782349464,
+      "stop": 1589782349653,
+      "duration": 189
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "508d845622bb47e5",
+    "name": "分页查询实时流结构化数据",
+    "time": {
+      "start": 1589782333798,
+      "stop": 1589782334013,
+      "duration": 215
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "f7a2eb756b6537c8",
+    "name": "查询常量",
+    "time": {
+      "start": 1589782348817,
+      "stop": 1589782348994,
+      "duration": 177
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "1d0aecdad2a70950",
+    "name": "登录接口正常验证",
+    "time": {
+      "start": 1589782289116,
+      "stop": 1589782289316,
+      "duration": 200
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "3ea56d7fa35852f5",
+    "name": "修改监控点",
+    "time": {
+      "start": 1589782287564,
+      "stop": 1589782287956,
+      "duration": 392
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "abf67b53adbc6b79",
+    "name": "删除已添加监控点",
+    "time": {
+      "start": 1589782286438,
+      "stop": 1589782286774,
+      "duration": 336
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "bf54441dd9a3f760",
+    "name": "分页查询离线任务",
+    "time": {
+      "start": 1589782280602,
+      "stop": 1589782280810,
+      "duration": 208
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "2bd0b2340c06126b",
+    "name": "分页查询实时任务",
+    "time": {
+      "start": 1589782347706,
+      "stop": 1589782347909,
+      "duration": 203
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "64672faee760e88d",
+    "name": "根据点位id查询任务配置",
+    "time": {
+      "start": 1589782348259,
+      "stop": 1589782348550,
+      "duration": 291
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "cdc1f8f7b5addfb6",
+    "name": "删除已添加监控点",
+    "time": {
+      "start": 1589782341246,
+      "stop": 1589782341520,
+      "duration": 274
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "ad5e7f7270d07993",
+    "name": "登录接口正常验证",
+    "time": {
+      "start": 1589782286790,
+      "stop": 1589782287050,
+      "duration": 260
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "3fef5e159c4f10c6",
+    "name": "监控点维度查询",
+    "time": {
+      "start": 1589782283390,
+      "stop": 1589782283551,
+      "duration": 161
+    },
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "63c8dff01c251a38",
+    "name": "查询任务进度",
+    "time": {
+      "start": 1589782281325,
+      "stop": 1589782281513,
+      "duration": 188
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "45b8f107d8154671",
+    "name": "上传测试视频",
+    "time": {
+      "start": 1589782349951,
+      "stop": 1589782350634,
+      "duration": 683
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "fba058bd0028b37d",
+    "name": "根据文件id查询任务配置",
+    "time": {
+      "start": 1589782348090,
+      "stop": 1589782348247,
+      "duration": 157
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "fc988e6ac211cd36",
+    "name": "删除任务",
+    "time": {
+      "start": 1589782285396,
+      "stop": 1589782285922,
+      "duration": 526
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "36e4573516472d4f",
+    "name": "分页查询",
+    "time": {
+      "start": 1589782282715,
+      "stop": 1589782282875,
+      "duration": 160
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "d62ed2ed52a738aa",
+    "name": "删除已添加监控点",
+    "time": {
+      "start": 1589782288230,
+      "stop": 1589782288598,
+      "duration": 368
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "bccf0558ecb8cb3",
+    "name": "启动实时任务",
+    "time": {
+      "start": 1589782313025,
+      "stop": 1589782333284,
+      "duration": 20259
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "4aebf129c796c3a7",
+    "name": "根据文件id查询监控点信息",
+    "time": {
+      "start": 1589782282026,
+      "stop": 1589782282201,
+      "duration": 175
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "8e02c49ca9fd9fac",
+    "name": "新增监控点（实时流）",
+    "time": {
+      "start": 1589782289832,
+      "stop": 1589782290075,
+      "duration": 243
+    },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

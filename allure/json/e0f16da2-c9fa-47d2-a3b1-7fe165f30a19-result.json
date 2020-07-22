@@ -1,0 +1,72 @@
+{
+  "name": "新增监控点",
+  "status": "passed",
+  "description": "新增监控点",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "88f8733a-d7e1-427e-87fe-b407cbc4087d-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "2417dd8a-3cef-44a6-ac95-0da92de5b0a7-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "6cdbd24e-1cf5-468a-8418-ee27731b2028-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":#sceneId#,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "start": 1589782287064,
+  "stop": 1589782287355,
+  "uuid": "d0af2338-4a0b-4ba1-904c-4c02f33a4e92",
+  "historyId": "c9fabcffcf62d247f3a957229e997bff",
+  "testCaseId": "496da03502134d454b0e78eb466db09f",
+  "fullName": "test_data.test_camera.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "监控点"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_camera"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_camera"
+    }
+  ]
+}

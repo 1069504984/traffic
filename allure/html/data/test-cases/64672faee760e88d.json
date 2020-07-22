@@ -1,0 +1,111 @@
+{
+  "uid": "64672faee760e88d",
+  "name": "根据点位id查询任务配置",
+  "fullName": "test_data.test_query_task.TestCases#test_001",
+  "historyId": "bf77d193fb82eb082de48f75e55ae73d",
+  "time": {
+    "start": 1589782348259,
+    "stop": 1589782348550,
+    "duration": 291
+  },
+  "description": "根据点位id查询任务配置",
+  "descriptionHtml": "<p>根据点位id查询任务配置</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [],
+  "testStage": {
+    "description": "根据点位id查询任务配置",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "813ea791f8516d22",
+        "name": "log",
+        "source": "813ea791f8516d22.txt",
+        "type": "text/plain",
+        "size": 668
+      },
+      {
+        "uid": "338a680bb1bdc773",
+        "name": "stdout",
+        "source": "338a680bb1bdc773.txt",
+        "type": "text/plain",
+        "size": 145
+      },
+      {
+        "uid": "a6f25e34b15d6430",
+        "name": "stderr",
+        "source": "a6f25e34b15d6430.txt",
+        "type": "text/plain",
+        "size": 757
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "各种查询任务接口"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_query_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_query_task"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 6, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/query/cameraId/1', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '根据点位id查询任务配置', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "64672faee760e88d.json",
+  "parameterValues": [
+    "{'case_id': 6, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/query/cameraId/1', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '根据点位id查询任务配置', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+  ]
+}

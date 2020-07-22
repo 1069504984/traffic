@@ -1,0 +1,72 @@
+{
+  "name": "添加结构化任务",
+  "status": "passed",
+  "description": "添加结构化任务",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "b8a91a4c-bc73-4d9d-8def-7ae8969501d0-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "77aa9f7d-7a4b-4327-a212-7d393916c27a-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "5034f659-8356-407b-8786-b24a54bb9f0d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 3, 'modular': '任务管理', 'method': 'post', 'url': 'http://172.16.1.129:9088/task/addTask', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/plain, */*',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Content-Type': 'application/json;charset=UTF-8',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '添加结构化任务', 'param': '{\"serialnumber\":null,\"fromType\":2,\"cameraFileId\":#cameraFileId#,\"cameraId\":#cameraId#,\"picture\":\"data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM2MCIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNjQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ib3ZlcmZsb3c6IGhpZGRlbjsgcG9zaXRpb246IHJlbGF0aXZlOyB0b3A6IC0wLjg5MDYyNXB4OyI+PGRlc2Mgc3R5bGU9Ii13ZWJraXQtdGFwLWhpZ2hsaWdodC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwKTsiPkNyZWF0ZWQgd2l0aCBSYXBoYcOrbCAyLjMuMDwvZGVzYz48ZGVmcyBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyI+PC9kZWZzPjxpbWFnZSB4PSIwIiB5PSIwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjM2MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgeGxpbms6aHJlZj0iaHR0cDovLzE3Mi4xNi4xLjEwNzo4MDgxL3NuYXBzaG90L09UTTRNekkyT1RFek5nPT0uanBnIiBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyI+PC9pbWFnZT48cGF0aCBmaWxsPSIjZmYyZTJlIiBzdHJva2U9IiNmZjJlMmUiIGQ9Ik00MCwyODhMMzA3LDEzMi45OTk5OTgzOTk5OTk5OEwzODgsMTI1Ljk5OTk5OTk5OTk5OTk5TDU0NiwzNDguMDAwMDAxMloiIGZpbGwtb3BhY2l0eT0iMC4zIiBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyBmaWxsLW9wYWNpdHk6IDAuMzsgcG9pbnRlci1ldmVudHM6IG5vbmU7Ij48L3BhdGg+PC9zdmc+\",\"url\":\"http://172.16.1.107:8081/snapshot/OTM4MzI2OTEzNg==.jpg\",\"laneStatCurrentFlowInSec\":60,\"violatedAreas\":{\"stopTime\":15,\"areas\":[]},\"isCross\":false,\"hasSidewalk\":false,\"sidewalk\":[],\"light\":[],\"shoulderRegion\":{\"areas\":[]},\"stopLine\":[],\"driveLine\":[],\"shieldAreas\":{\"areas\":[]},\"shuntIslandAreas\":{\"areas\":[]},\"areaEvent\":{\"areas\":[]},\"realChangingLines\":[],\"vehicleLanes\":[{\"number\":1,\"vehicleName\":\"\\\\u8F66\\\\u90531\",\"color\":\"#FF2E2E\",\"id\":\"1\",\"areas\":[{\"x\":0.0625,\"y\":0.8},{\"x\":0.4796875,\"y\":0.36944444},{\"x\":0.60625,\"y\":0.35},{\"x\":0.853125,\"y\":0.96666667}],\"driveDirection\":[1],\"carDirection\":1,\"type\":\"0\",\"creator\":\"nonSeatBelts\"}],\"velocityLines\":{\"length\":5,\"areas\":[]},\"vehicleIntoForbidden\":[],\"backCar\":{\"vehicleLaneNumber\":[]},\"vehicleReverse\":{\"vehicleLaneNumber\":[]},\"nocarRoadBikeOnRoad\":{\"vehicleLaneNumber\":[]},\"labelbikeHumanOnRoad\":{\"vehicleLaneNumber\":[]},\"vehicleIllegalCrossLane\":{\"vehicleLaneNumber\":[]},\"vehicleOnEmerLane\":{\"vehicleLaneNumber\":[]},\"nonSeatBelts\":{\"vehicleLaneNumber\":[1]},\"drivingCall\":{\"vehicleLaneNumber\":[]},\"vehicleForbidden\":{\"vehicleLaneNumber\":[]},\"trafficEvents\":{\"vehicleLaneNumber\":[]},\"roadEvent\":{\"vehicleLaneNumber\":[]},\"crossIllegalLane\":{\"vehicleLaneNumber\":[]},\"vehicleOnBusLane\":[],\"vehicleOccupyLane\":{\"vehicleLaneNumber\":[]},\"vehicleImpolitePed\":{\"vehicleLaneNumber\":[]},\"bikeReverse\":{\"vehicleLaneNumber\":[]},\"bikeAcrossRoad\":{\"vehicleLaneNumber\":[]},\"bikePersonAcrossRoad\":{\"vehicleLaneNumber\":[]},\"light_black\":{\"pushCycle\":5},\"nameplate\":{\"pushCycle\":24},\"fog\":{\"pushCycle\":5},\"fire\":{\"pushCycle\":5},\"knot\":{\"pushCycle\":5},\"roadblock\":{\"pushCycle\":24},\"pothole\":{\"pushCycle\":24},\"construction\":{\"pushCycle\":24},\"dispersion\":{\"pushCycle\":24},\"ponding\":{\"pushCycle\":5},\"accident_vv\":{\"pushCycle\":5},\"accident_vh\":{\"pushCycle\":5},\"accident_vb\":{\"pushCycle\":5},\"breakdown\":{\"pushCycle\":5,\"stopTime\":3},\"vehicleRedLight\":false,\"vehicleIllegalGuide\":false,\"vehicleStopOnZebra\":false,\"vehicleImpoliteLeft\":false,\"vehicleImpoliteRight\":false,\"vehicleTightTurn\":false,\"vehicleCrossRetention\":false,\"vehicleIllegalUturn\":false,\"slowColleagues\":{\"averageSpeedThreshold\":30,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"congestion\":{\"averageSpeedThreshold\":30,\"timeOccupancyThreshold\":0.5,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"laneOccupancyHigh\":{\"spaceOccupancyThreshold\":0.1,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"flowOverflow\":{\"vehicleFlowThreshold\":10,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"overflow\":{\"queueLength\":30,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"tabStatus\":{\"crossIllegalLane\":0,\"vehicleIllegalCrossLane\":0,\"vehicleOnEmerLane\":0,\"vehicleOnBusLane\":0,\"vehicleOccupyLane\":0,\"vehicleImpolitePed\":0,\"shoulderRegion\":0,\"vehicleIntoForbidden\":0,\"nonSeatBelts\":2,\"drivingCall\":0,\"backCar\":0,\"vehicleReverse\":0,\"vehicleForbidden\":0,\"violatedAreas\":0,\"shuntIslandAreas\":0,\"nocarRoadBikeOnRoad\":0,\"bikeReverse\":0,\"bikeAcrossRoad\":0,\"labelbikeHumanOnRoad\":0,\"humanRedLight\":0,\"bikePersonAcrossRoad\":0,\"trafficEvents\":0,\"flowEvent\":0,\"nameplate\":0,\"roadEvent\":0,\"areaEvent\":0,\"lightBlack\":0}}', 'sql': '{\"sql_2\":\"SELECT * from u2s_traffic.vsd_task_info WHERE serialnumber = #serialnumber#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "start": 1589782263922,
+  "stop": 1589782280088,
+  "uuid": "a9a33839-be67-4de0-83ca-1602ee6e561d",
+  "historyId": "f8d141a76e3f662ff38c6b7162a3c3d2",
+  "testCaseId": "fe2c25558fe97aa3f0100bd83fe61829",
+  "fullName": "test_data.test_add_task.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "结构化任务添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_add_task"
+    }
+  ]
+}

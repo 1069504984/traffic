@@ -1,0 +1,93 @@
+{
+  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name": "timeline",
+  "children": [
+    {
+      "name": "DESKTOP-C04F7E5",
+      "children": [
+        {
+          "name": "26692-MainThread",
+          "children": [
+            {
+              "name": "删除已添加监控点",
+              "uid": "113f1080b2b82074",
+              "parentUid": "7c738e674acf810e118c3eace6e9474e",
+              "status": "passed",
+              "time": {
+                "start": 1595385825622,
+                "stop": 1595385825895,
+                "duration": 273
+              },
+              "flaky": false,
+              "parameters": [
+                "{'case_id': 5, 'modular': '删除监控点', 'method': 'delete', 'url': 'http://172.16.1.107:9088/camera', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.107:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '删除已添加监控点', 'param': \"\\n    \\n(\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null,\"timestamp\":\"2020-04-09 14:43:41:209\"}'}"
+              ]
+            },
+            {
+              "name": "上传测试视频",
+              "uid": "9e12953e748436a8",
+              "parentUid": "7c738e674acf810e118c3eace6e9474e",
+              "status": "passed",
+              "time": {
+                "start": 1595385823206,
+                "stop": 1595385825281,
+                "duration": 2075
+              },
+              "flaky": false,
+              "parameters": [
+                "{'case_id': 3, 'modular': '上传视频', 'method': 'post', 'url': 'http://172.16.1.107:9088/ctrlUnitFile/addCameraMediaChucks', 'header': \" {\\n    'Connection': 'keep-alive'}\", 'title': '上传测试视频', 'param': '(\\n    {\\'chunks\\': \\'1\\',\\n    \\'chunk\\': \\'1\\',\\n    \\'tokenId\\': \\'0d149844-d6fe-4136-82d1-47ad10d2f66c\\',\\n    \\'id\\': \\'2lqyw4mzjou0000\\',\\n    \\'name\\': \\'test_video.mp4\\',\\n    \\'cameraId\\': \\'#cameraId#\\',\\n    \\'chunkNumber\\':\\'1\\',\\n    \\'currentChunkSize\\':\\'5639608\\',\\n    \\'totalSize\\':\\'5639608\\',\\n    \\'identifier\\':\\'5639608-test_videomp4\\',\\n    \\'filename\\':\\'test_video.mp4\\',\\n    \\'relativePath\\':\\'test_video.mp4\\',\\n    \\'totalChunks\\':\\'1\\',\\n    \\'videoType\\':\\'0\\',\\n    \\'entryTime\\': \\'2020-4-15 16:19:28\\'},{\"file\":open(r\\'D:\\\\test_video.mp4\\',\\'rb\\'),\"Content-Type\":\"application/octet-stream\",\"Content-Disposition\":\"form-data\",\"filename\":\"test_video.mp4\"}\\n)', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+              ]
+            },
+            {
+              "name": "新增监控点",
+              "uid": "43a571f60f7df7e8",
+              "parentUid": "7c738e674acf810e118c3eace6e9474e",
+              "status": "passed",
+              "time": {
+                "start": 1595385822931,
+                "stop": 1595385823196,
+                "duration": 265
+              },
+              "flaky": false,
+              "parameters": [
+                "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.107:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":25,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+              ]
+            },
+            {
+              "name": "删除测试视频",
+              "uid": "e24986b2124a4ed0",
+              "parentUid": "7c738e674acf810e118c3eace6e9474e",
+              "status": "passed",
+              "time": {
+                "start": 1595385825288,
+                "stop": 1595385825616,
+                "duration": 328
+              },
+              "flaky": false,
+              "parameters": [
+                "{'case_id': 4, 'modular': '删除视频', 'method': 'delete', 'url': 'http://172.16.1.107:9088/ctrlUnitFile', 'header': \"{'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}\", 'title': '删除测试视频', 'param': \"(\\n    ('ctrlUnitFileId', '#fileId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+              ]
+            },
+            {
+              "name": "登录接口正常验证",
+              "uid": "233d5c0e539a19b7",
+              "parentUid": "7c738e674acf810e118c3eace6e9474e",
+              "status": "passed",
+              "time": {
+                "start": 1595385822694,
+                "stop": 1595385822922,
+                "duration": 228
+              },
+              "flaky": false,
+              "parameters": [
+                "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': 'http://172.16.1.107:9088/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.107:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.107:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null}'}"
+              ]
+            }
+          ],
+          "uid": "7c738e674acf810e118c3eace6e9474e"
+        }
+      ],
+      "uid": "58839370ee39bd1756f89405c05466fc"
+    }
+  ]
+}

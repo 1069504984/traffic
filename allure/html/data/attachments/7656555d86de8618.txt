@@ -1,0 +1,14 @@
+INFO     Traffic:<string>:1 参数化的数据是：测试test
+INFO     Traffic:<string>:1 参数化的数据是：'测试test'
+INFO     Traffic:<string>:1 正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+INFO     Traffic:<string>:1 测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+INFO     Traffic:<string>:1 post请求成功
+INFO     Traffic:<string>:1 数据库连接成功
+INFO     Traffic:<string>:1 数据库查询数据成功，返回数据为(1562225808218,)
+INFO     Traffic:<string>:1 数据库连接成功
+INFO     Traffic:<string>:1 数据库查询数据成功，返回数据为(1562225808218,)
+INFO     Traffic:<string>:1 测试结果是：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-05-18 14:11:28:700'}
+INFO     Traffic:<string>:1 预期结果是：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+INFO     Traffic:<string>:1 测试通过了
+INFO     Traffic:<string>:1 写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-05-18 14:11:28:700"}
+INFO     Traffic:<string>:1 写入result成功 ：pass

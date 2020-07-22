@@ -1,0 +1,4 @@
+None
+目前的param是'
+{"code":0,"codeMsg":"成功","msg":"","data":{"total":1,"list":[{"fileName":"332047.ts","fileUrl":"http://172.16.1.129:8081/jiuling/orgvideos/7243553751.mp4","cameraName":"zzw-离线","ctrlUnitName":"社会点位列表","serialnumber":"1589782275461239679","createTime":"2020-05-18 14:11:16","type":"traffic","progress":100,"status":2,"cameraFileId":7243553751,"cameraId":1562225808215}],"pageNum":0,"pageSize":0,"size":10,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":false,"isLastPage":false,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":0,"navigatepageNums":[],"navigateFirstPage":0,"navigateLastPage":0,"firstPage":0,"lastPage":0},"timestamp":"2020-05-18 14:12:28:856"}
+删除的camemaId:1562225808219

@@ -1,0 +1,8 @@
+INFO     Traffic:<string>:1 正在发起任务管理模块中的第6条用例:根据点位id查询任务配置
+INFO     Traffic:<string>:1 测试数据是：'
+INFO     Traffic:<string>:1 get请求成功
+INFO     Traffic:<string>:1 测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-05-18 14:12:29:580'}
+INFO     Traffic:<string>:1 预期结果是：{'code': 0, 'codeMsg': '成功'}
+INFO     Traffic:<string>:1 测试通过了
+INFO     Traffic:<string>:1 写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-05-18 14:12:29:580"}
+INFO     Traffic:<string>:1 写入result成功 ：pass

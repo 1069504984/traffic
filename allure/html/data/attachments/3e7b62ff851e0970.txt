@@ -1,0 +1,10 @@
+2020-05-18 14:11:27,567-INFO-Traffic：参数化的数据是：1562225808218
+2020-05-18 14:11:27,570-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-05-18 14:11:27,572-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-05-18 14:11:27,575-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808218, "name": "修改之后的测试test"}
+2020-05-18 14:11:27,676-INFO-Traffic：put请求成功
+2020-05-18 14:11:27,679-INFO-Traffic：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-05-18 14:11:28:982'}
+2020-05-18 14:11:27,681-INFO-Traffic：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-05-18 14:11:27,684-INFO-Traffic：测试通过了
+2020-05-18 14:11:27,799-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-05-18 14:11:28:982"}
+2020-05-18 14:11:27,835-INFO-Traffic：写入result成功 ：pass

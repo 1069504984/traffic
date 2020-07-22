@@ -1,0 +1,111 @@
+{
+  "uid": "d62ed2ed52a738aa",
+  "name": "删除已添加监控点",
+  "fullName": "test_data.test_camera.TestCases#test_001",
+  "historyId": "a24ba77a56644a0ca8b3aed5f223805b",
+  "time": {
+    "start": 1589782288230,
+    "stop": 1589782288598,
+    "duration": 368
+  },
+  "description": "删除已添加监控点",
+  "descriptionHtml": "<p>删除已添加监控点</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [],
+  "testStage": {
+    "description": "删除已添加监控点",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "df1f8dfa4eef2d00",
+        "name": "log",
+        "source": "df1f8dfa4eef2d00.txt",
+        "type": "text/plain",
+        "size": 1100
+      },
+      {
+        "uid": "eea80b7e9fcf73",
+        "name": "stdout",
+        "source": "eea80b7e9fcf73.txt",
+        "type": "text/plain",
+        "size": 354
+      },
+      {
+        "uid": "80e797858d8630e2",
+        "name": "stderr",
+        "source": "80e797858d8630e2.txt",
+        "type": "text/plain",
+        "size": 1244
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "监控点"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_camera"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_camera"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 6, 'modular': '删除监控点', 'method': 'delete', 'url': 'http://172.16.1.129:9088/camera', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '删除已添加监控点', 'param': \"\\n    \\n(\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#update_name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null,\"timestamp\":\"2020-04-09 14:43:41:209\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "d62ed2ed52a738aa.json",
+  "parameterValues": [
+    "{'case_id': 6, 'modular': '删除监控点', 'method': 'delete', 'url': 'http://172.16.1.129:9088/camera', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '删除已添加监控点', 'param': \"\\n    \\n(\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#update_name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null,\"timestamp\":\"2020-04-09 14:43:41:209\"}'}"
+  ]
+}

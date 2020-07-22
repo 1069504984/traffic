@@ -1,0 +1,98 @@
+{
+  "uid": "a9354d5ad594fd06",
+  "name": "excel导出功能",
+  "fullName": "test_data.test_structuring.TestCases#test_export_excel",
+  "historyId": "2094fd906076c9af04e2a4002ff5b915",
+  "time": {
+    "start": 1589782349321,
+    "stop": 1589782349456,
+    "duration": 135
+  },
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "816d88ee6b251b85",
+        "name": "log",
+        "source": "816d88ee6b251b85.txt",
+        "type": "text/plain",
+        "size": 113
+      },
+      {
+        "uid": "3f2f32dc6383b9f0",
+        "name": "stderr",
+        "source": "3f2f32dc6383b9f0.txt",
+        "type": "text/plain",
+        "size": 136
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 2,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "excel导出"
+    },
+    {
+      "name": "feature",
+      "value": "结构化查询"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_structuring"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_structuring"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "a9354d5ad594fd06.json",
+  "parameterValues": []
+}

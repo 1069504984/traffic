@@ -1,0 +1,72 @@
+{
+  "name": "登录接口正常验证",
+  "status": "passed",
+  "description": "登录接口正常验证",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "e7346e0c-94cb-465e-941a-066a19862225-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "09331176-33cd-4959-abe1-e27f275141cb-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "280adec2-564c-46ee-a1c7-6103f608fd57-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': 'http://172.16.1.129:9088/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.129:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null}'}"
+    }
+  ],
+  "start": 1589782262107,
+  "stop": 1589782262338,
+  "uuid": "171d113f-4666-4fb6-843e-16f6e3a9401f",
+  "historyId": "e15c76324b96b668ef58beaf14391f62",
+  "testCaseId": "fe2c25558fe97aa3f0100bd83fe61829",
+  "fullName": "test_data.test_add_task.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "结构化任务添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_add_task"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "uid": "63c8dff01c251a38",
+  "name": "查询任务进度",
+  "fullName": "test_data.test_add_task.TestCases#test_001",
+  "historyId": "271d1f0179286303438c636834eb05ac",
+  "time": {
+    "start": 1589782281325,
+    "stop": 1589782281513,
+    "duration": 188
+  },
+  "description": "查询任务进度",
+  "descriptionHtml": "<p>查询任务进度</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [
+    {
+      "name": "setUp",
+      "time": {
+        "start": 1589782280823,
+        "stop": 1589782281324,
+        "duration": 501
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "testStage": {
+    "description": "查询任务进度",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "9d513064c8ba09c",
+        "name": "log",
+        "source": "9d513064c8ba09c.txt",
+        "type": "text/plain",
+        "size": 1167
+      },
+      {
+        "uid": "373cc749aa41c811",
+        "name": "stdout",
+        "source": "373cc749aa41c811.txt",
+        "type": "text/plain",
+        "size": 298
+      },
+      {
+        "uid": "e4885e29dda65a08",
+        "name": "stderr",
+        "source": "e4885e29dda65a08.txt",
+        "type": "text/plain",
+        "size": 1278
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "结构化任务添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_add_task"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 5, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/taskProgress?serialnumberListStr=#serialnumber#', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '查询任务进度', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "63c8dff01c251a38.json",
+  "parameterValues": [
+    "{'case_id': 5, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/taskProgress?serialnumberListStr=#serialnumber#', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '查询任务进度', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+  ]
+}

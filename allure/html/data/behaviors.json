@@ -1,0 +1,674 @@
+{
+  "uid": "b1a8273437954620fa374b796ffaacdd",
+  "name": "behaviors",
+  "children": [
+    {
+      "name": "结构化任务添加",
+      "children": [
+        {
+          "name": "登录接口正常验证",
+          "uid": "1e92463fb17cc1e7",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "passed",
+          "time": {
+            "start": 1589782262107,
+            "stop": 1589782262338,
+            "duration": 231
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': 'http://172.16.1.129:9088/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.129:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null}'}"
+          ]
+        },
+        {
+          "name": "新增监控点",
+          "uid": "cf43c5d21ed39131",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "passed",
+          "time": {
+            "start": 1589782262853,
+            "stop": 1589782263381,
+            "duration": 528
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":#sceneId#,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "添加结构化任务",
+          "uid": "7559591e14e622c8",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "passed",
+          "time": {
+            "start": 1589782263922,
+            "stop": 1589782280088,
+            "duration": 16166
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 3, 'modular': '任务管理', 'method': 'post', 'url': 'http://172.16.1.129:9088/task/addTask', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/plain, */*',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Content-Type': 'application/json;charset=UTF-8',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '添加结构化任务', 'param': '{\"serialnumber\":null,\"fromType\":2,\"cameraFileId\":#cameraFileId#,\"cameraId\":#cameraId#,\"picture\":\"data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM2MCIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNjQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ib3ZlcmZsb3c6IGhpZGRlbjsgcG9zaXRpb246IHJlbGF0aXZlOyB0b3A6IC0wLjg5MDYyNXB4OyI+PGRlc2Mgc3R5bGU9Ii13ZWJraXQtdGFwLWhpZ2hsaWdodC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwKTsiPkNyZWF0ZWQgd2l0aCBSYXBoYcOrbCAyLjMuMDwvZGVzYz48ZGVmcyBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyI+PC9kZWZzPjxpbWFnZSB4PSIwIiB5PSIwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjM2MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgeGxpbms6aHJlZj0iaHR0cDovLzE3Mi4xNi4xLjEwNzo4MDgxL3NuYXBzaG90L09UTTRNekkyT1RFek5nPT0uanBnIiBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyI+PC9pbWFnZT48cGF0aCBmaWxsPSIjZmYyZTJlIiBzdHJva2U9IiNmZjJlMmUiIGQ9Ik00MCwyODhMMzA3LDEzMi45OTk5OTgzOTk5OTk5OEwzODgsMTI1Ljk5OTk5OTk5OTk5OTk5TDU0NiwzNDguMDAwMDAxMloiIGZpbGwtb3BhY2l0eT0iMC4zIiBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyBmaWxsLW9wYWNpdHk6IDAuMzsgcG9pbnRlci1ldmVudHM6IG5vbmU7Ij48L3BhdGg+PC9zdmc+\",\"url\":\"http://172.16.1.107:8081/snapshot/OTM4MzI2OTEzNg==.jpg\",\"laneStatCurrentFlowInSec\":60,\"violatedAreas\":{\"stopTime\":15,\"areas\":[]},\"isCross\":false,\"hasSidewalk\":false,\"sidewalk\":[],\"light\":[],\"shoulderRegion\":{\"areas\":[]},\"stopLine\":[],\"driveLine\":[],\"shieldAreas\":{\"areas\":[]},\"shuntIslandAreas\":{\"areas\":[]},\"areaEvent\":{\"areas\":[]},\"realChangingLines\":[],\"vehicleLanes\":[{\"number\":1,\"vehicleName\":\"\\\\u8F66\\\\u90531\",\"color\":\"#FF2E2E\",\"id\":\"1\",\"areas\":[{\"x\":0.0625,\"y\":0.8},{\"x\":0.4796875,\"y\":0.36944444},{\"x\":0.60625,\"y\":0.35},{\"x\":0.853125,\"y\":0.96666667}],\"driveDirection\":[1],\"carDirection\":1,\"type\":\"0\",\"creator\":\"nonSeatBelts\"}],\"velocityLines\":{\"length\":5,\"areas\":[]},\"vehicleIntoForbidden\":[],\"backCar\":{\"vehicleLaneNumber\":[]},\"vehicleReverse\":{\"vehicleLaneNumber\":[]},\"nocarRoadBikeOnRoad\":{\"vehicleLaneNumber\":[]},\"labelbikeHumanOnRoad\":{\"vehicleLaneNumber\":[]},\"vehicleIllegalCrossLane\":{\"vehicleLaneNumber\":[]},\"vehicleOnEmerLane\":{\"vehicleLaneNumber\":[]},\"nonSeatBelts\":{\"vehicleLaneNumber\":[1]},\"drivingCall\":{\"vehicleLaneNumber\":[]},\"vehicleForbidden\":{\"vehicleLaneNumber\":[]},\"trafficEvents\":{\"vehicleLaneNumber\":[]},\"roadEvent\":{\"vehicleLaneNumber\":[]},\"crossIllegalLane\":{\"vehicleLaneNumber\":[]},\"vehicleOnBusLane\":[],\"vehicleOccupyLane\":{\"vehicleLaneNumber\":[]},\"vehicleImpolitePed\":{\"vehicleLaneNumber\":[]},\"bikeReverse\":{\"vehicleLaneNumber\":[]},\"bikeAcrossRoad\":{\"vehicleLaneNumber\":[]},\"bikePersonAcrossRoad\":{\"vehicleLaneNumber\":[]},\"light_black\":{\"pushCycle\":5},\"nameplate\":{\"pushCycle\":24},\"fog\":{\"pushCycle\":5},\"fire\":{\"pushCycle\":5},\"knot\":{\"pushCycle\":5},\"roadblock\":{\"pushCycle\":24},\"pothole\":{\"pushCycle\":24},\"construction\":{\"pushCycle\":24},\"dispersion\":{\"pushCycle\":24},\"ponding\":{\"pushCycle\":5},\"accident_vv\":{\"pushCycle\":5},\"accident_vh\":{\"pushCycle\":5},\"accident_vb\":{\"pushCycle\":5},\"breakdown\":{\"pushCycle\":5,\"stopTime\":3},\"vehicleRedLight\":false,\"vehicleIllegalGuide\":false,\"vehicleStopOnZebra\":false,\"vehicleImpoliteLeft\":false,\"vehicleImpoliteRight\":false,\"vehicleTightTurn\":false,\"vehicleCrossRetention\":false,\"vehicleIllegalUturn\":false,\"slowColleagues\":{\"averageSpeedThreshold\":30,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"congestion\":{\"averageSpeedThreshold\":30,\"timeOccupancyThreshold\":0.5,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"laneOccupancyHigh\":{\"spaceOccupancyThreshold\":0.1,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"flowOverflow\":{\"vehicleFlowThreshold\":10,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"overflow\":{\"queueLength\":30,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"tabStatus\":{\"crossIllegalLane\":0,\"vehicleIllegalCrossLane\":0,\"vehicleOnEmerLane\":0,\"vehicleOnBusLane\":0,\"vehicleOccupyLane\":0,\"vehicleImpolitePed\":0,\"shoulderRegion\":0,\"vehicleIntoForbidden\":0,\"nonSeatBelts\":2,\"drivingCall\":0,\"backCar\":0,\"vehicleReverse\":0,\"vehicleForbidden\":0,\"violatedAreas\":0,\"shuntIslandAreas\":0,\"nocarRoadBikeOnRoad\":0,\"bikeReverse\":0,\"bikeAcrossRoad\":0,\"labelbikeHumanOnRoad\":0,\"humanRedLight\":0,\"bikePersonAcrossRoad\":0,\"trafficEvents\":0,\"flowEvent\":0,\"nameplate\":0,\"roadEvent\":0,\"areaEvent\":0,\"lightBlack\":0}}', 'sql': '{\"sql_2\":\"SELECT * from u2s_traffic.vsd_task_info WHERE serialnumber = #serialnumber#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "分页查询离线任务",
+          "uid": "bf54441dd9a3f760",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "passed",
+          "time": {
+            "start": 1589782280602,
+            "stop": 1589782280810,
+            "duration": 208
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 4, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/offLine/list', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询离线任务', 'param': \"'\", 'sql': '{\"sql_3\":\"SELECT max(serialnumber) FROM u2s.vsd_task\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "查询任务进度",
+          "uid": "63c8dff01c251a38",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "passed",
+          "time": {
+            "start": 1589782281325,
+            "stop": 1589782281513,
+            "duration": 188
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 5, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/taskProgress?serialnumberListStr=#serialnumber#', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '查询任务进度', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+          ]
+        },
+        {
+          "name": "根据文件id查询监控点信息",
+          "uid": "4aebf129c796c3a7",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "passed",
+          "time": {
+            "start": 1589782282026,
+            "stop": 1589782282201,
+            "duration": 175
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 6, 'modular': '离线文件', 'method': 'get', 'url': 'http://172.16.1.129:9088/ctrlUnitFile/ctrlUnitFileAndCamera?ctrlUnitFileId=#cameraFileId#', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '根据文件id查询监控点信息', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+          ]
+        },
+        {
+          "name": "分页查询",
+          "uid": "36e4573516472d4f",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "passed",
+          "time": {
+            "start": 1589782282715,
+            "stop": 1589782282875,
+            "duration": 160
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 7, 'modular': '离线文件', 'method': 'get', 'url': 'http://172.16.1.129:9088/ctrlUnitFile/page?fileName=test_video.mp4&pageNum=1&pageSize=1', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+          ]
+        },
+        {
+          "name": "监控点维度查询",
+          "uid": "3fef5e159c4f10c6",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "broken",
+          "time": {
+            "start": 1589782283390,
+            "stop": 1589782283551,
+            "duration": 161
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 8, 'modular': '离线文件', 'method': 'get', 'url': 'http://172.16.1.129:9088/ctrlUnitFile/queryFileByCameraId?page=1&rows=1', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '监控点维度查询', 'param': \"'\", 'sql': None, 'expected': '{\"state\": true}'}"
+          ]
+        },
+        {
+          "name": "循环更新转码进度",
+          "uid": "9b84ec185947a6d8",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "broken",
+          "time": {
+            "start": 1589782284172,
+            "stop": 1589782284327,
+            "duration": 155
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 9, 'modular': '离线文件', 'method': 'post', 'url': 'http://172.16.1.129:9088/ctrlUnitFile/updateTranscodeInfoById', 'header': \"{\\n    'accept': '*/*',\\n}\", 'title': '循环更新转码进度', 'param': \"(\\n    ('fileId',#cameraFileId#),\\n)\", 'sql': None, 'expected': '{\"state\": true}'}"
+          ]
+        },
+        {
+          "name": "离线机动车结构化实时统计",
+          "uid": "b5ef099b0d825d2b",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "broken",
+          "time": {
+            "start": 1589782284851,
+            "stop": 1589782284865,
+            "duration": 14
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 10, 'modular': '结构化', 'method': 'get', 'url': 'http://172.16.1.129:9088/objext/motorVehicle/offline/count?ctrlUnitFileId=#cameraFileId#&endFrameIndex=2000&startFrameIndex=1', 'header': \"{\\n    'accept': '*/*',\\n}\", 'title': '离线机动车结构化实时统计', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+          ]
+        },
+        {
+          "name": "删除任务",
+          "uid": "fc988e6ac211cd36",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "passed",
+          "time": {
+            "start": 1589782285396,
+            "stop": 1589782285922,
+            "duration": 526
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 11, 'modular': '任务管理', 'method': 'delete', 'url': 'http://172.16.1.129:9088/task/query/delete/#serialnumber#', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Referer': 'http://172.16.1.129:9088/vsdtask/taskManagement?returnFlag=1',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'If-Modified-Since': 'Thu, 02 Apr 2020 06:53:49 GMT',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n'Content-Type': 'application/json;charset=UTF-8'\\n}\", 'title': '删除任务', 'param': \"'\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "删除已添加监控点",
+          "uid": "abf67b53adbc6b79",
+          "parentUid": "24f83eae43676986420c5b04889a3f55",
+          "status": "passed",
+          "time": {
+            "start": 1589782286438,
+            "stop": 1589782286774,
+            "duration": 336
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 12, 'modular': '删除监控点', 'method': 'delete', 'url': 'http://172.16.1.129:9088/camera', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n\\n}\", 'title': '删除已添加监控点', 'param': \"\\n    \\n(\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        }
+      ],
+      "uid": "24f83eae43676986420c5b04889a3f55"
+    },
+    {
+      "name": "监控点",
+      "children": [
+        {
+          "name": "登录接口正常验证",
+          "uid": "ad5e7f7270d07993",
+          "parentUid": "5aea1b4e8f377d810158ec749470acac",
+          "status": "passed",
+          "time": {
+            "start": 1589782286790,
+            "stop": 1589782287050,
+            "duration": 260
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': 'http://172.16.1.129:9088/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.129:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null}'}"
+          ]
+        },
+        {
+          "name": "新增监控点",
+          "uid": "ad57f46e86ffd24",
+          "parentUid": "5aea1b4e8f377d810158ec749470acac",
+          "status": "passed",
+          "time": {
+            "start": 1589782287064,
+            "stop": 1589782287355,
+            "duration": 291
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":#sceneId#,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "添加监控点重复",
+          "uid": "30866b58f03dfeff",
+          "parentUid": "5aea1b4e8f377d810158ec749470acac",
+          "status": "passed",
+          "time": {
+            "start": 1589782287369,
+            "stop": 1589782287549,
+            "duration": 180
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 3, 'modular': '重复添加监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '添加监控点重复', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":25,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}'}"
+          ]
+        },
+        {
+          "name": "修改监控点",
+          "uid": "3ea56d7fa35852f5",
+          "parentUid": "5aea1b4e8f377d810158ec749470acac",
+          "status": "passed",
+          "time": {
+            "start": 1589782287564,
+            "stop": 1589782287956,
+            "duration": 392
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 4, 'modular': '修改监控点', 'method': 'put', 'url': 'http://172.16.1.129:9088/camera', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '修改监控点', 'param': '{ \"crossingNumber\": \"修改之后111\", \"direction\": \"修改之后往北\", \"extcameraid\": \"修改之后11222\", \"id\":#cameraId#, \"name\": \"#sql_update_name#\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "查询点位下有无任务",
+          "uid": "a84c4fef38c1735d",
+          "parentUid": "5aea1b4e8f377d810158ec749470acac",
+          "status": "passed",
+          "time": {
+            "start": 1589782288002,
+            "stop": 1589782288218,
+            "duration": 216
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 5, 'modular': '查询监控点', 'method': 'get', 'url': 'http://172.16.1.129:9088/camera/isAnalyzed', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '查询点位下有无任务', 'param': \" (\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "删除已添加监控点",
+          "uid": "d62ed2ed52a738aa",
+          "parentUid": "5aea1b4e8f377d810158ec749470acac",
+          "status": "passed",
+          "time": {
+            "start": 1589782288230,
+            "stop": 1589782288598,
+            "duration": 368
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 6, 'modular': '删除监控点', 'method': 'delete', 'url': 'http://172.16.1.129:9088/camera', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '删除已添加监控点', 'param': \"\\n    \\n(\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#update_name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null,\"timestamp\":\"2020-04-09 14:43:41:209\"}'}"
+          ]
+        }
+      ],
+      "uid": "5aea1b4e8f377d810158ec749470acac"
+    },
+    {
+      "name": "实时流添加",
+      "children": [
+        {
+          "name": "登录接口正常验证",
+          "uid": "1d0aecdad2a70950",
+          "parentUid": "325f3aeac711c50a93b8b75832b15f22",
+          "status": "passed",
+          "time": {
+            "start": 1589782289116,
+            "stop": 1589782289316,
+            "duration": 200
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': 'http://172.16.1.129:9088/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.129:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null}'}"
+          ]
+        },
+        {
+          "name": "新增监控点（实时流）",
+          "uid": "8e02c49ca9fd9fac",
+          "parentUid": "325f3aeac711c50a93b8b75832b15f22",
+          "status": "passed",
+          "time": {
+            "start": 1589782289832,
+            "stop": 1589782290075,
+            "duration": 243
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点（实时流）', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":1,\"latitude\":22.55063637941823,\"longitude\":114.05105004186606,\"url\":\"rtsp://172.16.1.76:1554/yongdu.mp4\",\"sceneId\":#sceneId#,\"direction\":\"南往北\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "添加实时流任务",
+          "uid": "d898a0ef64086bfd",
+          "parentUid": "325f3aeac711c50a93b8b75832b15f22",
+          "status": "passed",
+          "time": {
+            "start": 1589782290590,
+            "stop": 1589782291742,
+            "duration": 1152
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 3, 'modular': '添加实时流任务', 'method': 'post', 'url': 'http://172.16.1.129:9088/task/addTask', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/plain, */*',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Content-Type': 'application/json;charset=UTF-8',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '添加实时流任务', 'param': '{\"serialnumber\":null,\"fromType\":1,\"cameraId\":#cameraId#,\"picture\":\"data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjYwMCIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNzU5IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ib3ZlcmZsb3c6IGhpZGRlbjsgcG9zaXRpb246IHJlbGF0aXZlOyBsZWZ0OiAtMC41cHg7IHRvcDogLTAuNDUzMTI1cHg7Ij48ZGVzYyBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyI+Q3JlYXRlZCB3aXRoIFJhcGhhw6tsIDIuMy4wPC9kZXNjPjxkZWZzIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7Ij48L2RlZnM+PGltYWdlIHg9IjAiIHk9IjAiIHdpZHRoPSI3NTkiIGhlaWdodD0iNjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bGluazpocmVmPSJodHRwOi8vMTcyLjE2LjEuMTA3OjgwODEvc25hcHNob3QvY25SemNEb3ZMekUzTWk0eE5pNHhMamMyT2pFMU5qUXZlVzl1WjJSMUxtMXdOQT09LmpwZz8yMDIwMDQyNzEwMTMwMSIgc3R5bGU9Ii13ZWJraXQtdGFwLWhpZ2hsaWdodC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwKTsiPjwvaW1hZ2U+PHBhdGggZmlsbD0iI2ZmMmUyZSIgc3Ryb2tlPSIjZmYyZTJlIiBkPSJNMTIuMDAwMDAyNTE5OTk5OTk5LDI0NC45OTk5OThMMjQyLjk5OTk5NzksNzMuMDAwMDAyMDAwMDAwMDFMMjgxLjAwMDAwMDgyLDc5LjAwMDAwMjAwMDAwMDAxTDY5Ljk5OTk5Njk5LDMzNC4wMDAwMDJMNjkuOTk5OTk2OTksMzM0LjAwMDAwMloiIGZpbGwtb3BhY2l0eT0iMC4zIiBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyBmaWxsLW9wYWNpdHk6IDAuMzsgcG9pbnRlci1ldmVudHM6IG5vbmU7Ij48L3BhdGg+PHBhdGggZmlsbD0iIzMzY2ZmZiIgc3Ryb2tlPSIjMzNjZmZmIiBkPSJNOTguMDAwMDAwMzQwMDAwMDEsMzM2LjAwMDAwMDAwMDAwMDA2TDI5My4wMDAwMDMzNDAwMDAwMyw3OS45OTk5OThMMzQwLjAwMDAwMDU2LDg0LjAwMDAwMDAwMDAwMDAxTDI1NC4wMDAwMDI3Mzk5OTk5OSw0MzkuOTk5OTk4WiIgZmlsbC1vcGFjaXR5PSIwLjMiIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7IGZpbGwtb3BhY2l0eTogMC4zOyBwb2ludGVyLWV2ZW50czogbm9uZTsiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmYyZTJlIiBzdHJva2U9IiNmZjJlMmUiIGQ9Ik0xMTMuMDAwMDAzNDkwMDAwMDEsMjE2TDE2Mi4wMDAwMDM2NiwxNzIuMDAwMDAyWiIgZmlsbC1vcGFjaXR5PSIwLjMiIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7IGZpbGwtb3BhY2l0eTogMC4zOyBwb2ludGVyLWV2ZW50czogbm9uZTsiPjwvcGF0aD48cGF0aCBmaWxsPSIjMzNjZmZmIiBzdHJva2U9IiMzM2NmZmYiIGQ9Ik0yMzguOTk5OTk5NTksMjM4LjAwMDAwMkwyNzEuMDAwMDAxMjUsMTc4LjAwMDAwMjAwMDAwMDAyWiIgZmlsbC1vcGFjaXR5PSIwLjMiIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7IGZpbGwtb3BhY2l0eTogMC4zOyBwb2ludGVyLWV2ZW50czogbm9uZTsiPjwvcGF0aD48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZjJlMmUiIGQ9Ik04NS45OTk5OTc4MiwzMjguOTk5OTk3OTk5OTk5OTVMMjg0Ljk5OTk5OTEzLDg1LjAwMDAwMiIgZmlsbC1vcGFjaXR5PSIwIiBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyBmaWxsLW9wYWNpdHk6IDA7IHBvaW50ZXItZXZlbnRzOiBub25lOyI+PC9wYXRoPjwvc3ZnPg==\",\"url\":\"http://172.16.1.107:8081/snapshot/cnRzcDovLzE3Mi4xNi4xLjc2OjE1NjQveW9uZ2R1Lm1wNA==.jpg?20200427101301\",\"laneStatCurrentFlowInSec\":60,\"violatedAreas\":{\"stopTime\":15,\"areas\":[]},\"isCross\":false,\"hasSidewalk\":false,\"hasBikeLight\":true,\"sidewalk\":[],\"light\":[],\"shoulderRegion\":{\"areas\":[]},\"stopLine\":[],\"driveLine\":[],\"shieldAreas\":{\"areas\":[]},\"shuntIslandAreas\":{\"areas\":[]},\"areaEvent\":{\"areas\":[]},\"realChangingLines\":[{\"checked\":true,\"color\":\"#FF2E2E\",\"id\":\"201\",\"areas\":[{\"x\":0.11330698,\"y\":0.54833333},{\"x\":0.37549407,\"y\":0.14166667}]}],\"vehicleLanes\":[{\"number\":1,\"vehicleName\":\"\\\\u8F66\\\\u90531\",\"color\":\"#FF2E2E\",\"describe\":\"\",\"id\":\"1\",\"areas\":[{\"x\":0.01581028,\"y\":0.40833333},{\"x\":0.3201581,\"y\":0.12166667},{\"x\":0.37022398,\"y\":0.13166667},{\"x\":0.09222661,\"y\":0.55666667},{\"x\":0.09222661,\"y\":0.55666667}],\"driveDirection\":[1],\"carDirection\":1,\"type\":\"0\",\"creator\":\"vehicleIllegalCrossLane\"},{\"number\":2,\"vehicleName\":\"\\\\u8F66\\\\u90532\",\"color\":\"#33CFFF\",\"describe\":\"\",\"id\":\"2\",\"areas\":[{\"x\":0.12911726,\"y\":0.56},{\"x\":0.38603426,\"y\":0.13333333},{\"x\":0.44795784,\"y\":0.14},{\"x\":0.33465086,\"y\":0.73333333}],\"driveDirection\":[1],\"carDirection\":1,\"type\":\"0\",\"creator\":\"vehicleIllegalCrossLane\"}],\"velocityLines\":{\"length\":5,\"areas\":[{\"checked\":true,\"color\":\"#FF2E2E\",\"id\":\"101\",\"areas\":[{\"x\":0.14888011,\"y\":0.36},{\"x\":0.21343874,\"y\":0.28666667}]},{\"checked\":true,\"color\":\"#33CFFF\",\"id\":\"102\",\"areas\":[{\"x\":0.31488801,\"y\":0.39666667},{\"x\":0.35704875,\"y\":0.29666667}]}]},\"vehicleIntoForbidden\":[],\"backCar\":{\"vehicleLaneNumber\":[]},\"vehicleReverse\":{\"vehicleLaneNumber\":[]},\"nocarRoadBikeOnRoad\":{\"vehicleLaneNumber\":[]},\"labelbikeHumanOnRoad\":{\"vehicleLaneNumber\":[]},\"vehicleIllegalCrossLane\":{\"vehicleLaneNumber\":[1,2]},\"vehicleOnEmerLane\":{\"vehicleLaneNumber\":[]},\"nonSeatBelts\":{\"vehicleLaneNumber\":[]},\"drivingCall\":{\"vehicleLaneNumber\":[]},\"vehicleForbidden\":{\"vehicleLaneNumber\":[]},\"trafficEvents\":{\"vehicleLaneNumber\":[1,2]},\"roadEvent\":{\"vehicleLaneNumber\":[]},\"crossIllegalLane\":{\"vehicleLaneNumber\":[]},\"vehicleOnBusLane\":[],\"vehicleOccupyLane\":{\"vehicleLaneNumber\":[]},\"vehicleImpolitePed\":{\"vehicleLaneNumber\":[]},\"bikeReverse\":{\"vehicleLaneNumber\":[]},\"bikeNoHelmet\":{\"vehicleLaneNumber\":[]},\"bikeRedLight\":{\"vehicleLaneNumber\":[]},\"bikeAcrossRoad\":{\"vehicleLaneNumber\":[]},\"bikePersonAcrossRoad\":{\"vehicleLaneNumber\":[]},\"light_black\":{\"pushCycle\":5},\"nameplate\":{\"pushCycle\":24},\"fog\":{\"pushCycle\":5},\"fire\":{\"pushCycle\":5},\"knot\":{\"pushCycle\":5},\"roadblock\":{\"pushCycle\":24},\"pothole\":{\"pushCycle\":24},\"construction\":{\"pushCycle\":24},\"dispersion\":{\"pushCycle\":24},\"ponding\":{\"pushCycle\":5},\"accident_vv\":{\"pushCycle\":5},\"accident_vh\":{\"pushCycle\":5},\"accident_vb\":{\"pushCycle\":5},\"breakdown\":{\"pushCycle\":5,\"stopTime\":3},\"vehicleRedLight\":false,\"vehicleIllegalGuide\":false,\"vehicleStopOnZebra\":false,\"vehicleImpoliteLeft\":false,\"vehicleImpoliteRight\":false,\"vehicleTightTurn\":false,\"vehicleCrossRetention\":false,\"vehicleIllegalUturn\":false,\"slowColleagues\":{\"averageSpeedThreshold\":30,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"congestion\":{\"averageSpeedThreshold\":30,\"timeOccupancyThreshold\":0.5,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"laneOccupancyHigh\":{\"spaceOccupancyThreshold\":0.1,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"flowOverflow\":{\"vehicleFlowThreshold\":10,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"overflow\":{\"queueLength\":30,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"tabStatus\":{\"crossIllegalLane\":0,\"vehicleIllegalCrossLane\":2,\"vehicleOnEmerLane\":0,\"vehicleOnBusLane\":0,\"vehicleOccupyLane\":0,\"vehicleImpolitePed\":0,\"shoulderRegion\":0,\"vehicleIntoForbidden\":0,\"nonSeatBelts\":0,\"drivingCall\":0,\"backCar\":0,\"vehicleReverse\":0,\"vehicleForbidden\":0,\"violatedAreas\":0,\"shuntIslandAreas\":0,\"nocarRoadBikeOnRoad\":0,\"bikeNoHelmet\":0,\"bikeRedLight\":0,\"bikeReverse\":0,\"bikeAcrossRoad\":0,\"labelbikeHumanOnRoad\":0,\"humanRedLight\":0,\"bikePersonAcrossRoad\":0,\"trafficEvents\":2,\"flowEvent\":2,\"nameplate\":0,\"roadEvent\":0,\"areaEvent\":0,\"lightBlack\":0}}', 'sql': '{\"sql_2\":\"SELECT * from u2s_traffic.vsd_task_info WHERE serialnumber = #serialnumber#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "停止实时任务",
+          "uid": "2a946bececb988d5",
+          "parentUid": "325f3aeac711c50a93b8b75832b15f22",
+          "status": "passed",
+          "time": {
+            "start": 1589782292262,
+            "stop": 1589782312509,
+            "duration": 20247
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 4, 'modular': '停止实时任务', 'method': 'put', 'url': 'http://172.16.1.129:9088/task/stop', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '停止实时任务', 'param': '{\"serialnumberList\":[\"#serialnumber#\"]}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "启动实时任务",
+          "uid": "bccf0558ecb8cb3",
+          "parentUid": "325f3aeac711c50a93b8b75832b15f22",
+          "status": "passed",
+          "time": {
+            "start": 1589782313025,
+            "stop": 1589782333284,
+            "duration": 20259
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 5, 'modular': '开启实时任务', 'method': 'put', 'url': 'http://172.16.1.129:9088/task/start', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '启动实时任务', 'param': '{\"serialnumberList\":[\"#serialnumber#\"]}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "分页查询实时流结构化数据",
+          "uid": "508d845622bb47e5",
+          "parentUid": "325f3aeac711c50a93b8b75832b15f22",
+          "status": "passed",
+          "time": {
+            "start": 1589782333798,
+            "stop": 1589782334013,
+            "duration": 215
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 6, 'modular': '分页查询', 'method': 'post', 'url': 'http://172.16.1.129:9088/objext/page', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询实时流结构化数据', 'param': '{ \"commonReq\": { \"#cameraId#\": [ 1562225808222 ], \"ctrlUnitFileIdList\": [], \"endTime\": \"2020-12-31 06:15:27\", \"objType\": 0, \"order\": \"string\", \"pageNo\": 0, \"pageSize\": 0, \"startTime\": \"2020-04-21 06:15:27\" }, \"motorVehiclesReq\": { \"calling\": 0, \"hasDanger\": 0, \"laneNo\": 0, \"plateClass\": 0, \"plateColorList\": [ 0 ], \"plateNo\": \"string\", \"safetyBelt\": 0, \"vehicleBrand\": \"string\", \"vehicleClass\": \"string\", \"vehicleColorList\": [ 0 ] }, \"nonMotorVehiclesReq\": { \"age\": 0, \"bikeGenre\": 0, \"enterprise\": 0, \"hasPlate\": 0, \"helmet\": 0, \"helmetColorTagList\": [ 0 ], \"sex\": 0, \"socialAttribute\": 0, \"umbrella\": 0, \"upcolorTag1List\": [ 0 ], \"wheels\": 0 }, \"personReq\": { \"age\": 0, \"angle\": 0, \"bag\": 0, \"genderCode\": 0, \"lowcolorTag1List\": [ 0 ], \"upcolorTag1List\": [ 0 ] }}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "机动车结构化实时统计",
+          "uid": "b3651e3b1934c9c9",
+          "parentUid": "325f3aeac711c50a93b8b75832b15f22",
+          "status": "passed",
+          "time": {
+            "start": 1589782334532,
+            "stop": 1589782334809,
+            "duration": 277
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 7, 'modular': '结构化实时统计', 'method': 'get', 'url': 'http://172.16.1.129:9088/objext/motorVehicle/realTime/count?cameraId=#cameraId#&startTime=2019-05-15%2020%3A38%3A14', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '机动车结构化实时统计', 'param': \"'\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "删除实时流(批量)",
+          "uid": "e0072cb610256242",
+          "parentUid": "325f3aeac711c50a93b8b75832b15f22",
+          "status": "passed",
+          "time": {
+            "start": 1589782335321,
+            "stop": 1589782340731,
+            "duration": 5410
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 8, 'modular': '删除任务', 'method': 'delete', 'url': 'http://172.16.1.129:9088/task/batchDelete', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Referer': 'http://172.16.1.129:9088/vsdtask/taskManagement?returnFlag=1',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'If-Modified-Since': 'Thu, 02 Apr 2020 06:53:49 GMT',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n'Content-Type': 'application/json;charset=UTF-8'\\n}\", 'title': '删除实时流(批量)', 'param': '{\"serialnumberList\":[\"#serialnumber#\"]}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "删除已添加监控点",
+          "uid": "cdc1f8f7b5addfb6",
+          "parentUid": "325f3aeac711c50a93b8b75832b15f22",
+          "status": "passed",
+          "time": {
+            "start": 1589782341246,
+            "stop": 1589782341520,
+            "duration": 274
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 9, 'modular': '删除监控点', 'method': 'delete', 'url': 'http://172.16.1.129:9088/camera', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n\\n}\", 'title': '删除已添加监控点', 'param': \"\\n    \\n(\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        }
+      ],
+      "uid": "325f3aeac711c50a93b8b75832b15f22"
+    },
+    {
+      "name": "各种查询任务接口",
+      "children": [
+        {
+          "name": "登录接口正常验证",
+          "uid": "8386f2361659cc11",
+          "parentUid": "2c002240e22129aa9b6eec747815af91",
+          "status": "passed",
+          "time": {
+            "start": 1589782341534,
+            "stop": 1589782344837,
+            "duration": 3303
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': 'http://172.16.1.129:9088/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.129:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null}'}"
+          ]
+        },
+        {
+          "name": "分页查询离线任务",
+          "uid": "f76c70289080b52a",
+          "parentUid": "2c002240e22129aa9b6eec747815af91",
+          "status": "passed",
+          "time": {
+            "start": 1589782344849,
+            "stop": 1589782347692,
+            "duration": 2843
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 2, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/offLine/list', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询离线任务', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+          ]
+        },
+        {
+          "name": "分页查询实时任务",
+          "uid": "2bd0b2340c06126b",
+          "parentUid": "2c002240e22129aa9b6eec747815af91",
+          "status": "passed",
+          "time": {
+            "start": 1589782347706,
+            "stop": 1589782347909,
+            "duration": 203
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 3, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/realTime/list', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询实时任务', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+          ]
+        },
+        {
+          "name": "根据任务号查询任务配置",
+          "uid": "80164f6e24fed535",
+          "parentUid": "2c002240e22129aa9b6eec747815af91",
+          "status": "passed",
+          "time": {
+            "start": 1589782347922,
+            "stop": 1589782348077,
+            "duration": 155
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 4, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/query/#Max_serialnumber#', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '根据任务号查询任务配置', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+          ]
+        },
+        {
+          "name": "根据文件id查询任务配置",
+          "uid": "fba058bd0028b37d",
+          "parentUid": "2c002240e22129aa9b6eec747815af91",
+          "status": "passed",
+          "time": {
+            "start": 1589782348090,
+            "stop": 1589782348247,
+            "duration": 157
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 5, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/query/cameraFileId/1', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '根据文件id查询任务配置', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+          ]
+        },
+        {
+          "name": "根据点位id查询任务配置",
+          "uid": "64672faee760e88d",
+          "parentUid": "2c002240e22129aa9b6eec747815af91",
+          "status": "passed",
+          "time": {
+            "start": 1589782348259,
+            "stop": 1589782348550,
+            "duration": 291
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 6, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/query/cameraId/1', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '根据点位id查询任务配置', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+          ]
+        }
+      ],
+      "uid": "2c002240e22129aa9b6eec747815af91"
+    },
+    {
+      "name": "结构化查询",
+      "children": [
+        {
+          "name": "查询常量",
+          "uid": "f7a2eb756b6537c8",
+          "parentUid": "77f265b3af2ad272beccb0fe30bf760f",
+          "status": "passed",
+          "time": {
+            "start": 1589782348817,
+            "stop": 1589782348994,
+            "duration": 177
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 1, 'modular': '结构化', 'method': 'get', 'url': 'http://172.16.1.129:9088/objext/constants/list', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '查询常量', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\",\\n  \"msg\": \"\"}'}"
+          ]
+        },
+        {
+          "name": "查询机动车品牌",
+          "uid": "a6b924f9d10b45f3",
+          "parentUid": "77f265b3af2ad272beccb0fe30bf760f",
+          "status": "passed",
+          "time": {
+            "start": 1589782349152,
+            "stop": 1589782349307,
+            "duration": 155
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 2, 'modular': '结构化', 'method': 'get', 'url': 'http://172.16.1.129:9088/objext/constants/motorVehiclesBrand', 'header': \"{\\n    'accept': '*/*',\\n}\", 'title': '查询机动车品牌', 'param': \"(\\n    ('name', '宝马'),\\n)\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\",\\n  \"msg\": \"\"}'}"
+          ]
+        },
+        {
+          "name": "excel导出功能",
+          "uid": "a9354d5ad594fd06",
+          "parentUid": "77f265b3af2ad272beccb0fe30bf760f",
+          "status": "passed",
+          "time": {
+            "start": 1589782349321,
+            "stop": 1589782349456,
+            "duration": 135
+          },
+          "flaky": false,
+          "parameters": []
+        }
+      ],
+      "uid": "77f265b3af2ad272beccb0fe30bf760f"
+    },
+    {
+      "name": "excel导出",
+      "children": [
+        {
+          "name": "excel导出功能",
+          "uid": "a9354d5ad594fd06",
+          "parentUid": "fb70e450600ba208a0dd8e1859b5c52e",
+          "status": "passed",
+          "time": {
+            "start": 1589782349321,
+            "stop": 1589782349456,
+            "duration": 135
+          },
+          "flaky": false,
+          "parameters": []
+        }
+      ],
+      "uid": "fb70e450600ba208a0dd8e1859b5c52e"
+    },
+    {
+      "name": "上传视频",
+      "children": [
+        {
+          "name": "登录接口正常验证",
+          "uid": "34155a375f78474b",
+          "parentUid": "a698adee99f9e573c429c980d5431679",
+          "status": "passed",
+          "time": {
+            "start": 1589782349464,
+            "stop": 1589782349653,
+            "duration": 189
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': 'http://172.16.1.129:9088/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.129:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null}'}"
+          ]
+        },
+        {
+          "name": "新增监控点",
+          "uid": "f8f8c1dae71717bb",
+          "parentUid": "a698adee99f9e573c429c980d5431679",
+          "status": "passed",
+          "time": {
+            "start": 1589782349665,
+            "stop": 1589782349940,
+            "duration": 275
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":#sceneId#,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "上传测试视频",
+          "uid": "45b8f107d8154671",
+          "parentUid": "a698adee99f9e573c429c980d5431679",
+          "status": "passed",
+          "time": {
+            "start": 1589782349951,
+            "stop": 1589782350634,
+            "duration": 683
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 3, 'modular': '上传视频', 'method': 'post', 'url': 'http://172.16.1.129:9088/ctrlUnitFile/addCameraMediaChucks', 'header': \" {\\n    'Connection': 'keep-alive'}\", 'title': '上传测试视频', 'param': '(\\n    {\\'chunks\\': \\'1\\',\\n    \\'chunk\\': \\'1\\',\\n    \\'tokenId\\': \\'0d149844-d6fe-4136-82d1-47ad10d2f66c\\',\\n    \\'id\\': \\'2lqyw4mzjou0000\\',\\n    \\'name\\': \\'test_video.mp4\\',\\n    \\'cameraId\\': \\'#cameraId#\\',\\n    \\'chunkNumber\\':\\'1\\',\\n    \\'currentChunkSize\\':\\'5639608\\',\\n    \\'totalSize\\':\\'5639608\\',\\n    \\'identifier\\':\\'5639608-test_videomp4\\',\\n    \\'filename\\':\\'test_video.mp4\\',\\n    \\'relativePath\\':\\'test_video.mp4\\',\\n    \\'totalChunks\\':\\'1\\',\\n    \\'videoType\\':\\'0\\',\\n    \\'entryTime\\': \\'2020-4-15 16:19:28\\'},{\"file\":open(r\\'D:\\\\test_video.mp4\\',\\'rb\\'),\"Content-Type\":\"application/octet-stream\",\"Content-Disposition\":\"form-data\",\"filename\":\"test_video.mp4\"}\\n)', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "删除测试视频",
+          "uid": "ea17e8ec52aa9b0c",
+          "parentUid": "a698adee99f9e573c429c980d5431679",
+          "status": "passed",
+          "time": {
+            "start": 1589782350647,
+            "stop": 1589782350893,
+            "duration": 246
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 4, 'modular': '删除视频', 'method': 'delete', 'url': 'http://172.16.1.129:9088/ctrlUnitFile', 'header': \"{'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}\", 'title': '删除测试视频', 'param': \"(\\n    ('ctrlUnitFileId', '#fileId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+          ]
+        },
+        {
+          "name": "删除已添加监控点",
+          "uid": "9b3b48ad8ad963fb",
+          "parentUid": "a698adee99f9e573c429c980d5431679",
+          "status": "passed",
+          "time": {
+            "start": 1589782350907,
+            "stop": 1589782351328,
+            "duration": 421
+          },
+          "flaky": false,
+          "parameters": [
+            "{'case_id': 5, 'modular': '删除监控点', 'method': 'delete', 'url': 'http://172.16.1.129:9088/camera', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '删除已添加监控点', 'param': \"\\n    \\n(\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null,\"timestamp\":\"2020-04-09 14:43:41:209\"}'}"
+          ]
+        }
+      ],
+      "uid": "a698adee99f9e573c429c980d5431679"
+    }
+  ]
+}

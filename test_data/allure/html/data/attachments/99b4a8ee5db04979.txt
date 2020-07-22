@@ -1,0 +1,8 @@
+INFO     Traffic:<string>:1 正在发起登录模块中的第1条用例:登录接口正常验证
+INFO     Traffic:<string>:1 测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+INFO     Traffic:<string>:1 post请求成功
+INFO     Traffic:<string>:1 测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-22 10:43:43:528'}
+INFO     Traffic:<string>:1 预期结果是：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None}
+INFO     Traffic:<string>:1 测试通过了
+INFO     Traffic:<string>:1 写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-22 10:43:43:528"}
+INFO     Traffic:<string>:1 写入result成功 ：pass

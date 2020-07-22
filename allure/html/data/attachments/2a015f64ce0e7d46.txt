@@ -1,0 +1,11 @@
+2020-05-18 14:11:28,045-INFO-Traffic：参数化的数据是：1562225808218
+2020-05-18 14:11:28,055-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-05-18 14:11:28,060-INFO-Traffic：测试数据是： (
+    ('cameraId', '1562225808218'),
+)
+2020-05-18 14:11:28,073-INFO-Traffic：get请求成功
+2020-05-18 14:11:28,076-INFO-Traffic：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': False, 'timestamp': '2020-05-18 14:11:29:378'}
+2020-05-18 14:11:28,079-INFO-Traffic：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-05-18 14:11:28,083-INFO-Traffic：测试通过了
+2020-05-18 14:11:28,138-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":false,"timestamp":"2020-05-18 14:11:29:378"}
+2020-05-18 14:11:28,142-INFO-Traffic：写入result成功 ：pass

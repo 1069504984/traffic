@@ -1,0 +1,17 @@
+INFO     Traffic:<string>:1 参数化的数据是：'测试test'
+INFO     Traffic:<string>:1 参数化的数据是：1562225808219
+INFO     Traffic:<string>:1 正在发起删除监控点模块中的第9条用例:删除已添加监控点
+INFO     Traffic:<string>:1 测试数据是：
+    
+(
+    ('cameraId', '1562225808219'),
+)
+INFO     Traffic:<string>:1 delete请求成功
+INFO     Traffic:<string>:1 数据库连接成功
+INFO     Traffic:<string>:1 数据库查询数据成功，返回数据为None
+INFO     Traffic:<string>:1 监控点删除成功
+INFO     Traffic:<string>:1 测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-05-18 14:12:22:665'}
+INFO     Traffic:<string>:1 预期结果是：{'code': 0, 'codeMsg': '成功'}
+INFO     Traffic:<string>:1 测试通过了
+INFO     Traffic:<string>:1 写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-05-18 14:12:22:665"}
+INFO     Traffic:<string>:1 写入result成功 ：pass

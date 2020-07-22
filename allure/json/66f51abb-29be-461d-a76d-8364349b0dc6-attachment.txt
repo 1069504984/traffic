@@ -1,0 +1,2 @@
+2020-05-18 14:12:29,378-INFO-Traffic：写入test_result成功 ：200
+2020-05-18 14:12:29,381-INFO-Traffic：写入result成功 ：pass

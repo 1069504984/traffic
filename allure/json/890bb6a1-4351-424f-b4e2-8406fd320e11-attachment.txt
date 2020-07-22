@@ -1,0 +1,5 @@
+{"sql_1":"SELECT id FROM u2s_traffic.camera WHERE name=#name#"}
+目前的param是{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":26,"direction":"111","crossingNumber":"111"}
+现在的sql是{"sql_1":"SELECT id FROM u2s_traffic.camera WHERE name='测试test'"}
+{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-05-18 14:12:31:066"}
+删除的camemaId:1562225808219

@@ -1,0 +1,9 @@
+INFO     Traffic:<string>:1 参数化的数据是：1562225808219
+INFO     Traffic:<string>:1 正在发起结构化实时统计模块中的第7条用例:机动车结构化实时统计
+INFO     Traffic:<string>:1 测试数据是：'
+INFO     Traffic:<string>:1 get请求成功
+INFO     Traffic:<string>:1 测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': {'motorVehicleCount': 0, 'nextStartTime': '2019-05-15 20:38:14'}, 'timestamp': '2020-05-18 14:12:15:867'}
+INFO     Traffic:<string>:1 预期结果是：{'code': 0, 'codeMsg': '成功'}
+INFO     Traffic:<string>:1 测试通过了
+INFO     Traffic:<string>:1 写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":{"motorVehicleCount":0,"nextStartTime":"2019-05-15 20:38:14"},"timestamp":"2020-05-18 14:12:15:867"}
+INFO     Traffic:<string>:1 写入result成功 ：pass

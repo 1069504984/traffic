@@ -1,0 +1,128 @@
+{
+  "uid": "fc988e6ac211cd36",
+  "name": "删除任务",
+  "fullName": "test_data.test_add_task.TestCases#test_001",
+  "historyId": "1d38135fded6ca0b1a61121f4faeab97",
+  "time": {
+    "start": 1589782285396,
+    "stop": 1589782285922,
+    "duration": 526
+  },
+  "description": "删除任务",
+  "descriptionHtml": "<p>删除任务</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [
+    {
+      "name": "setUp",
+      "time": {
+        "start": 1589782284895,
+        "stop": 1589782285396,
+        "duration": 501
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "testStage": {
+    "description": "删除任务",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "a176dd0679e3766f",
+        "name": "log",
+        "source": "a176dd0679e3766f.txt",
+        "type": "text/plain",
+        "size": 796
+      },
+      {
+        "uid": "9f505b981b5ba0f",
+        "name": "stdout",
+        "source": "9f505b981b5ba0f.txt",
+        "type": "text/plain",
+        "size": 121
+      },
+      {
+        "uid": "39af9027831e8b66",
+        "name": "stderr",
+        "source": "39af9027831e8b66.txt",
+        "type": "text/plain",
+        "size": 907
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "结构化任务添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_add_task"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 11, 'modular': '任务管理', 'method': 'delete', 'url': 'http://172.16.1.129:9088/task/query/delete/#serialnumber#', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Referer': 'http://172.16.1.129:9088/vsdtask/taskManagement?returnFlag=1',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'If-Modified-Since': 'Thu, 02 Apr 2020 06:53:49 GMT',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n'Content-Type': 'application/json;charset=UTF-8'\\n}\", 'title': '删除任务', 'param': \"'\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "fc988e6ac211cd36.json",
+  "parameterValues": [
+    "{'case_id': 11, 'modular': '任务管理', 'method': 'delete', 'url': 'http://172.16.1.129:9088/task/query/delete/#serialnumber#', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Referer': 'http://172.16.1.129:9088/vsdtask/taskManagement?returnFlag=1',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'If-Modified-Since': 'Thu, 02 Apr 2020 06:53:49 GMT',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n'Content-Type': 'application/json;charset=UTF-8'\\n}\", 'title': '删除任务', 'param': \"'\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+  ]
+}

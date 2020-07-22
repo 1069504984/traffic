@@ -1,0 +1,72 @@
+{
+  "name": "查询常量",
+  "status": "passed",
+  "description": "查询常量",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "3c4e124f-6511-4f80-802a-acae152707d2-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "4d3f8a1a-1738-45aa-b132-dfa3a78a64bc-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "9d9b4c42-04ab-471a-8588-3ee8fa9eac21-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 1, 'modular': '结构化', 'method': 'get', 'url': 'http://172.16.1.129:9088/objext/constants/list', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '查询常量', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\",\\n  \"msg\": \"\"}'}"
+    }
+  ],
+  "start": 1589782348817,
+  "stop": 1589782348994,
+  "uuid": "fd5f96f6-e1e0-4d85-ab96-8fccc999c87a",
+  "historyId": "b8841f1ee8f9d4d3267504700c032710",
+  "testCaseId": "4694c24f6529f19ac74c049660ade6e9",
+  "fullName": "test_data.test_structuring.TestCases#test_list",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "结构化查询"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_structuring"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_structuring"
+    }
+  ]
+}

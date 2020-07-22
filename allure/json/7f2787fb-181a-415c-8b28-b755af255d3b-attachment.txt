@@ -1,0 +1,11 @@
+2020-05-18 14:12:30,650-INFO-Traffic：参数化的数据是：1627447189
+2020-05-18 14:12:30,653-INFO-Traffic：正在发起删除视频模块中的第4条用例:删除测试视频
+2020-05-18 14:12:30,657-INFO-Traffic：测试数据是：(
+    ('ctrlUnitFileId', '1627447189'),
+)
+2020-05-18 14:12:30,748-INFO-Traffic：delete请求成功
+2020-05-18 14:12:30,752-INFO-Traffic：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-05-18 14:12:32:054'}
+2020-05-18 14:12:30,754-INFO-Traffic：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-05-18 14:12:30,756-INFO-Traffic：测试通过了
+2020-05-18 14:12:30,807-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-05-18 14:12:32:054"}
+2020-05-18 14:12:30,812-INFO-Traffic：写入result成功 ：pass

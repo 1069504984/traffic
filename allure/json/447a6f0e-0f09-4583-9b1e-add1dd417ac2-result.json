@@ -1,0 +1,72 @@
+{
+  "name": "分页查询实时流结构化数据",
+  "status": "passed",
+  "description": "分页查询实时流结构化数据",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "d1abaadc-438f-41fb-b0f2-39357b0199d7-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "81019bec-c274-487d-9da8-2b9726c8846b-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "b38a6533-9133-4c21-a2d6-4d3c6f7c6b0a-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 6, 'modular': '分页查询', 'method': 'post', 'url': 'http://172.16.1.129:9088/objext/page', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询实时流结构化数据', 'param': '{ \"commonReq\": { \"#cameraId#\": [ 1562225808222 ], \"ctrlUnitFileIdList\": [], \"endTime\": \"2020-12-31 06:15:27\", \"objType\": 0, \"order\": \"string\", \"pageNo\": 0, \"pageSize\": 0, \"startTime\": \"2020-04-21 06:15:27\" }, \"motorVehiclesReq\": { \"calling\": 0, \"hasDanger\": 0, \"laneNo\": 0, \"plateClass\": 0, \"plateColorList\": [ 0 ], \"plateNo\": \"string\", \"safetyBelt\": 0, \"vehicleBrand\": \"string\", \"vehicleClass\": \"string\", \"vehicleColorList\": [ 0 ] }, \"nonMotorVehiclesReq\": { \"age\": 0, \"bikeGenre\": 0, \"enterprise\": 0, \"hasPlate\": 0, \"helmet\": 0, \"helmetColorTagList\": [ 0 ], \"sex\": 0, \"socialAttribute\": 0, \"umbrella\": 0, \"upcolorTag1List\": [ 0 ], \"wheels\": 0 }, \"personReq\": { \"age\": 0, \"angle\": 0, \"bag\": 0, \"genderCode\": 0, \"lowcolorTag1List\": [ 0 ], \"upcolorTag1List\": [ 0 ] }}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "start": 1589782333798,
+  "stop": 1589782334013,
+  "uuid": "1d383747-49ab-464e-ba0e-9d101a0d61e5",
+  "historyId": "444746c40ebd4bff7f86721c6b53bb9f",
+  "testCaseId": "5a5bb8091b58b47ff52652e366c77814",
+  "fullName": "test_data.test_online_video.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "实时流添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_online_video"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_online_video"
+    }
+  ]
+}

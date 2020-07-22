@@ -1,0 +1,64 @@
+{
+  "name": "excel导出功能",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "d0f6507c-e299-477b-9a38-fcc25811d71f-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "66f51abb-29be-461d-a76d-8364349b0dc6-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1589782349321,
+  "stop": 1589782349456,
+  "uuid": "7dcd2f19-e96b-404b-8924-ef04d0246b61",
+  "historyId": "2094fd906076c9af04e2a4002ff5b915",
+  "testCaseId": "47668e884b63a0fcff9a9059821da535",
+  "fullName": "test_data.test_structuring.TestCases#test_export_excel",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "excel导出"
+    },
+    {
+      "name": "feature",
+      "value": "结构化查询"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_structuring"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_structuring"
+    }
+  ]
+}

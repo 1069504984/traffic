@@ -1,0 +1,8 @@
+休眠0.5秒
+从数据库获取的参数化sql:{"sql_1":"SELECT id FROM u2s_traffic.camera WHERE name='测试test'"}
+目前的param是
+    
+(
+    ('cameraId', '1562225808219'),
+)
+{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-05-18 14:12:22:665"}

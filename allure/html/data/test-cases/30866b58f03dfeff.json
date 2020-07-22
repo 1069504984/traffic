@@ -1,0 +1,111 @@
+{
+  "uid": "30866b58f03dfeff",
+  "name": "添加监控点重复",
+  "fullName": "test_data.test_camera.TestCases#test_001",
+  "historyId": "909647c59e6f3d00b292316b8ab84c52",
+  "time": {
+    "start": 1589782287369,
+    "stop": 1589782287549,
+    "duration": 180
+  },
+  "description": "添加监控点重复",
+  "descriptionHtml": "<p>添加监控点重复</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [],
+  "testStage": {
+    "description": "添加监控点重复",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "7656555d86de8618",
+        "name": "log",
+        "source": "7656555d86de8618.txt",
+        "type": "text/plain",
+        "size": 1401
+      },
+      {
+        "uid": "ea0d8b31920f539e",
+        "name": "stdout",
+        "source": "ea0d8b31920f539e.txt",
+        "type": "text/plain",
+        "size": 532
+      },
+      {
+        "uid": "ff7b3be77361fcaa",
+        "name": "stderr",
+        "source": "ff7b3be77361fcaa.txt",
+        "type": "text/plain",
+        "size": 1556
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "监控点"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_camera"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_camera"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 3, 'modular': '重复添加监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '添加监控点重复', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":25,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "30866b58f03dfeff.json",
+  "parameterValues": [
+    "{'case_id': 3, 'modular': '重复添加监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '添加监控点重复', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":25,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}'}"
+  ]
+}

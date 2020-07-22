@@ -1,0 +1,10 @@
+2020-05-18 14:11:21,327-INFO-Traffic：参数化的数据是：1589782281014053569
+2020-05-18 14:11:21,330-INFO-Traffic：参数化的数据是：1589782281014053569
+2020-05-18 14:11:21,332-INFO-Traffic：正在发起任务管理模块中的第5条用例:查询任务进度
+2020-05-18 14:11:21,335-INFO-Traffic：测试数据是：'
+2020-05-18 14:11:21,358-INFO-Traffic：get请求成功
+2020-05-18 14:11:21,360-INFO-Traffic：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': [{'cameraId': '1562225808217', 'createTime': '2020-05-18 14:11:21', 'endTime': '', 'progress': 0, 'serialnumber': '1589782281014053569', 'slaveip': '172.16.1.129', 'status': 1, 'type': 'traffic'}], 'timestamp': '2020-05-18 14:11:22:661'}
+2020-05-18 14:11:21,363-INFO-Traffic：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-05-18 14:11:21,365-INFO-Traffic：测试通过了
+2020-05-18 14:11:21,417-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":[{"cameraId":"1562225808217","createTime":"2020-05-18 14:11:21","endTime":"","progress":0,"serialnumber":"1589782281014053569","slaveip":"172.16.1.129","status":1,"type":"traffic"}],"timestamp":"2020-05-18 14:11:22:661"}
+2020-05-18 14:11:21,420-INFO-Traffic：写入result成功 ：pass

@@ -1,0 +1,11 @@
+CRITICAL Traffic:my_log.py:37 参数化的数据是：8397597619
+CRITICAL Traffic:my_log.py:37 正在发起删除视频模块中的第4条用例:删除测试视频
+CRITICAL Traffic:my_log.py:37 测试数据是：(
+    ('ctrlUnitFileId', '8397597619'),
+)
+CRITICAL Traffic:my_log.py:37 delete请求成功
+CRITICAL Traffic:my_log.py:37 测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-22 14:34:40:158'}
+CRITICAL Traffic:my_log.py:37 预期结果是：{'code': 0, 'codeMsg': '成功'}
+CRITICAL Traffic:my_log.py:37 测试通过了
+CRITICAL Traffic:my_log.py:37 写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-22 14:34:40:158"}
+CRITICAL Traffic:my_log.py:37 写入result成功 ：pass

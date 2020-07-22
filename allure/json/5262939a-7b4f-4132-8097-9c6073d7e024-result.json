@@ -1,0 +1,72 @@
+{
+  "name": "根据点位id查询任务配置",
+  "status": "passed",
+  "description": "根据点位id查询任务配置",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "3f3f6ca3-dfcb-4d98-9886-00abaa91e497-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "71a5dc2e-85bf-4db8-9ada-221e7d249bb7-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "b75bf3c9-81eb-4b30-b8b0-06ec80e6f8be-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 6, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/query/cameraId/1', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '根据点位id查询任务配置', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+    }
+  ],
+  "start": 1589782348259,
+  "stop": 1589782348550,
+  "uuid": "7537c4b2-edaa-437c-a1ad-01555a88e6dc",
+  "historyId": "bf77d193fb82eb082de48f75e55ae73d",
+  "testCaseId": "11663df5c4546d7c7c62290ff0c63522",
+  "fullName": "test_data.test_query_task.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "各种查询任务接口"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_query_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_query_task"
+    }
+  ]
+}

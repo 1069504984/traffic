@@ -1,0 +1,72 @@
+{
+  "name": "新增监控点",
+  "status": "passed",
+  "description": "新增监控点",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "24425094-52d0-4230-b521-75990256f641-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "890bb6a1-4351-424f-b4e2-8406fd320e11-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "7571e353-2457-4c05-9d84-8014cbbfd8bb-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":#sceneId#,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "start": 1589782349665,
+  "stop": 1589782349940,
+  "uuid": "ba2d2fdd-abd9-418b-8c75-1a8419ba62f0",
+  "historyId": "e12d75a1734947cf93b2ab68fadca0da",
+  "testCaseId": "02f5b42bfa04fd8ed28003dbeba0a102",
+  "fullName": "test_data.test_video.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "上传视频"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_video"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_video"
+    }
+  ]
+}

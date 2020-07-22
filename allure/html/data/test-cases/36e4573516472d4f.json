@@ -1,0 +1,128 @@
+{
+  "uid": "36e4573516472d4f",
+  "name": "分页查询",
+  "fullName": "test_data.test_add_task.TestCases#test_001",
+  "historyId": "eed5f010694e5f7e5ba9bdad3230c85e",
+  "time": {
+    "start": 1589782282715,
+    "stop": 1589782282875,
+    "duration": 160
+  },
+  "description": "分页查询",
+  "descriptionHtml": "<p>分页查询</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [
+    {
+      "name": "setUp",
+      "time": {
+        "start": 1589782282213,
+        "stop": 1589782282714,
+        "duration": 501
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "testStage": {
+    "description": "分页查询",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "15c51728345a2d07",
+        "name": "log",
+        "source": "15c51728345a2d07.txt",
+        "type": "text/plain",
+        "size": 1688
+      },
+      {
+        "uid": "f7271db840584cfd",
+        "name": "stdout",
+        "source": "f7271db840584cfd.txt",
+        "type": "text/plain",
+        "size": 616
+      },
+      {
+        "uid": "f853a2af53b34cfb",
+        "name": "stderr",
+        "source": "f853a2af53b34cfb.txt",
+        "type": "text/plain",
+        "size": 1777
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "结构化任务添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_add_task"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 7, 'modular': '离线文件', 'method': 'get', 'url': 'http://172.16.1.129:9088/ctrlUnitFile/page?fileName=test_video.mp4&pageNum=1&pageSize=1', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "36e4573516472d4f.json",
+  "parameterValues": [
+    "{'case_id': 7, 'modular': '离线文件', 'method': 'get', 'url': 'http://172.16.1.129:9088/ctrlUnitFile/page?fileName=test_video.mp4&pageNum=1&pageSize=1', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '分页查询', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+  ]
+}

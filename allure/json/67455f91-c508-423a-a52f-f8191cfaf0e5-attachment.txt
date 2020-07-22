@@ -1,0 +1,11 @@
+INFO     Traffic:<string>:1 post请求成功
+INFO     Traffic:<string>:1 正在发起结构化模块中的第2条用例:查询机动车品牌
+INFO     Traffic:<string>:1 测试数据是：(
+    ('name', '宝马'),
+)
+INFO     Traffic:<string>:1 get请求成功
+INFO     Traffic:<string>:1 测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': [{'id': 246, 'objType': '2', 'constantsType': 'motorVehiclesBrand', 'constantsTypeDesc': '车辆品牌', 'code': '宝马', 'value': '宝马', 'extendField1': '', 'showFlag': 1, 'updateTime': 1584424949000, 'createTime': 1584424949000}], 'timestamp': '2020-05-18 14:12:30:473'}
+INFO     Traffic:<string>:1 预期结果是：{'code': 0, 'codeMsg': '成功', 'msg': ''}
+INFO     Traffic:<string>:1 测试通过了
+INFO     Traffic:<string>:1 写入test_result成功 ：成功
+INFO     Traffic:<string>:1 写入result成功 ：pass

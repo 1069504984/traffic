@@ -1,0 +1,72 @@
+{
+  "name": "新增监控点（实时流）",
+  "status": "passed",
+  "description": "新增监控点（实时流）",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "ff2c2a84-65eb-40c9-8308-94d69230168d-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "37abfb0f-cec2-4f58-96fc-a0fa789f0ac7-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "c45f30f7-4801-4066-af1d-1d16fa754ca1-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.129:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点（实时流）', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":1,\"latitude\":22.55063637941823,\"longitude\":114.05105004186606,\"url\":\"rtsp://172.16.1.76:1554/yongdu.mp4\",\"sceneId\":#sceneId#,\"direction\":\"南往北\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "start": 1589782289832,
+  "stop": 1589782290075,
+  "uuid": "e176396b-a769-4584-a442-8b62b4c79744",
+  "historyId": "e48e6cea1b98ec65878a923e4ba85f79",
+  "testCaseId": "5a5bb8091b58b47ff52652e366c77814",
+  "fullName": "test_data.test_online_video.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "实时流添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_online_video"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_online_video"
+    }
+  ]
+}

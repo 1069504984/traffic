@@ -1,0 +1,128 @@
+{
+  "uid": "d898a0ef64086bfd",
+  "name": "添加实时流任务",
+  "fullName": "test_data.test_online_video.TestCases#test_001",
+  "historyId": "3e393d285d44c861457f00092d4cd09e",
+  "time": {
+    "start": 1589782290590,
+    "stop": 1589782291742,
+    "duration": 1152
+  },
+  "description": "添加实时流任务",
+  "descriptionHtml": "<p>添加实时流任务</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [
+    {
+      "name": "setUp",
+      "time": {
+        "start": 1589782290088,
+        "stop": 1589782290589,
+        "duration": 501
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "testStage": {
+    "description": "添加实时流任务",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "375827588d7f5f6d",
+        "name": "log",
+        "source": "375827588d7f5f6d.txt",
+        "type": "text/plain",
+        "size": 7591
+      },
+      {
+        "uid": "e9054b4b81ad3fe5",
+        "name": "stdout",
+        "source": "e9054b4b81ad3fe5.txt",
+        "type": "text/plain",
+        "size": 6870
+      },
+      {
+        "uid": "8496a76197e0df35",
+        "name": "stderr",
+        "source": "8496a76197e0df35.txt",
+        "type": "text/plain",
+        "size": 7735
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "实时流添加"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_online_video"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_online_video"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 3, 'modular': '添加实时流任务', 'method': 'post', 'url': 'http://172.16.1.129:9088/task/addTask', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/plain, */*',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Content-Type': 'application/json;charset=UTF-8',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '添加实时流任务', 'param': '{\"serialnumber\":null,\"fromType\":1,\"cameraId\":#cameraId#,\"picture\":\"data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjYwMCIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNzU5IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ib3ZlcmZsb3c6IGhpZGRlbjsgcG9zaXRpb246IHJlbGF0aXZlOyBsZWZ0OiAtMC41cHg7IHRvcDogLTAuNDUzMTI1cHg7Ij48ZGVzYyBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyI+Q3JlYXRlZCB3aXRoIFJhcGhhw6tsIDIuMy4wPC9kZXNjPjxkZWZzIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7Ij48L2RlZnM+PGltYWdlIHg9IjAiIHk9IjAiIHdpZHRoPSI3NTkiIGhlaWdodD0iNjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bGluazpocmVmPSJodHRwOi8vMTcyLjE2LjEuMTA3OjgwODEvc25hcHNob3QvY25SemNEb3ZMekUzTWk0eE5pNHhMamMyT2pFMU5qUXZlVzl1WjJSMUxtMXdOQT09LmpwZz8yMDIwMDQyNzEwMTMwMSIgc3R5bGU9Ii13ZWJraXQtdGFwLWhpZ2hsaWdodC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwKTsiPjwvaW1hZ2U+PHBhdGggZmlsbD0iI2ZmMmUyZSIgc3Ryb2tlPSIjZmYyZTJlIiBkPSJNMTIuMDAwMDAyNTE5OTk5OTk5LDI0NC45OTk5OThMMjQyLjk5OTk5NzksNzMuMDAwMDAyMDAwMDAwMDFMMjgxLjAwMDAwMDgyLDc5LjAwMDAwMjAwMDAwMDAxTDY5Ljk5OTk5Njk5LDMzNC4wMDAwMDJMNjkuOTk5OTk2OTksMzM0LjAwMDAwMloiIGZpbGwtb3BhY2l0eT0iMC4zIiBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyBmaWxsLW9wYWNpdHk6IDAuMzsgcG9pbnRlci1ldmVudHM6IG5vbmU7Ij48L3BhdGg+PHBhdGggZmlsbD0iIzMzY2ZmZiIgc3Ryb2tlPSIjMzNjZmZmIiBkPSJNOTguMDAwMDAwMzQwMDAwMDEsMzM2LjAwMDAwMDAwMDAwMDA2TDI5My4wMDAwMDMzNDAwMDAwMyw3OS45OTk5OThMMzQwLjAwMDAwMDU2LDg0LjAwMDAwMDAwMDAwMDAxTDI1NC4wMDAwMDI3Mzk5OTk5OSw0MzkuOTk5OTk4WiIgZmlsbC1vcGFjaXR5PSIwLjMiIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7IGZpbGwtb3BhY2l0eTogMC4zOyBwb2ludGVyLWV2ZW50czogbm9uZTsiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmYyZTJlIiBzdHJva2U9IiNmZjJlMmUiIGQ9Ik0xMTMuMDAwMDAzNDkwMDAwMDEsMjE2TDE2Mi4wMDAwMDM2NiwxNzIuMDAwMDAyWiIgZmlsbC1vcGFjaXR5PSIwLjMiIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7IGZpbGwtb3BhY2l0eTogMC4zOyBwb2ludGVyLWV2ZW50czogbm9uZTsiPjwvcGF0aD48cGF0aCBmaWxsPSIjMzNjZmZmIiBzdHJva2U9IiMzM2NmZmYiIGQ9Ik0yMzguOTk5OTk5NTksMjM4LjAwMDAwMkwyNzEuMDAwMDAxMjUsMTc4LjAwMDAwMjAwMDAwMDAyWiIgZmlsbC1vcGFjaXR5PSIwLjMiIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7IGZpbGwtb3BhY2l0eTogMC4zOyBwb2ludGVyLWV2ZW50czogbm9uZTsiPjwvcGF0aD48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZjJlMmUiIGQ9Ik04NS45OTk5OTc4MiwzMjguOTk5OTk3OTk5OTk5OTVMMjg0Ljk5OTk5OTEzLDg1LjAwMDAwMiIgZmlsbC1vcGFjaXR5PSIwIiBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyBmaWxsLW9wYWNpdHk6IDA7IHBvaW50ZXItZXZlbnRzOiBub25lOyI+PC9wYXRoPjwvc3ZnPg==\",\"url\":\"http://172.16.1.107:8081/snapshot/cnRzcDovLzE3Mi4xNi4xLjc2OjE1NjQveW9uZ2R1Lm1wNA==.jpg?20200427101301\",\"laneStatCurrentFlowInSec\":60,\"violatedAreas\":{\"stopTime\":15,\"areas\":[]},\"isCross\":false,\"hasSidewalk\":false,\"hasBikeLight\":true,\"sidewalk\":[],\"light\":[],\"shoulderRegion\":{\"areas\":[]},\"stopLine\":[],\"driveLine\":[],\"shieldAreas\":{\"areas\":[]},\"shuntIslandAreas\":{\"areas\":[]},\"areaEvent\":{\"areas\":[]},\"realChangingLines\":[{\"checked\":true,\"color\":\"#FF2E2E\",\"id\":\"201\",\"areas\":[{\"x\":0.11330698,\"y\":0.54833333},{\"x\":0.37549407,\"y\":0.14166667}]}],\"vehicleLanes\":[{\"number\":1,\"vehicleName\":\"\\\\u8F66\\\\u90531\",\"color\":\"#FF2E2E\",\"describe\":\"\",\"id\":\"1\",\"areas\":[{\"x\":0.01581028,\"y\":0.40833333},{\"x\":0.3201581,\"y\":0.12166667},{\"x\":0.37022398,\"y\":0.13166667},{\"x\":0.09222661,\"y\":0.55666667},{\"x\":0.09222661,\"y\":0.55666667}],\"driveDirection\":[1],\"carDirection\":1,\"type\":\"0\",\"creator\":\"vehicleIllegalCrossLane\"},{\"number\":2,\"vehicleName\":\"\\\\u8F66\\\\u90532\",\"color\":\"#33CFFF\",\"describe\":\"\",\"id\":\"2\",\"areas\":[{\"x\":0.12911726,\"y\":0.56},{\"x\":0.38603426,\"y\":0.13333333},{\"x\":0.44795784,\"y\":0.14},{\"x\":0.33465086,\"y\":0.73333333}],\"driveDirection\":[1],\"carDirection\":1,\"type\":\"0\",\"creator\":\"vehicleIllegalCrossLane\"}],\"velocityLines\":{\"length\":5,\"areas\":[{\"checked\":true,\"color\":\"#FF2E2E\",\"id\":\"101\",\"areas\":[{\"x\":0.14888011,\"y\":0.36},{\"x\":0.21343874,\"y\":0.28666667}]},{\"checked\":true,\"color\":\"#33CFFF\",\"id\":\"102\",\"areas\":[{\"x\":0.31488801,\"y\":0.39666667},{\"x\":0.35704875,\"y\":0.29666667}]}]},\"vehicleIntoForbidden\":[],\"backCar\":{\"vehicleLaneNumber\":[]},\"vehicleReverse\":{\"vehicleLaneNumber\":[]},\"nocarRoadBikeOnRoad\":{\"vehicleLaneNumber\":[]},\"labelbikeHumanOnRoad\":{\"vehicleLaneNumber\":[]},\"vehicleIllegalCrossLane\":{\"vehicleLaneNumber\":[1,2]},\"vehicleOnEmerLane\":{\"vehicleLaneNumber\":[]},\"nonSeatBelts\":{\"vehicleLaneNumber\":[]},\"drivingCall\":{\"vehicleLaneNumber\":[]},\"vehicleForbidden\":{\"vehicleLaneNumber\":[]},\"trafficEvents\":{\"vehicleLaneNumber\":[1,2]},\"roadEvent\":{\"vehicleLaneNumber\":[]},\"crossIllegalLane\":{\"vehicleLaneNumber\":[]},\"vehicleOnBusLane\":[],\"vehicleOccupyLane\":{\"vehicleLaneNumber\":[]},\"vehicleImpolitePed\":{\"vehicleLaneNumber\":[]},\"bikeReverse\":{\"vehicleLaneNumber\":[]},\"bikeNoHelmet\":{\"vehicleLaneNumber\":[]},\"bikeRedLight\":{\"vehicleLaneNumber\":[]},\"bikeAcrossRoad\":{\"vehicleLaneNumber\":[]},\"bikePersonAcrossRoad\":{\"vehicleLaneNumber\":[]},\"light_black\":{\"pushCycle\":5},\"nameplate\":{\"pushCycle\":24},\"fog\":{\"pushCycle\":5},\"fire\":{\"pushCycle\":5},\"knot\":{\"pushCycle\":5},\"roadblock\":{\"pushCycle\":24},\"pothole\":{\"pushCycle\":24},\"construction\":{\"pushCycle\":24},\"dispersion\":{\"pushCycle\":24},\"ponding\":{\"pushCycle\":5},\"accident_vv\":{\"pushCycle\":5},\"accident_vh\":{\"pushCycle\":5},\"accident_vb\":{\"pushCycle\":5},\"breakdown\":{\"pushCycle\":5,\"stopTime\":3},\"vehicleRedLight\":false,\"vehicleIllegalGuide\":false,\"vehicleStopOnZebra\":false,\"vehicleImpoliteLeft\":false,\"vehicleImpoliteRight\":false,\"vehicleTightTurn\":false,\"vehicleCrossRetention\":false,\"vehicleIllegalUturn\":false,\"slowColleagues\":{\"averageSpeedThreshold\":30,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"congestion\":{\"averageSpeedThreshold\":30,\"timeOccupancyThreshold\":0.5,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"laneOccupancyHigh\":{\"spaceOccupancyThreshold\":0.1,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"flowOverflow\":{\"vehicleFlowThreshold\":10,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"overflow\":{\"queueLength\":30,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"tabStatus\":{\"crossIllegalLane\":0,\"vehicleIllegalCrossLane\":2,\"vehicleOnEmerLane\":0,\"vehicleOnBusLane\":0,\"vehicleOccupyLane\":0,\"vehicleImpolitePed\":0,\"shoulderRegion\":0,\"vehicleIntoForbidden\":0,\"nonSeatBelts\":0,\"drivingCall\":0,\"backCar\":0,\"vehicleReverse\":0,\"vehicleForbidden\":0,\"violatedAreas\":0,\"shuntIslandAreas\":0,\"nocarRoadBikeOnRoad\":0,\"bikeNoHelmet\":0,\"bikeRedLight\":0,\"bikeReverse\":0,\"bikeAcrossRoad\":0,\"labelbikeHumanOnRoad\":0,\"humanRedLight\":0,\"bikePersonAcrossRoad\":0,\"trafficEvents\":2,\"flowEvent\":2,\"nameplate\":0,\"roadEvent\":0,\"areaEvent\":0,\"lightBlack\":0}}', 'sql': '{\"sql_2\":\"SELECT * from u2s_traffic.vsd_task_info WHERE serialnumber = #serialnumber#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "d898a0ef64086bfd.json",
+  "parameterValues": [
+    "{'case_id': 3, 'modular': '添加实时流任务', 'method': 'post', 'url': 'http://172.16.1.129:9088/task/addTask', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/plain, */*',\\n    'Origin': 'http://172.16.1.129:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Content-Type': 'application/json;charset=UTF-8',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '添加实时流任务', 'param': '{\"serialnumber\":null,\"fromType\":1,\"cameraId\":#cameraId#,\"picture\":\"data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjYwMCIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iNzU5IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ib3ZlcmZsb3c6IGhpZGRlbjsgcG9zaXRpb246IHJlbGF0aXZlOyBsZWZ0OiAtMC41cHg7IHRvcDogLTAuNDUzMTI1cHg7Ij48ZGVzYyBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyI+Q3JlYXRlZCB3aXRoIFJhcGhhw6tsIDIuMy4wPC9kZXNjPjxkZWZzIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7Ij48L2RlZnM+PGltYWdlIHg9IjAiIHk9IjAiIHdpZHRoPSI3NTkiIGhlaWdodD0iNjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bGluazpocmVmPSJodHRwOi8vMTcyLjE2LjEuMTA3OjgwODEvc25hcHNob3QvY25SemNEb3ZMekUzTWk0eE5pNHhMamMyT2pFMU5qUXZlVzl1WjJSMUxtMXdOQT09LmpwZz8yMDIwMDQyNzEwMTMwMSIgc3R5bGU9Ii13ZWJraXQtdGFwLWhpZ2hsaWdodC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwKTsiPjwvaW1hZ2U+PHBhdGggZmlsbD0iI2ZmMmUyZSIgc3Ryb2tlPSIjZmYyZTJlIiBkPSJNMTIuMDAwMDAyNTE5OTk5OTk5LDI0NC45OTk5OThMMjQyLjk5OTk5NzksNzMuMDAwMDAyMDAwMDAwMDFMMjgxLjAwMDAwMDgyLDc5LjAwMDAwMjAwMDAwMDAxTDY5Ljk5OTk5Njk5LDMzNC4wMDAwMDJMNjkuOTk5OTk2OTksMzM0LjAwMDAwMloiIGZpbGwtb3BhY2l0eT0iMC4zIiBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyBmaWxsLW9wYWNpdHk6IDAuMzsgcG9pbnRlci1ldmVudHM6IG5vbmU7Ij48L3BhdGg+PHBhdGggZmlsbD0iIzMzY2ZmZiIgc3Ryb2tlPSIjMzNjZmZmIiBkPSJNOTguMDAwMDAwMzQwMDAwMDEsMzM2LjAwMDAwMDAwMDAwMDA2TDI5My4wMDAwMDMzNDAwMDAwMyw3OS45OTk5OThMMzQwLjAwMDAwMDU2LDg0LjAwMDAwMDAwMDAwMDAxTDI1NC4wMDAwMDI3Mzk5OTk5OSw0MzkuOTk5OTk4WiIgZmlsbC1vcGFjaXR5PSIwLjMiIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7IGZpbGwtb3BhY2l0eTogMC4zOyBwb2ludGVyLWV2ZW50czogbm9uZTsiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmYyZTJlIiBzdHJva2U9IiNmZjJlMmUiIGQ9Ik0xMTMuMDAwMDAzNDkwMDAwMDEsMjE2TDE2Mi4wMDAwMDM2NiwxNzIuMDAwMDAyWiIgZmlsbC1vcGFjaXR5PSIwLjMiIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7IGZpbGwtb3BhY2l0eTogMC4zOyBwb2ludGVyLWV2ZW50czogbm9uZTsiPjwvcGF0aD48cGF0aCBmaWxsPSIjMzNjZmZmIiBzdHJva2U9IiMzM2NmZmYiIGQ9Ik0yMzguOTk5OTk5NTksMjM4LjAwMDAwMkwyNzEuMDAwMDAxMjUsMTc4LjAwMDAwMjAwMDAwMDAyWiIgZmlsbC1vcGFjaXR5PSIwLjMiIHN0eWxlPSItd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7IGZpbGwtb3BhY2l0eTogMC4zOyBwb2ludGVyLWV2ZW50czogbm9uZTsiPjwvcGF0aD48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZjJlMmUiIGQ9Ik04NS45OTk5OTc4MiwzMjguOTk5OTk3OTk5OTk5OTVMMjg0Ljk5OTk5OTEzLDg1LjAwMDAwMiIgZmlsbC1vcGFjaXR5PSIwIiBzdHlsZT0iLXdlYmtpdC10YXAtaGlnaGxpZ2h0LWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApOyBmaWxsLW9wYWNpdHk6IDA7IHBvaW50ZXItZXZlbnRzOiBub25lOyI+PC9wYXRoPjwvc3ZnPg==\",\"url\":\"http://172.16.1.107:8081/snapshot/cnRzcDovLzE3Mi4xNi4xLjc2OjE1NjQveW9uZ2R1Lm1wNA==.jpg?20200427101301\",\"laneStatCurrentFlowInSec\":60,\"violatedAreas\":{\"stopTime\":15,\"areas\":[]},\"isCross\":false,\"hasSidewalk\":false,\"hasBikeLight\":true,\"sidewalk\":[],\"light\":[],\"shoulderRegion\":{\"areas\":[]},\"stopLine\":[],\"driveLine\":[],\"shieldAreas\":{\"areas\":[]},\"shuntIslandAreas\":{\"areas\":[]},\"areaEvent\":{\"areas\":[]},\"realChangingLines\":[{\"checked\":true,\"color\":\"#FF2E2E\",\"id\":\"201\",\"areas\":[{\"x\":0.11330698,\"y\":0.54833333},{\"x\":0.37549407,\"y\":0.14166667}]}],\"vehicleLanes\":[{\"number\":1,\"vehicleName\":\"\\\\u8F66\\\\u90531\",\"color\":\"#FF2E2E\",\"describe\":\"\",\"id\":\"1\",\"areas\":[{\"x\":0.01581028,\"y\":0.40833333},{\"x\":0.3201581,\"y\":0.12166667},{\"x\":0.37022398,\"y\":0.13166667},{\"x\":0.09222661,\"y\":0.55666667},{\"x\":0.09222661,\"y\":0.55666667}],\"driveDirection\":[1],\"carDirection\":1,\"type\":\"0\",\"creator\":\"vehicleIllegalCrossLane\"},{\"number\":2,\"vehicleName\":\"\\\\u8F66\\\\u90532\",\"color\":\"#33CFFF\",\"describe\":\"\",\"id\":\"2\",\"areas\":[{\"x\":0.12911726,\"y\":0.56},{\"x\":0.38603426,\"y\":0.13333333},{\"x\":0.44795784,\"y\":0.14},{\"x\":0.33465086,\"y\":0.73333333}],\"driveDirection\":[1],\"carDirection\":1,\"type\":\"0\",\"creator\":\"vehicleIllegalCrossLane\"}],\"velocityLines\":{\"length\":5,\"areas\":[{\"checked\":true,\"color\":\"#FF2E2E\",\"id\":\"101\",\"areas\":[{\"x\":0.14888011,\"y\":0.36},{\"x\":0.21343874,\"y\":0.28666667}]},{\"checked\":true,\"color\":\"#33CFFF\",\"id\":\"102\",\"areas\":[{\"x\":0.31488801,\"y\":0.39666667},{\"x\":0.35704875,\"y\":0.29666667}]}]},\"vehicleIntoForbidden\":[],\"backCar\":{\"vehicleLaneNumber\":[]},\"vehicleReverse\":{\"vehicleLaneNumber\":[]},\"nocarRoadBikeOnRoad\":{\"vehicleLaneNumber\":[]},\"labelbikeHumanOnRoad\":{\"vehicleLaneNumber\":[]},\"vehicleIllegalCrossLane\":{\"vehicleLaneNumber\":[1,2]},\"vehicleOnEmerLane\":{\"vehicleLaneNumber\":[]},\"nonSeatBelts\":{\"vehicleLaneNumber\":[]},\"drivingCall\":{\"vehicleLaneNumber\":[]},\"vehicleForbidden\":{\"vehicleLaneNumber\":[]},\"trafficEvents\":{\"vehicleLaneNumber\":[1,2]},\"roadEvent\":{\"vehicleLaneNumber\":[]},\"crossIllegalLane\":{\"vehicleLaneNumber\":[]},\"vehicleOnBusLane\":[],\"vehicleOccupyLane\":{\"vehicleLaneNumber\":[]},\"vehicleImpolitePed\":{\"vehicleLaneNumber\":[]},\"bikeReverse\":{\"vehicleLaneNumber\":[]},\"bikeNoHelmet\":{\"vehicleLaneNumber\":[]},\"bikeRedLight\":{\"vehicleLaneNumber\":[]},\"bikeAcrossRoad\":{\"vehicleLaneNumber\":[]},\"bikePersonAcrossRoad\":{\"vehicleLaneNumber\":[]},\"light_black\":{\"pushCycle\":5},\"nameplate\":{\"pushCycle\":24},\"fog\":{\"pushCycle\":5},\"fire\":{\"pushCycle\":5},\"knot\":{\"pushCycle\":5},\"roadblock\":{\"pushCycle\":24},\"pothole\":{\"pushCycle\":24},\"construction\":{\"pushCycle\":24},\"dispersion\":{\"pushCycle\":24},\"ponding\":{\"pushCycle\":5},\"accident_vv\":{\"pushCycle\":5},\"accident_vh\":{\"pushCycle\":5},\"accident_vb\":{\"pushCycle\":5},\"breakdown\":{\"pushCycle\":5,\"stopTime\":3},\"vehicleRedLight\":false,\"vehicleIllegalGuide\":false,\"vehicleStopOnZebra\":false,\"vehicleImpoliteLeft\":false,\"vehicleImpoliteRight\":false,\"vehicleTightTurn\":false,\"vehicleCrossRetention\":false,\"vehicleIllegalUturn\":false,\"slowColleagues\":{\"averageSpeedThreshold\":30,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"congestion\":{\"averageSpeedThreshold\":30,\"timeOccupancyThreshold\":0.5,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"laneOccupancyHigh\":{\"spaceOccupancyThreshold\":0.1,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"flowOverflow\":{\"vehicleFlowThreshold\":10,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"overflow\":{\"queueLength\":30,\"triggerTimesThreshold\":3,\"pushCycle\":5},\"tabStatus\":{\"crossIllegalLane\":0,\"vehicleIllegalCrossLane\":2,\"vehicleOnEmerLane\":0,\"vehicleOnBusLane\":0,\"vehicleOccupyLane\":0,\"vehicleImpolitePed\":0,\"shoulderRegion\":0,\"vehicleIntoForbidden\":0,\"nonSeatBelts\":0,\"drivingCall\":0,\"backCar\":0,\"vehicleReverse\":0,\"vehicleForbidden\":0,\"violatedAreas\":0,\"shuntIslandAreas\":0,\"nocarRoadBikeOnRoad\":0,\"bikeNoHelmet\":0,\"bikeRedLight\":0,\"bikeReverse\":0,\"bikeAcrossRoad\":0,\"labelbikeHumanOnRoad\":0,\"humanRedLight\":0,\"bikePersonAcrossRoad\":0,\"trafficEvents\":2,\"flowEvent\":2,\"nameplate\":0,\"roadEvent\":0,\"areaEvent\":0,\"lightBlack\":0}}', 'sql': '{\"sql_2\":\"SELECT * from u2s_traffic.vsd_task_info WHERE serialnumber = #serialnumber#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+  ]
+}

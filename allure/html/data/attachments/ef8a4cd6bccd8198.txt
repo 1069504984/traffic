@@ -1,0 +1,4 @@
+INFO     Traffic:<string>:1 参数化的数据是：8683361314
+INFO     Traffic:<string>:1 参数化的数据是：8683361314
+INFO     Traffic:<string>:1 正在发起结构化模块中的第10条用例:离线机动车结构化实时统计
+INFO     Traffic:<string>:1 测试数据是：'

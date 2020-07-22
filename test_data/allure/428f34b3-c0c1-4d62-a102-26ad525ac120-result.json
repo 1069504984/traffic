@@ -1,0 +1,58 @@
+{
+  "name": "删除已添加监控点",
+  "status": "passed",
+  "description": "删除已添加监控点",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "51f7ff96-9e36-4d19-9503-6a43444dfa9d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 5, 'modular': '删除监控点', 'method': 'delete', 'url': 'http://172.16.1.107:9088/camera', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.107:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '删除已添加监控点', 'param': \"\\n    \\n(\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null,\"timestamp\":\"2020-04-09 14:43:41:209\"}'}"
+    }
+  ],
+  "start": 1595399679457,
+  "stop": 1595399679829,
+  "uuid": "cd1e1eaf-6349-4f27-9249-48668a132986",
+  "historyId": "8cc636fc76b38f5c1faa595ffcd19f8e",
+  "testCaseId": "775b8b4de713ebe453489f46308fe713",
+  "fullName": "test_video.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "上传视频"
+    },
+    {
+      "name": "suite",
+      "value": "test_video"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "32008-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_video"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "total": 7,
+  "items": [
+    {
+      "uid": "24f83eae43676986420c5b04889a3f55",
+      "name": "结构化任务添加",
+      "statistic": {
+        "failed": 0,
+        "broken": 3,
+        "skipped": 0,
+        "passed": 9,
+        "unknown": 0,
+        "total": 12
+      }
+    },
+    {
+      "uid": "325f3aeac711c50a93b8b75832b15f22",
+      "name": "实时流添加",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 9,
+        "unknown": 0,
+        "total": 9
+      }
+    },
+    {
+      "uid": "5aea1b4e8f377d810158ec749470acac",
+      "name": "监控点",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 6,
+        "unknown": 0,
+        "total": 6
+      }
+    },
+    {
+      "uid": "2c002240e22129aa9b6eec747815af91",
+      "name": "各种查询任务接口",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 6,
+        "unknown": 0,
+        "total": 6
+      }
+    },
+    {
+      "uid": "a698adee99f9e573c429c980d5431679",
+      "name": "上传视频",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 5,
+        "unknown": 0,
+        "total": 5
+      }
+    },
+    {
+      "uid": "77f265b3af2ad272beccb0fe30bf760f",
+      "name": "结构化查询",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 3,
+        "unknown": 0,
+        "total": 3
+      }
+    },
+    {
+      "uid": "fb70e450600ba208a0dd8e1859b5c52e",
+      "name": "excel导出",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 1,
+        "unknown": 0,
+        "total": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "test_001[item2]",
+  "status": "passed",
+  "description": "\n        监控点接口\n        ",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "bf00c661-bee5-4220-8d2e-36aceda767ee-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 3, 'modular': '重复添加监控点', 'method': 'post', 'url': 'http://172.16.1.107:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '添加监控点重复', 'param': '{\"name\":\"#sql_name#\",\"region\":\"99394041\",\"isHighSpeedIntersection\":1,\"extcameraid\":\"1111\",\"cameratype\":2,\"latitude\":22.547797892753977,\"longitude\":114.0481467187252,\"url\":\"\",\"sceneId\":23}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}'}"
+    }
+  ],
+  "start": 1587366540096,
+  "stop": 1587366540276,
+  "uuid": "6c1509d9-641f-4ec2-8b36-972e314b06dc",
+  "historyId": "b301937261e73fe6052759c8f6e72b07",
+  "testCaseId": "565e234bb174e60baa6bb37285894daf",
+  "fullName": "test_camera.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "监控点"
+    },
+    {
+      "name": "suite",
+      "value": "test_camera"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "3492-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_camera"
+    }
+  ]
+}

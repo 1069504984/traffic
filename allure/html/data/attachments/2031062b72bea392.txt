@@ -1,0 +1,5 @@
+休眠0.5秒
+从数据库获取的参数化sql:{"sql_1":"SELECT id FROM u2s_traffic.camera WHERE name='测试test'"}
+目前的param是{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":26,"direction":"111","crossingNumber":"111"}
+{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-05-18 14:11:04:284"}
+需要删除的camemaId:1562225808217

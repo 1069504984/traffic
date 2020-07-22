@@ -1,0 +1,13 @@
+{
+  "commonReq": {
+    "cameraIdList": [],
+    "ctrlUnitFileIdList": [],
+    "endTime": "2020-04-26 23:06:00",
+    "order": "asc",
+    "pageNo": 1,
+    "pageSize": 5,
+    "startTime": "2020-04-26 23:00:00",
+    "serialnumber": "",
+    "objType": "2"
+  }
+}

@@ -1,0 +1,9 @@
+2020-05-18 14:11:53,027-INFO-Traffic：参数化的数据是：1589782291917338145
+2020-05-18 14:11:53,029-INFO-Traffic：正在发起开启实时任务模块中的第5条用例:启动实时任务
+2020-05-18 14:12:13,033-INFO-Traffic：测试数据是：{"serialnumberList":["1589782291917338145"]}
+2020-05-18 14:12:13,141-INFO-Traffic：put请求成功
+2020-05-18 14:12:13,144-INFO-Traffic：测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-05-18 14:12:14:446'}
+2020-05-18 14:12:13,146-INFO-Traffic：预期结果是：{'code': 0, 'codeMsg': '成功'}
+2020-05-18 14:12:13,149-INFO-Traffic：测试通过了
+2020-05-18 14:12:13,201-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-05-18 14:12:14:446"}
+2020-05-18 14:12:13,204-INFO-Traffic：写入result成功 ：pass

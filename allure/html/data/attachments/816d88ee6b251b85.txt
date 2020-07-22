@@ -1,0 +1,2 @@
+INFO     Traffic:<string>:1 写入test_result成功 ：200
+INFO     Traffic:<string>:1 写入result成功 ：pass

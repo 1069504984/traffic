@@ -1,0 +1,111 @@
+{
+  "uid": "80164f6e24fed535",
+  "name": "根据任务号查询任务配置",
+  "fullName": "test_data.test_query_task.TestCases#test_001",
+  "historyId": "acd0539e3248e111ca29617ab57b9e14",
+  "time": {
+    "start": 1589782347922,
+    "stop": 1589782348077,
+    "duration": 155
+  },
+  "description": "根据任务号查询任务配置",
+  "descriptionHtml": "<p>根据任务号查询任务配置</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [],
+  "testStage": {
+    "description": "根据任务号查询任务配置",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "ea102ca1cc456081",
+        "name": "log",
+        "source": "ea102ca1cc456081.txt",
+        "type": "text/plain",
+        "size": 6538
+      },
+      {
+        "uid": "abbd60839202833b",
+        "name": "stdout",
+        "source": "abbd60839202833b.txt",
+        "type": "text/plain",
+        "size": 3107
+      },
+      {
+        "uid": "c51a72ce02f3b534",
+        "name": "stderr",
+        "source": "c51a72ce02f3b534.txt",
+        "type": "text/plain",
+        "size": 6638
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 0,
+    "hasContent": true,
+    "attachmentsCount": 3,
+    "shouldDisplayMessage": false
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "各种查询任务接口"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_query_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_query_task"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 4, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/query/#Max_serialnumber#', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '根据任务号查询任务配置', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "80164f6e24fed535.json",
+  "parameterValues": [
+    "{'case_id': 4, 'modular': '任务管理', 'method': 'get', 'url': 'http://172.16.1.129:9088/task/query/#Max_serialnumber#', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '根据任务号查询任务配置', 'param': \"'\", 'sql': None, 'expected': '{\\n  \"code\": 0,\\n  \"codeMsg\": \"成功\"}'}"
+  ]
+}

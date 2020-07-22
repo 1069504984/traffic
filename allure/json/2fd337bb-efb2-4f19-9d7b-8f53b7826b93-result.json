@@ -1,0 +1,72 @@
+{
+  "name": "删除测试视频",
+  "status": "passed",
+  "description": "删除测试视频",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "0b8bcf27-5cfc-40fa-b23e-bebf298f0055-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "4763820f-c53d-4b15-82cf-6f1dc3425641-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stderr",
+      "source": "7f2787fb-181a-415c-8b28-b755af255d3b-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 4, 'modular': '删除视频', 'method': 'delete', 'url': 'http://172.16.1.129:9088/ctrlUnitFile', 'header': \"{'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}\", 'title': '删除测试视频', 'param': \"(\\n    ('ctrlUnitFileId', '#fileId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
+    }
+  ],
+  "start": 1589782350647,
+  "stop": 1589782350893,
+  "uuid": "2ce1b9ec-77d7-43e7-9b34-35f6365f7a65",
+  "historyId": "1b4729aa2103e3c066b2a819f7a5510c",
+  "testCaseId": "02f5b42bfa04fd8ed28003dbeba0a102",
+  "fullName": "test_data.test_video.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "上传视频"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_data"
+    },
+    {
+      "name": "suite",
+      "value": "test_video"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "90328-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_data.test_video"
+    }
+  ]
+}

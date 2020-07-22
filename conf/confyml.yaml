@@ -1,0 +1,26 @@
+peopleMsg:
+  name: leon
+peopleScore:
+  english: 120
+  math: 95
+
+log:
+  log_name: cases
+  logger_lever: DEBUG
+  formater: '%(asctime)s - [%(filename)s-->line:%(lineno)d] - %(levelname)s:%(message)s'
+  stream_level: DEBUG
+  logfile_name: test.log
+  logfile_level: DEBUG
+
+report:
+  name: report
+  title: 自动化测试PY28期
+  description: 美轮美奂的报告
+  tester: Ssss
+
+mysql:
+  host: '172.16.1.107'
+  user: 'qst'
+  password: 'Ast4HS#qianshitong'
+  db: 'u2s_traffic'
+  port: 3306

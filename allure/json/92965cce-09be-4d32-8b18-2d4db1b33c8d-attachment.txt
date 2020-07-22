@@ -1,0 +1,4 @@
+None
+目前的param是{'chunks': '1', 'chunk': '1', 'tokenId': '0d149844-d6fe-4136-82d1-47ad10d2f66c', 'id': '2lqyw4mzjou0000', 'name': 'test_video.mp4', 'cameraId': '1562225808220', 'chunkNumber': '1', 'currentChunkSize': '5639608', 'totalSize': '5639608', 'identifier': '5639608-test_videomp4', 'filename': 'test_video.mp4', 'relativePath': 'test_video.mp4', 'totalChunks': '1', 'videoType': '0', 'entryTime': '2020-4-15 16:19:28'}
+{"code":0,"codeMsg":"成功","msg":"","data":{"retFlag":"0","fileName":"","fileUrl":"","fileFtpPath":"","fileSize":"","fileId":"1627447189"},"timestamp":"2020-05-18 14:12:31:795"}
+删除的camemaId:1562225808220
