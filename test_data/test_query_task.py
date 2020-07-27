@@ -56,10 +56,7 @@ class TestCases():
         my_log.my_info("正在发起{}模块中的第{}条用例:{}".format(modular, case_id, title))
         my_log.my_info("测试数据是：{}".format(param))
         # 执行接口测试，cookies利用反射进行动态的获取
-
         test_result = DoRequests.be_result(item, param, url, method, header)
-        # if "data" in test_result.json() and test_result.json()["data"] is not None and len(test_result.json()["data"]["fileId"]) <= 18:
-        #     setattr(get_data.GetData, "fileId", test_result.json()["data"]["fileId"])
         print(test_result.text)
         if getattr(get_data.GetData, 'cameraId') != "None":
             print("删除的camemaId:{}".format(getattr(get_data.GetData, 'cameraId')))

@@ -1,57 +1,68 @@
 [
   {
-    "uid": "233d5c0e539a19b7",
-    "name": "登录接口正常验证",
-    "time": {
-      "start": 1595385822694,
-      "stop": 1595385822922,
-      "duration": 228
-    },
-    "status": "passed",
-    "severity": "normal"
-  },
-  {
-    "uid": "43a571f60f7df7e8",
-    "name": "新增监控点",
-    "time": {
-      "start": 1595385822931,
-      "stop": 1595385823196,
-      "duration": 265
-    },
-    "status": "passed",
-    "severity": "normal"
-  },
-  {
-    "uid": "e24986b2124a4ed0",
-    "name": "删除测试视频",
-    "time": {
-      "start": 1595385825288,
-      "stop": 1595385825616,
-      "duration": 328
-    },
-    "status": "passed",
-    "severity": "normal"
-  },
-  {
-    "uid": "113f1080b2b82074",
+    "uid": "804d441b19fbcb14",
     "name": "删除已添加监控点",
     "time": {
-      "start": 1595385825622,
-      "stop": 1595385825895,
-      "duration": 273
+      "start": 1595670755991,
+      "stop": 1595670755992,
+      "duration": 1
     },
-    "status": "passed",
+    "status": "broken",
     "severity": "normal"
   },
   {
-    "uid": "9e12953e748436a8",
-    "name": "上传测试视频",
+    "uid": "31ffc9afde0b8e42",
+    "name": "登录接口正常验证",
     "time": {
-      "start": 1595385823206,
-      "stop": 1595385825281,
-      "duration": 2075
+      "start": 1595670755692,
+      "stop": 1595670755694,
+      "duration": 2
     },
-    "status": "passed",
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "8500ffc81b3c8126",
+    "name": "修改监控点",
+    "time": {
+      "start": 1595670755949,
+      "stop": 1595670755949,
+      "duration": 0
+    },
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "21497001aec12dc1",
+    "name": "查询点位下有无任务",
+    "time": {
+      "start": 1595670755971,
+      "stop": 1595670755971,
+      "duration": 0
+    },
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "e93af3b1fe230e62",
+    "name": "添加监控点重复",
+    "time": {
+      "start": 1595670755929,
+      "stop": 1595670755929,
+      "duration": 0
+    },
+    "status": "broken",
+    "severity": "normal"
+  },
+  {
+    "uid": "3e72128536d14dfa",
+    "name": "新增监控点",
+    "time": {
+      "start": 1595670755908,
+      "stop": 1595670755909,
+      "duration": 1
+    },
+    "status": "broken",
     "severity": "normal"
   }
 ]

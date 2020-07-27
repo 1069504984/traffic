@@ -2,15 +2,15 @@
   "total": 1,
   "items": [
     {
-      "uid": "a698adee99f9e573c429c980d5431679",
-      "name": "上传视频",
+      "uid": "5aea1b4e8f377d810158ec749470acac",
+      "name": "监控点",
       "statistic": {
         "failed": 0,
-        "broken": 0,
+        "broken": 6,
         "skipped": 0,
-        "passed": 5,
+        "passed": 0,
         "unknown": 0,
-        "total": 5
+        "total": 6
       }
     }
   ]

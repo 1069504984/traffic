@@ -25,13 +25,13 @@ class MyLogg:  # 直接写成一个类
         fl.setFormatter(formatter)  # 设置格式
         my_logger.addHandler(ch)
         my_logger.addHandler(fl)
-        if level == "DEBUG":
+        if level == "debug":
             my_logger.debug(msg)
-        elif level == "INFO":
+        elif level == "info":
             my_logger.info(msg)
         elif level == "WARNING":
             my_logger.warning(msg)
-        elif level == "ERROR":
+        elif level == "error":
             my_logger.error(msg)
         else:
             my_logger.critical(msg)
@@ -40,7 +40,7 @@ class MyLogg:  # 直接写成一个类
         my_logger.removeHandler(fl)  # 用完之后记得移除
 
     def my_debug(self, msg):  # 输入debug级别的信息
-        self.my_lo("DEBUG", msg)
+        self.my_lo("debug", msg)
 
     def my_info(self, msg):  # 输入info级别的信息
         self.my_lo("info", msg)
@@ -92,4 +92,4 @@ my_log = MyLogg()
 
 if __name__ == "__main__":
     do_log.error("执行一次")
-    my_log.my_warning("111")
+    my_log.my_error("111")

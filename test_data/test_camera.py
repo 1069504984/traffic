@@ -15,7 +15,8 @@ import pytest
 import os
 
 my_log = MyLogg()
-test_data = DoExcel(project_path.test_case_path, "camera").read_data()
+sheet_name = "camera"
+test_data = DoExcel(project_path.test_case_path, sheet_name).read_data()
 
 
 @allure.feature("监控点")
@@ -25,6 +26,26 @@ class TestCases():
 
     def tearDown(self):
         pass
+
+    def analysis_check(self, expected, api_check, response):
+        if api_check == '':
+            my_log.my_info("此用例暂无深度检查点")
+        if len(api_check) == 1:
+            left_param = api_check.split("==")[0]
+            right_param = api_check.spilt("==")[1]
+            if right_param in response.keys():
+                assert expected.get(right_param) == response.get(right_param)
+            else:
+                my_log.my_error(F"key: {right_param} --不存在，请check返回值")
+        elif len(api_check) > 1:
+            for j in api_check:
+                left_param = api_check.split("==")[0]
+                right_param = j.split("==")[1]
+                if right_param in response.keys():
+                    assert expected.get(right_param) == response.get(right_param)
+                else:
+                    my_log.my_error(F"key: {right_param} --不存在，请check返回值")
+
 
     @pytest.mark.parametrize('item', test_data)
     def test_001(self, item):
@@ -44,6 +65,11 @@ class TestCases():
         modular = item["modular"]
         title = item["title"]
         expected = item["expected"]
+        check_ponit = item["check"]
+        check_ponit_list = check_ponit.split("\n")
+        for index, check in enumerate(check_ponit_list):
+            if check == "":
+                del check_ponit_list[index]
         header = eval(item["header"])
         sql = item["sql"]
         print(sql)
@@ -76,9 +102,10 @@ class TestCases():
         my_log.my_info("测试结果：{}".format(test_result.json()))
         my_log.my_info("预期结果：{}".format(new_expected))
         try:
-            assert new_expected["code"] == test_result.json()["code"]
+            # assert new_expected.get(check[0]) == test_result.json().get(check[0])
+            self.analysis_check(new_expected, check_ponit_list, test_result.json())
             result = "pass"
-            my_log.my_info("测试通过了")
+            my_log.my_info("测试通过")
         except AssertionError as e:
             my_log.my_error("测试失败，断言错误")
             result = "failed"
@@ -86,7 +113,7 @@ class TestCases():
         finally:
             row = case_id + 1
             # 这里需要注意写回测试数据的时候，需要把测试数据转换成字符串类型
-            DoExcel(project_path.test_case_path, "camera").write_data(row, test_result.text, result)
+            DoExcel(project_path.test_case_path, sheet_name).write_data(row, test_result.text, result)
 
 
 if __name__ == '__main__':

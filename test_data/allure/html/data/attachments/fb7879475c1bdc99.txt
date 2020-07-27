@@ -1,9 +1,0 @@
-INFO     Traffic:<string>:1 参数化的数据是：1562225808219
-INFO     Traffic:<string>:1 正在发起上传视频模块中的第3条用例:上传测试视频
-INFO     Traffic:<string>:1 测试数据是：{'chunks': '1', 'chunk': '1', 'tokenId': '0d149844-d6fe-4136-82d1-47ad10d2f66c', 'id': '2lqyw4mzjou0000', 'name': 'test_video.mp4', 'cameraId': '1562225808219', 'chunkNumber': '1', 'currentChunkSize': '5639608', 'totalSize': '5639608', 'identifier': '5639608-test_videomp4', 'filename': 'test_video.mp4', 'relativePath': 'test_video.mp4', 'totalChunks': '1', 'videoType': '0', 'entryTime': '2020-4-15 16:19:28'}
-INFO     Traffic:<string>:1 post请求成功
-INFO     Traffic:<string>:1 测试结果是：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': {'retFlag': '0', 'fileName': '', 'fileUrl': '', 'fileFtpPath': '', 'fileSize': '', 'fileId': '9724225216'}, 'timestamp': '2020-07-22 10:43:45:974'}
-INFO     Traffic:<string>:1 预期结果是：{'code': 0, 'codeMsg': '成功'}
-INFO     Traffic:<string>:1 测试通过了
-INFO     Traffic:<string>:1 写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":{"retFlag":"0","fileName":"","fileUrl":"","fileFtpPath":"","fileSize":"","fileId":"9724225216"},"timestamp":"2020-07-22 10:43:45:974"}
-INFO     Traffic:<string>:1 写入result成功 ：pass

@@ -4,6 +4,7 @@ from openpyxl import workbook
 from openpyxl.styles import Font, PatternFill, colors
 from openpyxl.styles.colors import RED, GREEN
 from common.my_log import MyLogg
+from common.my_log import do_log
 
 Fail_font = Font(color=RED)
 Fail_pattern = PatternFill("solid", fgColor=colors.RED)
@@ -39,7 +40,7 @@ class DoExcel(GetTel):
     def read_data(self):
         global sheet
         global final_data
-        # tel = self.get_tel(project_path.case_path)
+        tel = self.get_tel(project_path.test_case_path)
         case_id = ReadConf(project_path.conf_path, "Request", "case_id").get_str()
         try:
             wb = load_workbook(self.filename)
@@ -67,6 +68,7 @@ class DoExcel(GetTel):
                 dict_1["param"] = sheet.cell(i, 7).value
             dict_1["sql"] = sheet.cell(i, 8).value
             dict_1["expected"] = sheet.cell(i, 9).value
+            dict_1["check"] = sheet.cell(i, 12).value
             list_1.append(dict_1)
         final_data = []  # 空的列表 储存最终的测试用例数据
         if case_id == "all":  # 获取所有的用例，否则如果是列表就获取列表中的指定ID的用例数据
@@ -93,6 +95,15 @@ class DoExcel(GetTel):
     def ceeat_excel(self, new_filename):
         wb = workbook.Workbook()
         wb.save(new_filename)
+
+    def analysis_check(self, api_no, api_name, api_check, response):
+        param = api_check.spilt("==")[1]
+        value = response
+        for key in param:
+            temp = value.get(key)
+            value = temp
+
+
 
 
 if __name__ == '__main__':

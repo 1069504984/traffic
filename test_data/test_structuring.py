@@ -80,7 +80,8 @@ class TestCases():
         finally:
             row = case_id + 1
             # 这里需要注意写回测试数据的时候，需要把测试数据转换成字符串类型
-            DoExcel(project_path.case_path, "structuring").write_data(row, str(test_result.json()["codeMsg"]), result)
+            DoExcel(project_path.test_case_path, "structuring").write_data(row, str(test_result.json()["codeMsg"]),
+                                                                           result)
 
     @allure.feature("excel导出")
     def test_export_excel(self):

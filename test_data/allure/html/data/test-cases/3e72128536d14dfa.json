@@ -1,46 +1,29 @@
 {
-  "uid": "43a571f60f7df7e8",
+  "uid": "3e72128536d14dfa",
   "name": "新增监控点",
-  "fullName": "test_video.TestCases#test_001",
-  "historyId": "dec225c9bde6b9315d4a862928e19570",
+  "fullName": "test_camera.TestCases#test_001",
+  "historyId": "9d7fccb53994c7f703dc2bd87ead05c3",
   "time": {
-    "start": 1595385822931,
-    "stop": 1595385823196,
-    "duration": 265
+    "start": 1595670755908,
+    "stop": 1595670755909,
+    "duration": 1
   },
   "description": "新增监控点",
   "descriptionHtml": "<p>新增监控点</p>\n",
-  "status": "passed",
+  "status": "broken",
+  "statusMessage": "KeyError: 'check'",
+  "statusTrace": "self = <api_practise_1.test_data.test_camera.TestCases object at 0x000002036BF5FE48>\nitem = {'case_id': 2, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'method': 'post', ...}\n\n    @pytest.mark.parametrize('item', test_data)\n    def test_001(self, item):\n        '''\n        监控点接口\n        '''\n        global result  # 指明全球变量\n        global COOKIES  # 设置cookies为全局变量\n        allure.dynamic.title(item['title'])\n        allure.dynamic.description(item['title'])\n        # 获取item中的用例数据\n        url = item[\"url\"]\n        url = get_data.GetData().replace(url)\n        method = item[\"method\"]\n        param = item[\"param\"]  # 返回的是字符串类型的数据\n        case_id = item[\"case_id\"]\n        modular = item[\"modular\"]\n        title = item[\"title\"]\n        expected = item[\"expected\"]\n>       check_ponit =item[\"check\"]\nE       KeyError: 'check'\n\ntest_camera.py:47: KeyError",
   "flaky": false,
   "beforeStages": [],
-  "testStage": {
-    "description": "新增监控点",
-    "status": "passed",
-    "steps": [],
-    "attachments": [
-      {
-        "uid": "fada59ed73c205a",
-        "name": "log",
-        "source": "fada59ed73c205a.txt",
-        "type": "text/plain",
-        "size": 1270
-      }
-    ],
-    "parameters": [],
-    "stepsCount": 0,
-    "hasContent": true,
-    "shouldDisplayMessage": false,
-    "attachmentsCount": 1
-  },
   "afterStages": [],
   "labels": [
     {
       "name": "feature",
-      "value": "上传视频"
+      "value": "监控点"
     },
     {
       "name": "suite",
-      "value": "test_video"
+      "value": "test_camera"
     },
     {
       "name": "subSuite",
@@ -52,7 +35,7 @@
     },
     {
       "name": "thread",
-      "value": "26692-MainThread"
+      "value": "59628-MainThread"
     },
     {
       "name": "framework",
@@ -64,7 +47,7 @@
     },
     {
       "name": "package",
-      "value": "test_video"
+      "value": "test_camera"
     },
     {
       "name": "resultFormat",
@@ -83,10 +66,16 @@
   "extra": {
     "severity": "normal",
     "retries": [],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Test defects",
+        "matchedStatuses": [],
+        "flaky": false
+      }
+    ],
     "tags": []
   },
-  "source": "43a571f60f7df7e8.json",
+  "source": "3e72128536d14dfa.json",
   "parameterValues": [
     "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.107:9088/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":25,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}'}"
   ]

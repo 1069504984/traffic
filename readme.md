@@ -1,0 +1,10 @@
+- test_data:测试执行逻辑层，用于存放所有的测试用例类
+- conf:配置层，用于存放当前框架中的所有配置信息
+- excel_data:测试数据层，用于存放所有的测试数据，测试参数
+- locust_traffic:进行简单的压测
+- json_file:存放比较大量的json数据
+- test_logs:日志层，用于保存运行框架过程中产生的所有有效日志信息
+- test_reports:报告层，用于保存所有的测试报告文件（一般为allure生成的HTML报告）
+- common:脚本封装层，用于保存所有的操作封装模块(yaml,excel,log,mylsql...)
+- run.py:用例启动文件，使用套件加载用例，批量执行并生成测试报告
+- allure 存放allure报告生成的元数据json，以及报告相关的css,js，html

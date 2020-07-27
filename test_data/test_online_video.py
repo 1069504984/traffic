@@ -48,11 +48,7 @@ class TestCases():
         modular = item["modular"]
         header = eval(item["header"])
         title = item["title"]
-
         expected = item["expected"]
-        # param = item["param"]
-        # url = item["url"]
-        # url = get_data.GetData().replace(url)
         sql = item["sql"]
         if sql is not None:
             sql = get_data.GetData().replace(sql)
@@ -66,10 +62,17 @@ class TestCases():
             time.sleep(20)
         my_log.my_info("测试数据是：{}".format(param))
         test_result = DoRequests.be_result(item, param, url, method, header)
-        if "data" in test_result.json() and test_result.json()["data"] is not None and len(
-                test_result.json()["data"]) == 19:
-            setattr(get_data.GetData, "serialnumber", test_result.json()["data"])
-            print("需要删除的任务号为:{}".format(getattr(get_data.GetData, "serialnumber")))
+        number_json_extra = get_data.GetData.get_json_value(test_result.json(), "data")
+        if number_json_extra is not False:
+            my_log.my_warning(F"------正在建立关联数据----number_json_extra----{number_json_extra[0]}")
+            if number_json_extra[0] is None:
+                my_log.my_warning("关联数据不符合条件，正在剔除-------")
+            elif len(number_json_extra[0]) < 18 or isinstance(number_json_extra[0], (dict, list)):
+                my_log.my_warning("关联数据不符合条件，正在剔除-------")
+            else:
+                setattr(get_data.GetData, "serialnumber", number_json_extra[0])
+            if eval(getattr(get_data.GetData, 'serialnumber')) is not 1111:
+                print("需要删除的任务号为:{}".format(getattr(get_data.GetData, "serialnumber")))
         print(test_result.text)
 
         # 增加一个判断 是在完成完请求之后才去判断
@@ -85,9 +88,9 @@ class TestCases():
         # 获取任务号
         if sql is not None and "sql_2" in sql:
             task_data = DoMysql().do_mysql(eval(sql)["sql_2"], 1)
-            print(task_data)
-            my_log.my_info("新增任务获取的任务号数据为{}".format(task_data))
-
+            if task_data is not None:
+                print(task_data)
+                my_log.my_info("新增任务获取的任务号数据为{}".format(task_data))
         if test_result.cookies:  # 判断请求cookies是否为空
             cookies = requests.utils.dict_from_cookiejar(test_result.cookies)
             setattr(get_data.GetData, "COOKIES", cookies)

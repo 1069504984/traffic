@@ -1,34 +1,31 @@
 {
   "name": "登录接口正常验证",
-  "status": "passed",
+  "status": "broken",
+  "statusDetails": {
+    "message": "KeyError: 'check'",
+    "trace": "self = <api_practise_1.test_data.test_camera.TestCases object at 0x000002036BFF0B88>\nitem = {'case_id': 1, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null}', 'header': \"{\\n    'Connection': 'keep-a.../login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'method': 'post', ...}\n\n    @pytest.mark.parametrize('item', test_data)\n    def test_001(self, item):\n        '''\n        监控点接口\n        '''\n        global result  # 指明全球变量\n        global COOKIES  # 设置cookies为全局变量\n        allure.dynamic.title(item['title'])\n        allure.dynamic.description(item['title'])\n        # 获取item中的用例数据\n        url = item[\"url\"]\n        url = get_data.GetData().replace(url)\n        method = item[\"method\"]\n        param = item[\"param\"]  # 返回的是字符串类型的数据\n        case_id = item[\"case_id\"]\n        modular = item[\"modular\"]\n        title = item[\"title\"]\n        expected = item[\"expected\"]\n>       check_ponit =item[\"check\"]\nE       KeyError: 'check'\n\ntest_camera.py:47: KeyError"
+  },
   "description": "登录接口正常验证",
-  "attachments": [
-    {
-      "name": "log",
-      "source": "df7ce193-6667-49ce-9c57-0227627734fa-attachment.txt",
-      "type": "text/plain"
-    }
-  ],
   "parameters": [
     {
       "name": "item",
       "value": "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': 'http://172.16.1.107:9088/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.107:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.107:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null}'}"
     }
   ],
-  "start": 1595399676171,
-  "stop": 1595399676548,
-  "uuid": "426f4b55-0af6-436c-b15a-f8004e756b40",
-  "historyId": "9e5b1feb1dd39cd61a0b036fed7de0d3",
-  "testCaseId": "775b8b4de713ebe453489f46308fe713",
-  "fullName": "test_video.TestCases#test_001",
+  "start": 1595670755692,
+  "stop": 1595670755694,
+  "uuid": "3c8dcdfb-c632-4ad7-b1f1-836b3bc15f89",
+  "historyId": "8b183280bc718061c1401424339938cc",
+  "testCaseId": "565e234bb174e60baa6bb37285894daf",
+  "fullName": "test_camera.TestCases#test_001",
   "labels": [
     {
       "name": "feature",
-      "value": "上传视频"
+      "value": "监控点"
     },
     {
       "name": "suite",
-      "value": "test_video"
+      "value": "test_camera"
     },
     {
       "name": "subSuite",
@@ -40,7 +37,7 @@
     },
     {
       "name": "thread",
-      "value": "32008-MainThread"
+      "value": "59628-MainThread"
     },
     {
       "name": "framework",
@@ -52,7 +49,7 @@
     },
     {
       "name": "package",
-      "value": "test_video"
+      "value": "test_camera"
     }
   ]
 }
