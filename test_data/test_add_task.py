@@ -82,18 +82,7 @@ class TestCases():
         my_log.my_info("测试数据是：{}".format(param))
         # 执行接口测试，cookies利用反射进行动态的获取
 
-        if "application/json" in item["header"]:
-            new_param = param
-        else:
-            new_param = eval(param)
-        if isinstance(new_param, tuple):
-            test_result = DoRequests(url, method, new_param).request(headers=header,
-                                                                     cookies=getattr(get_data.GetData, "COOKIES"))
-        else:
-
-            test_result = DoRequests(url, method, new_param.encode("utf-8")).request(headers=header,
-                                                                                     cookies=getattr(get_data.GetData,
-                                                                                                     "COOKIES"))
+        test_result = DoRequests.be_result(item, param, url, method, header)
         if "data" in test_result.json() and test_result.json()["data"] is not None and len(
                 test_result.json()["data"]) == 19:
             setattr(get_data.GetData, "serialnumber", test_result.json()["data"])

@@ -16,7 +16,6 @@ class MyLogg:  # 直接写成一个类
         my_logger = logging.getLogger(ReadConf(address, "LOG", "new_log_name").get_str())  # 通过配置文件设置日志收集器的名称
         my_logger.setLevel(ReadConf(address, "LOG", "collect_level").get_str())  # 通过配置文件设置日志信息的收集级别
         formatter = logging.Formatter(ReadConf(address, "LOG", "log_formater").get_str())  # 通配置文件设置日志信息的一个输出格式
-
         ch = logging.StreamHandler()
         ch.setLevel(ReadConf(address, "LOG", "output_level").get_str())  # 通过配置文件设置日志文件的输出级别
         ch.setFormatter(formatter)  # 设置格式

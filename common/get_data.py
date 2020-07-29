@@ -17,6 +17,7 @@ class GetData:
     正则替换需要都是str
     """
     COOKIES = None
+    token = None
     max_id = ReadConf(project_path.conf_path, "CaseData", "max_id").get_str()
     cameraId = ReadConf(project_path.conf_path, "CaseData", "cameraId").get_str()  # 监控点id
     sceneId = ReadConf(project_path.conf_path, "CaseData", "sceneId").get_str()

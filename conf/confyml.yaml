@@ -24,3 +24,11 @@ mysql:
   password: 'Ast4HS#qianshitong'
   db: 'u2s_traffic'
   port: 3306
+
+api:
+  authorization: {"authorization":"Basic ZWxhc3RpYzoxMjM0NTY="}
+  # profix url前缀
+  prefix: http://api.lemonban.com/futureloan
+  regist: /member/register
+  login: /member/login
+  recharge: /member/recharge

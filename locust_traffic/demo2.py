@@ -31,9 +31,28 @@ class WebsiteUser(HttpLocust):
 
 
 if __name__ == "__main__":
-    import os
-
-    # master 启动
-    # os.system(" locust -f  demo2.py  --host=https://www.cnblogs.com")
-    # slave 启动
-    os.system("locust -f demo2.py --web-host='127.0.0.1'")
+    # import os
+    #     #
+    #     # # master 启动
+    #     # # os.system(" locust -f  demo2.py  --host=https://www.cnblogs.com")
+    #     # # slave 启动
+    #     # os.system("locust -f demo2.py --web-host='127.0.0.1'")
+    header2 = {'Accept': '*/*',
+               'Connection': 'keep-alive', }
+    header = {'keensense-traffic-token': 1}
+    header3 = {
+        'Connection': 'keep-alive',
+        'Accept': 'application/json, text/plain, */*',
+        'Origin': 'http://172.16.1.107:9088',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+        'Content-Type': 'application/json;charset=UTF-8',
+        'Accept-Encoding': 'gzip, deflate',
+        'Accept-Language': 'zh-CN,zh;q=0.9',
+        'authorization': 'Basic ZWxhc3RpYzoxMjM0NTY=',
+    }
+    # header2.update(header)
+    header2.update(header3)
+    print(header2)
+    print(header2)
+    header2.update(header)
+    print(header2)

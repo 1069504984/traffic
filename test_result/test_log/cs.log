@@ -3888,3 +3888,1321 @@
 2020-07-27 14:05:09,633-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
 2020-07-27 14:05:09,636-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
 2020-07-27 14:05:09,672-INFO-Traffic：post请求成功
+2020-07-28 11:43:15,720-INFO-Traffic：数据库连接成功
+2020-07-28 11:43:15,725-INFO-Traffic：数据库查询数据成功，返回数据为('1595907378272893799',)
+2020-07-28 11:43:15,732-INFO-Traffic：数据库连接成功
+2020-07-28 11:43:15,737-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808238,)
+2020-07-28 11:45:05,472-INFO-Traffic：数据库连接成功
+2020-07-28 11:45:05,482-INFO-Traffic：数据库查询数据成功，返回数据为('1595907378272893799',)
+2020-07-28 11:45:05,502-INFO-Traffic：数据库连接成功
+2020-07-28 11:45:05,510-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808238,)
+2020-07-28 11:45:18,137-INFO-Traffic：数据库连接成功
+2020-07-28 11:45:18,141-INFO-Traffic：数据库查询数据成功，返回数据为('1595907378272893799',)
+2020-07-28 11:45:18,149-INFO-Traffic：数据库连接成功
+2020-07-28 11:45:18,153-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808238,)
+2020-07-28 13:48:59,349-INFO-Traffic：数据库连接成功
+2020-07-28 13:48:59,353-INFO-Traffic：数据库查询数据成功，返回数据为('1595907378272893799',)
+2020-07-28 13:48:59,369-INFO-Traffic：数据库连接成功
+2020-07-28 13:48:59,373-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808238,)
+2020-07-28 13:50:54,082-INFO-Traffic：数据库连接成功
+2020-07-28 13:50:54,087-INFO-Traffic：数据库查询数据成功，返回数据为('1595907378272893799',)
+2020-07-28 13:50:54,093-INFO-Traffic：数据库连接成功
+2020-07-28 13:50:54,097-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808238,)
+2020-07-28 13:55:55,808-INFO-Traffic：数据库连接成功
+2020-07-28 13:55:55,815-INFO-Traffic：数据库查询数据成功，返回数据为('1595915567790198751',)
+2020-07-28 13:55:55,837-INFO-Traffic：数据库连接成功
+2020-07-28 13:55:55,841-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808243,)
+2020-07-28 13:57:37,070-INFO-Traffic：数据库连接成功
+2020-07-28 13:57:37,074-INFO-Traffic：数据库查询数据成功，返回数据为('1595915760026472153',)
+2020-07-28 13:57:37,081-INFO-Traffic：数据库连接成功
+2020-07-28 13:57:37,085-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808244,)
+2020-07-28 13:59:26,588-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 13:59:31,714-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 14:01:33,188-INFO-Traffic：post请求成功
+2020-07-28 14:02:20,568-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDI0OTIyMzUsInBheWxvYWQiOiIxIn0.T-FmAHRS6zqNDxQ8IQ53fthwdbdBTQNEJzkTdTcPdjY', 'timestamp': '2020-07-28 14:01:32:235'}
+2020-07-28 14:02:27,627-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 14:05:22,505-INFO-Traffic：数据库连接成功
+2020-07-28 14:05:22,509-INFO-Traffic：数据库查询数据成功，返回数据为('1595916317354662881',)
+2020-07-28 14:05:22,516-INFO-Traffic：数据库连接成功
+2020-07-28 14:05:22,520-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808245,)
+2020-07-28 14:05:28,336-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 14:05:28,339-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 14:05:28,356-INFO-Traffic：post请求成功
+2020-07-28 14:05:28,359-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDI3MzE3NjUsInBheWxvYWQiOiIxIn0.7TDMe-mkPe0T8dEM_PXnwpETt_lp7rWhFQpEafz6czU', 'timestamp': '2020-07-28 14:05:31:766'}
+2020-07-28 14:05:28,364-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 14:05:41,450-INFO-Traffic：数据库连接成功
+2020-07-28 14:05:41,454-INFO-Traffic：数据库查询数据成功，返回数据为('1595916317354662881',)
+2020-07-28 14:05:41,461-INFO-Traffic：数据库连接成功
+2020-07-28 14:05:41,465-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808245,)
+2020-07-28 14:05:46,640-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 14:05:46,646-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 14:05:46,660-INFO-Traffic：post请求成功
+2020-07-28 14:05:46,665-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDI3NTAwNzEsInBheWxvYWQiOiIxIn0.DO1NXbQFQz9z1cKviV6pBCbrWOzZLf6eWITHoKJxHIs', 'timestamp': '2020-07-28 14:05:50:071'}
+2020-07-28 14:05:46,668-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 14:06:48,259-INFO-Traffic：数据库连接成功
+2020-07-28 14:06:48,263-INFO-Traffic：数据库查询数据成功，返回数据为('1595916317354662881',)
+2020-07-28 14:06:48,271-INFO-Traffic：数据库连接成功
+2020-07-28 14:06:48,275-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808246,)
+2020-07-28 14:06:54,767-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 14:06:54,772-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 14:06:54,788-INFO-Traffic：post请求成功
+2020-07-28 14:06:54,792-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDI4MTgxOTksInBheWxvYWQiOiIxIn0.5manp16c_O1JoVusfG_WG3vvqFkkJBnT-mpNhoQ0U34', 'timestamp': '2020-07-28 14:06:58:200'}
+2020-07-28 14:06:54,795-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 14:08:14,828-INFO-Traffic：测试通过
+2020-07-28 14:08:24,948-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDI4MTgxOTksInBheWxvYWQiOiIxIn0.5manp16c_O1JoVusfG_WG3vvqFkkJBnT-mpNhoQ0U34","timestamp":"2020-07-28 14:06:58:200"}
+2020-07-28 14:08:24,952-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:14:13,151-INFO-Traffic：数据库连接成功
+2020-07-28 14:14:13,156-INFO-Traffic：数据库查询数据成功，返回数据为('1595916623553486393',)
+2020-07-28 14:14:13,162-INFO-Traffic：数据库连接成功
+2020-07-28 14:14:13,167-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808247,)
+2020-07-28 14:14:16,829-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 14:14:16,835-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 14:14:16,850-INFO-Traffic：post请求成功
+2020-07-28 14:14:16,854-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDMyNjAyNjksInBheWxvYWQiOiIxIn0.giIdrG5s8mIYhm3CRy66gKBBA62uKKmFc1CpaTNTg4E', 'timestamp': '2020-07-28 14:14:20:269'}
+2020-07-28 14:14:16,858-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 14:14:18,704-INFO-Traffic：测试通过
+2020-07-28 14:14:18,841-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDMyNjAyNjksInBheWxvYWQiOiIxIn0.giIdrG5s8mIYhm3CRy66gKBBA62uKKmFc1CpaTNTg4E","timestamp":"2020-07-28 14:14:20:269"}
+2020-07-28 14:14:18,847-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:14:52,463-INFO-Traffic：数据库连接成功
+2020-07-28 14:14:52,467-INFO-Traffic：数据库查询数据成功，返回数据为('1595916623553486393',)
+2020-07-28 14:14:52,474-INFO-Traffic：数据库连接成功
+2020-07-28 14:14:52,478-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808247,)
+2020-07-28 14:14:57,350-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 14:14:57,354-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 14:14:57,372-INFO-Traffic：post请求成功
+2020-07-28 14:14:57,377-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDMzMDA3OTEsInBheWxvYWQiOiIxIn0.zAf7BSz2MWbXedXPI5r5YwLS6KfXHTUOLFUvGD5UCr4', 'timestamp': '2020-07-28 14:15:00:792'}
+2020-07-28 14:14:57,381-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 14:14:58,558-INFO-Traffic：测试通过
+2020-07-28 14:14:58,696-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDMzMDA3OTEsInBheWxvYWQiOiIxIn0.zAf7BSz2MWbXedXPI5r5YwLS6KfXHTUOLFUvGD5UCr4","timestamp":"2020-07-28 14:15:00:792"}
+2020-07-28 14:14:58,699-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:16:06,248-INFO-Traffic：数据库连接成功
+2020-07-28 14:16:06,252-INFO-Traffic：数据库查询数据成功，返回数据为('1595916623553486393',)
+2020-07-28 14:16:06,258-INFO-Traffic：数据库连接成功
+2020-07-28 14:16:06,262-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808247,)
+2020-07-28 14:16:09,972-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 14:16:09,976-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 14:16:09,993-INFO-Traffic：post请求成功
+2020-07-28 14:16:09,997-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDMzNzM0MTMsInBheWxvYWQiOiIxIn0.2z1WFZ1EE23wudvJNw1xrymXVIam_IE4a1TJoCRiuBo', 'timestamp': '2020-07-28 14:16:13:414'}
+2020-07-28 14:16:10,001-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 14:16:11,361-INFO-Traffic：测试通过
+2020-07-28 14:16:11,505-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDMzNzM0MTMsInBheWxvYWQiOiIxIn0.2z1WFZ1EE23wudvJNw1xrymXVIam_IE4a1TJoCRiuBo","timestamp":"2020-07-28 14:16:13:414"}
+2020-07-28 14:16:11,511-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:16:12,515-INFO-Traffic：参数化的数据是：测试test
+2020-07-28 14:16:12,518-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-28 14:16:29,908-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-28 14:16:50,805-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-28 14:21:13,537-INFO-Traffic：post请求成功
+2020-07-28 14:25:22,645-INFO-Traffic：数据库连接成功
+2020-07-28 14:25:22,650-INFO-Traffic：数据库查询数据成功，返回数据为('1595916623553486393',)
+2020-07-28 14:25:22,656-INFO-Traffic：数据库连接成功
+2020-07-28 14:25:22,661-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808247,)
+2020-07-28 14:25:25,417-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 14:25:25,421-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 14:25:25,436-INFO-Traffic：post请求成功
+2020-07-28 14:25:25,440-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDM5Mjg4NjUsInBheWxvYWQiOiIxIn0.xA2BCwfDJwVoiwX93CTDO3LbRDz5xUx0LfqeyBHiUMQ', 'timestamp': '2020-07-28 14:25:28:865'}
+2020-07-28 14:25:25,444-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 14:25:25,449-INFO-Traffic：测试通过
+2020-07-28 14:25:25,583-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDM5Mjg4NjUsInBheWxvYWQiOiIxIn0.xA2BCwfDJwVoiwX93CTDO3LbRDz5xUx0LfqeyBHiUMQ","timestamp":"2020-07-28 14:25:28:865"}
+2020-07-28 14:25:25,587-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:36:04,083-INFO-Traffic：数据库连接成功
+2020-07-28 14:36:04,087-INFO-Traffic：数据库查询数据成功，返回数据为('1595916623553486393',)
+2020-07-28 14:36:04,093-INFO-Traffic：数据库连接成功
+2020-07-28 14:36:04,098-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808247,)
+2020-07-28 14:36:05,512-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 14:36:05,517-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 14:36:05,531-INFO-Traffic：post请求成功
+2020-07-28 14:36:05,534-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDQ1Njg5NjEsInBheWxvYWQiOiIxIn0.pLQEdj8dIKW_E_Fm9GeEtY1QfpzIesd-qD6aHVs4B4Q', 'timestamp': '2020-07-28 14:36:08:961'}
+2020-07-28 14:36:05,538-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 14:36:05,543-INFO-Traffic：测试通过
+2020-07-28 14:36:05,676-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDQ1Njg5NjEsInBheWxvYWQiOiIxIn0.pLQEdj8dIKW_E_Fm9GeEtY1QfpzIesd-qD6aHVs4B4Q","timestamp":"2020-07-28 14:36:08:961"}
+2020-07-28 14:36:05,679-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:36:05,817-INFO-Traffic：参数化的数据是：测试test
+2020-07-28 14:36:05,821-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-28 14:36:05,824-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-28 14:36:05,827-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-28 14:36:05,839-INFO-Traffic：post请求成功
+2020-07-28 14:36:05,845-INFO-Traffic：数据库连接成功
+2020-07-28 14:36:05,849-INFO-Traffic：数据库查询数据成功，返回数据为None
+2020-07-28 14:36:05,853-INFO-Traffic：监控点删除成功
+2020-07-28 14:36:05,857-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-28 14:36:09:269'}
+2020-07-28 14:36:05,861-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-28 14:36:05,865-INFO-Traffic：测试通过
+2020-07-28 14:36:05,988-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-28 14:36:09:269"}
+2020-07-28 14:36:05,991-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:36:06,132-INFO-Traffic：参数化的数据是：测试test
+2020-07-28 14:36:06,136-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-28 14:36:06,139-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-28 14:36:06,143-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-28 14:36:06,155-INFO-Traffic：post请求成功
+2020-07-28 14:36:06,161-INFO-Traffic：数据库连接成功
+2020-07-28 14:36:06,165-INFO-Traffic：数据库查询数据成功，返回数据为None
+2020-07-28 14:36:06,169-INFO-Traffic：监控点删除成功
+2020-07-28 14:36:06,172-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-28 14:36:09:585'}
+2020-07-28 14:36:06,177-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-28 14:36:06,180-INFO-Traffic：测试通过
+2020-07-28 14:36:06,302-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-28 14:36:09:585"}
+2020-07-28 14:36:06,306-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:36:06,449-INFO-Traffic：参数化的数据是：None
+2020-07-28 14:36:06,453-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-28 14:36:06,457-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-28 14:36:06,460-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":None, "name": "修改之后的测试test"}
+2020-07-28 14:36:06,471-INFO-Traffic：put请求成功
+2020-07-28 14:36:06,474-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-28 14:36:09:901'}
+2020-07-28 14:36:06,478-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-28 14:36:06,481-INFO-Traffic：测试通过
+2020-07-28 14:36:06,603-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-28 14:36:09:901"}
+2020-07-28 14:36:06,607-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:36:06,757-INFO-Traffic：参数化的数据是：None
+2020-07-28 14:36:06,761-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-07-28 14:36:06,764-INFO-Traffic：测试数据是： (
+    ('cameraId', 'None'),
+)
+2020-07-28 14:36:06,776-INFO-Traffic：get请求成功
+2020-07-28 14:36:06,779-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-28 14:36:10:206'}
+2020-07-28 14:36:06,783-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-28 14:36:06,786-INFO-Traffic：测试通过
+2020-07-28 14:36:06,907-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-28 14:36:10:206"}
+2020-07-28 14:36:06,910-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:36:07,063-INFO-Traffic：参数化的数据是：None
+2020-07-28 14:36:07,068-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-28 14:36:07,073-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-28 14:36:07,078-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', 'None'),
+)
+2020-07-28 14:36:07,091-INFO-Traffic：delete请求成功
+2020-07-28 14:36:07,109-INFO-Traffic：数据库连接成功
+2020-07-28 14:36:07,113-INFO-Traffic：数据库查询数据成功，返回数据为None
+2020-07-28 14:36:07,117-INFO-Traffic：监控点删除成功
+2020-07-28 14:36:07,121-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-28 14:36:10:520'}
+2020-07-28 14:36:07,124-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-28 14:36:07,128-INFO-Traffic：测试通过
+2020-07-28 14:36:07,254-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-28 14:36:10:520"}
+2020-07-28 14:36:07,258-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:37:17,937-INFO-Traffic：数据库连接成功
+2020-07-28 14:37:17,943-INFO-Traffic：数据库查询数据成功，返回数据为('1595916623553486393',)
+2020-07-28 14:37:17,959-INFO-Traffic：数据库连接成功
+2020-07-28 14:37:17,964-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808247,)
+2020-07-28 14:37:23,749-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 14:37:23,755-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 14:37:23,771-INFO-Traffic：post请求成功
+2020-07-28 14:37:23,775-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDQ2NDcyMDAsInBheWxvYWQiOiIxIn0.pslxVKjnvPesiVGW9fSwd47tYS7eMbicWa2Xa0e6BsE', 'timestamp': '2020-07-28 14:37:27:200'}
+2020-07-28 14:37:23,778-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 14:37:23,785-INFO-Traffic：测试通过
+2020-07-28 14:37:23,916-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDQ2NDcyMDAsInBheWxvYWQiOiIxIn0.pslxVKjnvPesiVGW9fSwd47tYS7eMbicWa2Xa0e6BsE","timestamp":"2020-07-28 14:37:27:200"}
+2020-07-28 14:37:23,919-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:38:07,343-INFO-Traffic：参数化的数据是：测试test
+2020-07-28 14:38:12,360-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-28 14:38:15,076-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-28 14:38:17,473-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-28 14:38:20,094-INFO-Traffic：post请求成功
+2020-07-28 14:38:24,108-INFO-Traffic：数据库连接成功
+2020-07-28 14:38:24,113-INFO-Traffic：数据库查询数据成功，返回数据为None
+2020-07-28 14:38:26,708-INFO-Traffic：监控点删除成功
+2020-07-28 14:38:33,965-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-28 14:38:23:524'}
+2020-07-28 14:38:38,804-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-28 14:39:44,074-INFO-Traffic：数据库连接成功
+2020-07-28 14:39:44,078-INFO-Traffic：数据库查询数据成功，返回数据为('1595916623553486393',)
+2020-07-28 14:39:44,084-INFO-Traffic：数据库连接成功
+2020-07-28 14:39:44,088-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808247,)
+2020-07-28 14:39:47,631-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 14:39:47,636-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 14:39:52,797-INFO-Traffic：post请求成功
+2020-07-28 14:39:52,803-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDQ3OTYyMjgsInBheWxvYWQiOiIxIn0.vYWvguHXu_wAWEwUZ4ZJTeXNOMgJymWk9xX4ZJ73HXI', 'timestamp': '2020-07-28 14:39:56:228'}
+2020-07-28 14:39:52,806-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 14:39:52,812-INFO-Traffic：测试通过
+2020-07-28 14:39:52,961-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDQ3OTYyMjgsInBheWxvYWQiOiIxIn0.vYWvguHXu_wAWEwUZ4ZJTeXNOMgJymWk9xX4ZJ73HXI","timestamp":"2020-07-28 14:39:56:228"}
+2020-07-28 14:39:52,964-INFO-Traffic：写入result成功 ：pass
+2020-07-28 14:39:55,039-INFO-Traffic：参数化的数据是：测试test
+2020-07-28 14:39:55,043-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-28 14:39:55,048-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-28 14:39:55,053-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-28 14:59:24,461-INFO-Traffic：数据库连接成功
+2020-07-28 14:59:24,465-INFO-Traffic：数据库查询数据成功，返回数据为('1595916623553486393',)
+2020-07-28 14:59:24,480-INFO-Traffic：数据库连接成功
+2020-07-28 14:59:24,485-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808247,)
+2020-07-28 14:59:51,327-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 14:59:53,818-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 15:00:44,722-INFO-Traffic：post请求成功
+2020-07-28 15:07:00,987-INFO-Traffic：数据库连接成功
+2020-07-28 15:07:00,992-INFO-Traffic：数据库查询数据成功，返回数据为('1595916623553486393',)
+2020-07-28 15:07:00,999-INFO-Traffic：数据库连接成功
+2020-07-28 15:07:01,004-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808247,)
+2020-07-28 15:07:02,415-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 15:07:02,419-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 15:16:52,910-INFO-Traffic：post请求成功
+2020-07-28 15:16:52,914-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDcwMTYzNDEsInBheWxvYWQiOiIxIn0.On7eyg7LOu5uhhgUjFVgEU6vmKzlsQtGtPM2wTOW0Cs', 'timestamp': '2020-07-28 15:16:56:341'}
+2020-07-28 15:16:52,917-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 15:16:52,923-INFO-Traffic：测试通过
+2020-07-28 15:16:53,046-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMDcwMTYzNDEsInBheWxvYWQiOiIxIn0.On7eyg7LOu5uhhgUjFVgEU6vmKzlsQtGtPM2wTOW0Cs","timestamp":"2020-07-28 15:16:56:341"}
+2020-07-28 15:16:53,049-INFO-Traffic：写入result成功 ：pass
+2020-07-28 15:16:58,275-INFO-Traffic：数据库连接成功
+2020-07-28 15:16:58,279-INFO-Traffic：数据库查询数据成功，返回数据为('1595916623553486393',)
+2020-07-28 15:16:58,286-INFO-Traffic：数据库连接成功
+2020-07-28 15:16:58,291-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808247,)
+2020-07-28 15:20:32,271-INFO-Traffic：数据库连接成功
+2020-07-28 15:20:32,276-INFO-Traffic：数据库查询数据成功，返回数据为('1595916623553486393',)
+2020-07-28 15:20:32,294-INFO-Traffic：数据库连接成功
+2020-07-28 15:20:32,298-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808248,)
+2020-07-28 15:58:06,121-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 15:58:09,705-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 15:59:38,587-INFO-Traffic：post请求成功
+2020-07-28 16:01:27,853-INFO-Traffic：数据库连接成功
+2020-07-28 16:01:27,857-INFO-Traffic：数据库查询数据成功，返回数据为('1595923236484101874',)
+2020-07-28 16:01:27,872-INFO-Traffic：数据库连接成功
+2020-07-28 16:01:27,878-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808249,)
+2020-07-28 16:04:22,339-INFO-Traffic：数据库连接成功
+2020-07-28 16:04:22,348-INFO-Traffic：数据库查询数据成功，返回数据为('1595923236484101874',)
+2020-07-28 16:04:22,358-INFO-Traffic：数据库连接成功
+2020-07-28 16:04:22,362-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808249,)
+2020-07-28 16:07:45,394-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 16:07:47,578-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 16:07:59,942-INFO-Traffic：post请求成功
+2020-07-28 16:10:56,512-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMTAwODM0MTMsInBheWxvYWQiOiIxIn0.w-YwQsXaB00h8NowQKS7l8RrI0S5d992qBOTN5K3juo', 'timestamp': '2020-07-28 16:08:03:413'}
+2020-07-28 16:11:00,260-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-28 16:11:00,265-INFO-Traffic：测试通过
+2020-07-28 16:11:00,389-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwMTAwODM0MTMsInBheWxvYWQiOiIxIn0.w-YwQsXaB00h8NowQKS7l8RrI0S5d992qBOTN5K3juo","timestamp":"2020-07-28 16:08:03:413"}
+2020-07-28 16:11:00,394-INFO-Traffic：写入result成功 ：pass
+2020-07-28 17:03:24,313-INFO-Traffic：数据库连接成功
+2020-07-28 17:03:24,318-INFO-Traffic：数据库查询数据成功，返回数据为('1595923236484101874',)
+2020-07-28 17:03:24,324-INFO-Traffic：数据库连接成功
+2020-07-28 17:03:24,328-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808250,)
+2020-07-28 17:07:56,813-INFO-Traffic：数据库连接成功
+2020-07-28 17:07:56,821-INFO-Traffic：数据库查询数据成功，返回数据为('1595927049701574482',)
+2020-07-28 17:07:56,827-INFO-Traffic：数据库连接成功
+2020-07-28 17:07:56,832-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808250,)
+2020-07-28 17:08:26,196-INFO-Traffic：数据库连接成功
+2020-07-28 17:08:26,200-INFO-Traffic：数据库查询数据成功，返回数据为('1595927049701574482',)
+2020-07-28 17:08:26,208-INFO-Traffic：数据库连接成功
+2020-07-28 17:08:26,213-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808250,)
+2020-07-28 17:13:11,780-INFO-Traffic：数据库连接成功
+2020-07-28 17:13:11,784-INFO-Traffic：数据库查询数据成功，返回数据为('1595927049701574482',)
+2020-07-28 17:13:11,799-INFO-Traffic：数据库连接成功
+2020-07-28 17:13:11,803-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808250,)
+2020-07-28 17:15:22,971-INFO-Traffic：数据库连接成功
+2020-07-28 17:15:22,976-INFO-Traffic：数据库查询数据成功，返回数据为('1595927049701574482',)
+2020-07-28 17:15:22,993-INFO-Traffic：数据库连接成功
+2020-07-28 17:15:22,997-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808250,)
+2020-07-28 17:22:58,733-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 17:23:02,590-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 17:24:35,212-INFO-Traffic：post请求成功
+2020-07-28 17:25:27,569-INFO-Traffic：数据库连接成功
+2020-07-28 17:25:27,574-INFO-Traffic：数据库查询数据成功，返回数据为('1595927049701574482',)
+2020-07-28 17:25:27,580-INFO-Traffic：数据库连接成功
+2020-07-28 17:25:27,584-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808250,)
+2020-07-28 17:30:26,373-INFO-Traffic：数据库连接成功
+2020-07-28 17:30:26,378-INFO-Traffic：数据库查询数据成功，返回数据为('1595927049701574482',)
+2020-07-28 17:30:26,385-INFO-Traffic：数据库连接成功
+2020-07-28 17:30:26,389-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808250,)
+2020-07-28 17:31:34,385-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-28 17:31:34,390-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-28 17:36:41,440-INFO-Traffic：数据库连接成功
+2020-07-28 17:36:41,445-INFO-Traffic：数据库查询数据成功，返回数据为('1595927049701574482',)
+2020-07-28 17:36:41,471-INFO-Traffic：数据库连接成功
+2020-07-28 17:36:41,475-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808251,)
+2020-07-28 18:06:35,260-INFO-Traffic：数据库连接成功
+2020-07-28 18:06:35,264-INFO-Traffic：数据库查询数据成功，返回数据为('1595929947863782801',)
+2020-07-28 18:06:35,270-INFO-Traffic：数据库连接成功
+2020-07-28 18:06:35,275-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808252,)
+2020-07-28 18:07:43,315-INFO-Traffic：数据库连接成功
+2020-07-28 18:07:43,320-INFO-Traffic：数据库查询数据成功，返回数据为('1595929947863782801',)
+2020-07-28 18:07:43,326-INFO-Traffic：数据库连接成功
+2020-07-28 18:07:43,331-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808252,)
+2020-07-28 18:09:36,463-INFO-Traffic：数据库连接成功
+2020-07-28 18:09:36,467-INFO-Traffic：数据库查询数据成功，返回数据为('1595929947863782801',)
+2020-07-28 18:09:36,475-INFO-Traffic：数据库连接成功
+2020-07-28 18:09:36,480-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808252,)
+2020-07-28 18:14:15,359-INFO-Traffic：数据库连接成功
+2020-07-28 18:14:15,364-INFO-Traffic：数据库查询数据成功，返回数据为('1595929947863782801',)
+2020-07-28 18:14:15,370-INFO-Traffic：数据库连接成功
+2020-07-28 18:14:15,374-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808252,)
+2020-07-28 18:15:00,097-INFO-Traffic：数据库连接成功
+2020-07-28 18:15:00,101-INFO-Traffic：数据库查询数据成功，返回数据为('1595929947863782801',)
+2020-07-28 18:15:00,107-INFO-Traffic：数据库连接成功
+2020-07-28 18:15:00,112-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808252,)
+2020-07-28 18:21:00,434-INFO-Traffic：数据库连接成功
+2020-07-28 18:21:00,439-INFO-Traffic：数据库查询数据成功，返回数据为('1595929947863782801',)
+2020-07-28 18:21:00,446-INFO-Traffic：数据库连接成功
+2020-07-28 18:21:00,451-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808252,)
+2020-07-29 10:04:04,868-INFO-Traffic：数据库连接成功
+2020-07-29 10:04:04,896-INFO-Traffic：数据库查询数据成功，返回数据为('1595987244365234862',)
+2020-07-29 10:04:04,902-INFO-Traffic：数据库连接成功
+2020-07-29 10:04:04,908-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808253,)
+2020-07-29 10:05:51,716-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 10:05:54,009-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 10:06:48,533-INFO-Traffic：post请求成功
+2020-07-29 10:23:31,837-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzQ4MDU4NTQsInBheWxvYWQiOiIxIn0.Q57TEyijacobgZjoFhM9J9Jog2HsGCia6Y9kiY4eks4', 'timestamp': '2020-07-29 10:06:45:854'}
+2020-07-29 10:23:35,107-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 10:23:41,462-INFO-Traffic：测试通过
+2020-07-29 10:24:09,202-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzQ4MDU4NTQsInBheWxvYWQiOiIxIn0.Q57TEyijacobgZjoFhM9J9Jog2HsGCia6Y9kiY4eks4","timestamp":"2020-07-29 10:06:45:854"}
+2020-07-29 10:24:09,205-INFO-Traffic：写入result成功 ：pass
+2020-07-29 10:38:54,733-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 10:38:58,366-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 10:39:02,075-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 10:39:04,660-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 10:39:43,300-INFO-Traffic：post请求成功
+2020-07-29 10:43:43,866-INFO-Traffic：数据库连接成功
+2020-07-29 10:43:43,870-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 10:43:43,887-INFO-Traffic：数据库连接成功
+2020-07-29 10:43:43,892-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 10:43:43,895-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 10:39:30:375'}
+2020-07-29 10:43:43,898-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 10:43:43,902-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 10:43:44,035-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 10:39:30:375"}
+2020-07-29 10:43:44,039-INFO-Traffic：写入result成功 ：pass
+2020-07-29 10:43:51,392-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 10:43:51,396-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 10:43:51,399-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 10:43:51,405-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 10:43:52,520-INFO-Traffic：post请求成功
+2020-07-29 10:43:52,536-INFO-Traffic：数据库连接成功
+2020-07-29 10:43:52,540-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 10:43:52,547-INFO-Traffic：数据库连接成功
+2020-07-29 10:43:52,551-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 10:43:52,555-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 10:43:52:550'}
+2020-07-29 10:43:52,559-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 10:43:52,563-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 10:43:52,692-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 10:43:52:550"}
+2020-07-29 10:43:52,695-INFO-Traffic：写入result成功 ：pass
+2020-07-29 10:44:38,394-INFO-Traffic：参数化的数据是：1562225808254
+2020-07-29 10:44:38,398-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 10:44:38,402-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 10:44:38,406-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808254, "name": "修改之后的测试test"}
+2020-07-29 10:44:39,629-INFO-Traffic：put请求成功
+2020-07-29 10:44:39,633-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 10:44:39:661'}
+2020-07-29 10:44:39,636-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 10:45:05,448-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 10:46:24,310-INFO-Traffic：数据库连接成功
+2020-07-29 10:46:24,314-INFO-Traffic：数据库查询数据成功，返回数据为('1595990553375504169',)
+2020-07-29 10:46:24,330-INFO-Traffic：数据库连接成功
+2020-07-29 10:46:24,334-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 10:46:25,796-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 10:46:25,800-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 10:46:25,813-INFO-Traffic：post请求成功
+2020-07-29 10:46:25,817-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzcxODU4NDUsInBheWxvYWQiOiIxIn0.Rd1u0niLnF6Ve8yHPUCmm9Nwe48MdWxxoDpso9RBU8I', 'timestamp': '2020-07-29 10:46:25:845'}
+2020-07-29 10:46:25,820-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 10:46:25,824-INFO-Traffic：测试通过
+2020-07-29 10:46:25,947-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzcxODU4NDUsInBheWxvYWQiOiIxIn0.Rd1u0niLnF6Ve8yHPUCmm9Nwe48MdWxxoDpso9RBU8I","timestamp":"2020-07-29 10:46:25:845"}
+2020-07-29 10:46:25,952-INFO-Traffic：写入result成功 ：pass
+2020-07-29 10:46:26,123-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 10:46:26,127-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 10:46:26,130-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 10:46:26,133-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 10:46:26,180-INFO-Traffic：post请求成功
+2020-07-29 10:46:26,185-INFO-Traffic：数据库连接成功
+2020-07-29 10:46:26,190-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808255,)
+2020-07-29 10:46:26,197-INFO-Traffic：数据库连接成功
+2020-07-29 10:46:26,201-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808255,)
+2020-07-29 10:46:26,205-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 10:46:26:212'}
+2020-07-29 10:46:26,208-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 10:46:26,211-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 10:46:26,215-INFO-Traffic：测试通过
+2020-07-29 10:46:26,342-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 10:46:26:212"}
+2020-07-29 10:46:26,345-INFO-Traffic：写入result成功 ：pass
+2020-07-29 10:46:26,504-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 10:46:26,507-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 10:46:26,510-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 10:46:26,514-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 10:46:26,529-INFO-Traffic：post请求成功
+2020-07-29 10:46:26,536-INFO-Traffic：数据库连接成功
+2020-07-29 10:46:26,540-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808255,)
+2020-07-29 10:46:26,557-INFO-Traffic：数据库连接成功
+2020-07-29 10:46:26,561-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808255,)
+2020-07-29 10:46:26,565-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 10:46:26:559'}
+2020-07-29 10:46:26,568-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 10:46:26,572-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 10:46:26,576-INFO-Traffic：测试通过
+2020-07-29 10:46:26,703-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 10:46:26:559"}
+2020-07-29 10:46:26,706-INFO-Traffic：写入result成功 ：pass
+2020-07-29 10:46:26,867-INFO-Traffic：参数化的数据是：1562225808255
+2020-07-29 10:46:26,870-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 10:46:26,875-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 10:46:26,879-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808255, "name": "修改之后的测试test"}
+2020-07-29 10:46:26,941-INFO-Traffic：put请求成功
+2020-07-29 10:46:26,945-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 10:46:26:973'}
+2020-07-29 10:46:26,949-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 10:46:26,952-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 10:46:26,955-INFO-Traffic：测试通过
+2020-07-29 10:46:27,077-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 10:46:26:973"}
+2020-07-29 10:46:27,081-INFO-Traffic：写入result成功 ：pass
+2020-07-29 10:46:27,244-INFO-Traffic：参数化的数据是：1562225808255
+2020-07-29 10:46:27,249-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-07-29 10:46:27,252-INFO-Traffic：测试数据是： (
+    ('cameraId', '1562225808255'),
+)
+2020-07-29 10:46:27,263-INFO-Traffic：get请求成功
+2020-07-29 10:46:27,267-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-29 10:46:27:294'}
+2020-07-29 10:46:27,270-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 10:46:27,273-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 10:46:27,279-ERROR-Traffic：测试失败，断言错误
+2020-07-29 10:46:27,403-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-29 10:46:27:294"}
+2020-07-29 10:46:27,408-INFO-Traffic：写入result成功 ：failed
+2020-07-29 10:46:27,767-INFO-Traffic：参数化的数据是：1562225808255
+2020-07-29 10:46:27,771-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-29 10:46:27,775-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-29 10:46:27,779-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', '1562225808255'),
+)
+2020-07-29 10:46:27,837-INFO-Traffic：delete请求成功
+2020-07-29 10:46:27,846-INFO-Traffic：数据库连接成功
+2020-07-29 10:46:27,850-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 10:46:27,867-INFO-Traffic：数据库连接成功
+2020-07-29 10:46:27,872-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 10:46:27,876-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 10:46:27:867'}
+2020-07-29 10:46:27,879-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-29 10:46:27,883-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 10:46:27,886-INFO-Traffic：测试通过
+2020-07-29 10:46:28,010-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 10:46:27:867"}
+2020-07-29 10:46:28,014-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:04:16,569-INFO-Traffic：数据库连接成功
+2020-07-29 11:04:16,574-INFO-Traffic：数据库查询数据成功，返回数据为('1595991771951418390',)
+2020-07-29 11:04:16,595-INFO-Traffic：数据库连接成功
+2020-07-29 11:04:16,603-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:04:18,023-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 11:04:18,026-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 11:04:18,043-INFO-Traffic：post请求成功
+2020-07-29 11:04:18,049-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzgyNTgwODEsInBheWxvYWQiOiIxIn0.2D30rF5bDArsGkX8XVR8S7R759cxsl4JSxN-U-xoDIQ', 'timestamp': '2020-07-29 11:04:18:082'}
+2020-07-29 11:04:18,063-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 11:04:18,068-INFO-Traffic：测试通过
+2020-07-29 11:04:18,187-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzgyNTgwODEsInBheWxvYWQiOiIxIn0.2D30rF5bDArsGkX8XVR8S7R759cxsl4JSxN-U-xoDIQ","timestamp":"2020-07-29 11:04:18:082"}
+2020-07-29 11:04:18,190-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:04:18,347-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:04:18,351-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:04:18,354-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 11:04:18,357-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:04:18,473-INFO-Traffic：post请求成功
+2020-07-29 11:04:18,490-INFO-Traffic：数据库连接成功
+2020-07-29 11:04:18,494-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808256,)
+2020-07-29 11:04:18,500-INFO-Traffic：数据库连接成功
+2020-07-29 11:04:18,505-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808256,)
+2020-07-29 11:04:18,508-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:04:18:513'}
+2020-07-29 11:04:18,513-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:04:18,516-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:04:18,520-INFO-Traffic：测试通过
+2020-07-29 11:04:18,648-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:04:18:513"}
+2020-07-29 11:04:18,651-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:04:18,802-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:04:18,806-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:04:18,809-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 11:04:18,814-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:04:18,832-INFO-Traffic：post请求成功
+2020-07-29 11:04:18,848-INFO-Traffic：数据库连接成功
+2020-07-29 11:04:18,853-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808256,)
+2020-07-29 11:04:18,860-INFO-Traffic：数据库连接成功
+2020-07-29 11:04:18,865-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808256,)
+2020-07-29 11:04:18,868-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 11:04:18:866'}
+2020-07-29 11:04:18,872-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 11:04:18,875-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:04:18,879-INFO-Traffic：测试通过
+2020-07-29 11:04:19,004-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 11:04:18:866"}
+2020-07-29 11:04:19,007-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:04:19,171-INFO-Traffic：参数化的数据是：1562225808256
+2020-07-29 11:04:19,175-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 11:04:19,179-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 11:04:19,183-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808256, "name": "修改之后的测试test"}
+2020-07-29 11:04:19,808-INFO-Traffic：put请求成功
+2020-07-29 11:04:19,811-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:04:19:848'}
+2020-07-29 11:04:19,815-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:04:19,818-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:04:19,821-INFO-Traffic：测试通过
+2020-07-29 11:04:19,942-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:04:19:848"}
+2020-07-29 11:04:19,946-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:04:20,096-INFO-Traffic：参数化的数据是：1562225808256
+2020-07-29 11:04:20,099-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-07-29 11:04:20,103-INFO-Traffic：测试数据是： (
+    ('cameraId', '1562225808256'),
+)
+2020-07-29 11:04:20,114-INFO-Traffic：get请求成功
+2020-07-29 11:04:20,438-INFO-Traffic：参数化的数据是：1562225808256
+2020-07-29 11:04:20,442-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-29 11:04:20,445-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-29 11:04:20,449-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', '1562225808256'),
+)
+2020-07-29 11:04:20,606-INFO-Traffic：delete请求成功
+2020-07-29 11:04:20,622-INFO-Traffic：数据库连接成功
+2020-07-29 11:04:20,626-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:04:20,643-INFO-Traffic：数据库连接成功
+2020-07-29 11:04:20,648-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:04:20,652-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:04:20:646'}
+2020-07-29 11:04:20,656-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-29 11:04:20,659-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:04:20,663-INFO-Traffic：测试通过
+2020-07-29 11:04:20,789-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:04:20:646"}
+2020-07-29 11:04:20,793-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:07:38,686-INFO-Traffic：数据库连接成功
+2020-07-29 11:07:38,691-INFO-Traffic：数据库查询数据成功，返回数据为('1595991771951418390',)
+2020-07-29 11:07:38,708-INFO-Traffic：数据库连接成功
+2020-07-29 11:07:38,712-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:07:40,130-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 11:07:40,133-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 11:07:40,148-INFO-Traffic：post请求成功
+2020-07-29 11:07:40,151-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzg0NjAxODgsInBheWxvYWQiOiIxIn0.zI8YmrhjzucpGgeDpddtC1QFpkgOOS7ZTQQMCsgkm68', 'timestamp': '2020-07-29 11:07:40:188'}
+2020-07-29 11:07:40,157-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 11:07:40,163-INFO-Traffic：测试通过
+2020-07-29 11:07:40,277-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzg0NjAxODgsInBheWxvYWQiOiIxIn0.zI8YmrhjzucpGgeDpddtC1QFpkgOOS7ZTQQMCsgkm68","timestamp":"2020-07-29 11:07:40:188"}
+2020-07-29 11:07:40,282-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:07:40,433-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:07:40,439-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:07:40,443-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 11:07:40,447-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:07:40,500-INFO-Traffic：post请求成功
+2020-07-29 11:07:40,517-INFO-Traffic：数据库连接成功
+2020-07-29 11:07:40,521-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808257,)
+2020-07-29 11:07:40,538-INFO-Traffic：数据库连接成功
+2020-07-29 11:07:40,542-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808257,)
+2020-07-29 11:07:40,546-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:07:40:542'}
+2020-07-29 11:07:40,550-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:07:40,554-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:07:40,557-INFO-Traffic：测试通过
+2020-07-29 11:07:40,679-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:07:40:542"}
+2020-07-29 11:07:40,682-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:07:40,840-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:07:40,846-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:07:40,850-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 11:07:40,853-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:07:40,866-INFO-Traffic：post请求成功
+2020-07-29 11:07:40,883-INFO-Traffic：数据库连接成功
+2020-07-29 11:07:40,886-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808257,)
+2020-07-29 11:07:40,905-INFO-Traffic：数据库连接成功
+2020-07-29 11:07:40,909-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808257,)
+2020-07-29 11:07:40,913-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 11:07:40:906'}
+2020-07-29 11:07:40,916-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 11:07:40,919-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:07:40,923-INFO-Traffic：测试通过
+2020-07-29 11:07:41,044-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 11:07:40:906"}
+2020-07-29 11:07:41,048-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:07:41,203-INFO-Traffic：参数化的数据是：1562225808257
+2020-07-29 11:07:41,206-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 11:07:41,209-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 11:07:41,213-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808257, "name": "修改之后的测试test"}
+2020-07-29 11:07:41,280-INFO-Traffic：put请求成功
+2020-07-29 11:07:41,284-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:07:41:320'}
+2020-07-29 11:07:41,287-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:07:41,290-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:07:41,293-INFO-Traffic：测试通过
+2020-07-29 11:07:41,417-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:07:41:320"}
+2020-07-29 11:07:41,422-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:07:41,782-INFO-Traffic：参数化的数据是：1562225808257
+2020-07-29 11:07:41,786-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-29 11:07:41,789-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-29 11:07:41,792-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', '1562225808257'),
+)
+2020-07-29 11:07:41,881-INFO-Traffic：delete请求成功
+2020-07-29 11:07:41,898-INFO-Traffic：数据库连接成功
+2020-07-29 11:07:41,902-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:07:41,918-INFO-Traffic：数据库连接成功
+2020-07-29 11:07:41,924-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:07:41,927-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:07:41:922'}
+2020-07-29 11:07:41,930-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-29 11:07:41,933-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:07:41,937-INFO-Traffic：测试通过
+2020-07-29 11:07:42,059-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:07:41:922"}
+2020-07-29 11:07:42,064-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:08:32,096-INFO-Traffic：数据库连接成功
+2020-07-29 11:08:32,100-INFO-Traffic：数据库查询数据成功，返回数据为('1595991771951418390',)
+2020-07-29 11:08:32,115-INFO-Traffic：数据库连接成功
+2020-07-29 11:08:32,119-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:08:33,534-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 11:08:33,537-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 11:08:33,551-INFO-Traffic：post请求成功
+2020-07-29 11:08:33,555-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzg1MTM1OTIsInBheWxvYWQiOiIxIn0.38bkogIfaPTuCK_kFAXDI1NVheqIKstiIkLkcAHqJx4', 'timestamp': '2020-07-29 11:08:33:592'}
+2020-07-29 11:08:33,558-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 11:08:33,565-INFO-Traffic：测试通过
+2020-07-29 11:08:33,681-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzg1MTM1OTIsInBheWxvYWQiOiIxIn0.38bkogIfaPTuCK_kFAXDI1NVheqIKstiIkLkcAHqJx4","timestamp":"2020-07-29 11:08:33:592"}
+2020-07-29 11:08:33,684-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:08:33,842-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:08:33,846-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:08:33,850-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 11:08:33,853-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:08:33,904-INFO-Traffic：post请求成功
+2020-07-29 11:08:33,921-INFO-Traffic：数据库连接成功
+2020-07-29 11:08:33,925-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808258,)
+2020-07-29 11:08:33,942-INFO-Traffic：数据库连接成功
+2020-07-29 11:08:33,946-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808258,)
+2020-07-29 11:08:33,950-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:08:33:946'}
+2020-07-29 11:08:33,954-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:08:33,957-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:08:33,960-INFO-Traffic：测试通过
+2020-07-29 11:08:34,087-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:08:33:946"}
+2020-07-29 11:08:34,091-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:08:34,243-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:08:34,248-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:08:34,252-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 11:08:34,255-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:08:34,267-INFO-Traffic：post请求成功
+2020-07-29 11:08:34,286-INFO-Traffic：数据库连接成功
+2020-07-29 11:08:34,292-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808258,)
+2020-07-29 11:08:34,309-INFO-Traffic：数据库连接成功
+2020-07-29 11:08:34,313-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808258,)
+2020-07-29 11:08:34,317-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 11:08:34:309'}
+2020-07-29 11:08:34,320-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 11:08:34,323-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:08:34,328-INFO-Traffic：测试通过
+2020-07-29 11:08:34,453-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 11:08:34:309"}
+2020-07-29 11:08:34,456-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:08:34,611-INFO-Traffic：参数化的数据是：1562225808258
+2020-07-29 11:08:34,615-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 11:08:34,618-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 11:08:34,622-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808258, "name": "修改之后的测试test"}
+2020-07-29 11:08:34,683-INFO-Traffic：put请求成功
+2020-07-29 11:08:34,689-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:08:34:722'}
+2020-07-29 11:08:34,693-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:08:34,696-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:08:34,700-INFO-Traffic：测试通过
+2020-07-29 11:08:34,822-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:08:34:722"}
+2020-07-29 11:08:34,826-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:08:34,975-INFO-Traffic：参数化的数据是：1562225808258
+2020-07-29 11:08:34,979-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-07-29 11:08:34,982-INFO-Traffic：测试数据是： (
+    ('cameraId', '1562225808258'),
+)
+2020-07-29 11:08:34,993-INFO-Traffic：get请求成功
+2020-07-29 11:08:34,997-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-29 11:08:35:035'}
+2020-07-29 11:08:35,000-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:08:35,004-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:08:35,008-ERROR-Traffic：测试失败，断言错误
+2020-07-29 11:08:35,135-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-29 11:08:35:035"}
+2020-07-29 11:08:35,138-INFO-Traffic：写入result成功 ：failed
+2020-07-29 11:08:35,497-INFO-Traffic：参数化的数据是：1562225808258
+2020-07-29 11:08:35,501-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-29 11:08:35,504-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-29 11:08:35,508-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', '1562225808258'),
+)
+2020-07-29 11:08:35,565-INFO-Traffic：delete请求成功
+2020-07-29 11:08:35,572-INFO-Traffic：数据库连接成功
+2020-07-29 11:08:35,576-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:08:35,593-INFO-Traffic：数据库连接成功
+2020-07-29 11:08:35,597-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:08:35,601-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:08:35:606'}
+2020-07-29 11:08:35,604-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-29 11:08:35,607-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:08:35,612-INFO-Traffic：测试通过
+2020-07-29 11:08:35,739-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:08:35:606"}
+2020-07-29 11:08:35,744-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:13:45,666-INFO-Traffic：数据库连接成功
+2020-07-29 11:13:45,670-INFO-Traffic：数据库查询数据成功，返回数据为('1595991771951418390',)
+2020-07-29 11:13:45,677-INFO-Traffic：数据库连接成功
+2020-07-29 11:13:45,681-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:13:47,129-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 11:13:47,132-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 11:13:47,147-INFO-Traffic：post请求成功
+2020-07-29 11:13:47,152-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzg4MjcxODksInBheWxvYWQiOiIxIn0.k7NzBq00aUP9APl82JnpsB6G4UONuBmZtN6-C-08EGk', 'timestamp': '2020-07-29 11:13:47:190'}
+2020-07-29 11:13:47,156-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 11:13:47,161-INFO-Traffic：测试通过
+2020-07-29 11:13:47,276-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzg4MjcxODksInBheWxvYWQiOiIxIn0.k7NzBq00aUP9APl82JnpsB6G4UONuBmZtN6-C-08EGk","timestamp":"2020-07-29 11:13:47:190"}
+2020-07-29 11:13:47,280-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:13:47,434-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:13:47,438-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:13:47,441-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 11:13:47,444-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:13:47,524-INFO-Traffic：post请求成功
+2020-07-29 11:13:47,531-INFO-Traffic：数据库连接成功
+2020-07-29 11:13:47,535-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808259,)
+2020-07-29 11:13:47,551-INFO-Traffic：数据库连接成功
+2020-07-29 11:13:47,555-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808259,)
+2020-07-29 11:13:47,558-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:13:47:567'}
+2020-07-29 11:13:47,562-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:13:47,565-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:13:47,569-INFO-Traffic：测试通过
+2020-07-29 11:13:47,696-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:13:47:567"}
+2020-07-29 11:13:47,702-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:13:47,859-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:13:47,863-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:13:47,866-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 11:13:47,869-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:13:47,881-INFO-Traffic：post请求成功
+2020-07-29 11:13:47,900-INFO-Traffic：数据库连接成功
+2020-07-29 11:13:47,906-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808259,)
+2020-07-29 11:13:47,927-INFO-Traffic：数据库连接成功
+2020-07-29 11:13:47,933-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808259,)
+2020-07-29 11:13:47,938-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 11:13:47:925'}
+2020-07-29 11:13:47,942-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 11:13:47,945-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:13:47,949-INFO-Traffic：测试通过
+2020-07-29 11:13:48,074-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 11:13:47:925"}
+2020-07-29 11:13:48,077-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:13:48,234-INFO-Traffic：参数化的数据是：1562225808259
+2020-07-29 11:13:48,238-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 11:13:48,241-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 11:13:48,244-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808259, "name": "修改之后的测试test"}
+2020-07-29 11:13:48,304-INFO-Traffic：put请求成功
+2020-07-29 11:13:48,310-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:13:48:344'}
+2020-07-29 11:13:48,316-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:13:48,320-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:13:48,324-INFO-Traffic：测试通过
+2020-07-29 11:13:48,443-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:13:48:344"}
+2020-07-29 11:13:48,447-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:13:48,596-INFO-Traffic：参数化的数据是：1562225808259
+2020-07-29 11:13:48,599-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-07-29 11:13:48,603-INFO-Traffic：测试数据是： (
+    ('cameraId', '1562225808259'),
+)
+2020-07-29 11:13:48,614-INFO-Traffic：get请求成功
+2020-07-29 11:13:48,617-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-29 11:13:48:657'}
+2020-07-29 11:13:48,620-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:13:48,624-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:13:48,629-ERROR-Traffic：测试失败，断言错误
+2020-07-29 11:13:48,633-ERROR-Traffic：请检查请求参数-------------------  (
+    ('cameraId', '1562225808259'),
+)
+http://172.16.1.107:9088/api_traffic/camera/isAnalyzed
+{'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'authorization': 'Basic ZWxhc3RpYzoxMjM0NTY=', 'keensense-traffic-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzg4MjcxODksInBheWxvYWQiOiIxIn0.k7NzBq00aUP9APl82JnpsB6G4UONuBmZtN6-C-08EGk', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
+2020-07-29 11:13:48,766-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-29 11:13:48:657"}
+2020-07-29 11:13:48,770-INFO-Traffic：写入result成功 ：failed
+2020-07-29 11:13:49,124-INFO-Traffic：参数化的数据是：1562225808259
+2020-07-29 11:13:49,128-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-29 11:13:49,132-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-29 11:13:49,135-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', '1562225808259'),
+)
+2020-07-29 11:13:49,197-INFO-Traffic：delete请求成功
+2020-07-29 11:13:49,207-INFO-Traffic：数据库连接成功
+2020-07-29 11:13:49,214-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:13:49,233-INFO-Traffic：数据库连接成功
+2020-07-29 11:13:49,237-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:13:49,240-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:13:49:237'}
+2020-07-29 11:13:49,246-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-29 11:13:49,251-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:13:49,255-INFO-Traffic：测试通过
+2020-07-29 11:13:49,382-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:13:49:237"}
+2020-07-29 11:13:49,385-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:15:29,584-INFO-Traffic：数据库连接成功
+2020-07-29 11:15:29,588-INFO-Traffic：数据库查询数据成功，返回数据为('1595991771951418390',)
+2020-07-29 11:15:29,604-INFO-Traffic：数据库连接成功
+2020-07-29 11:15:29,608-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:15:31,065-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 11:15:31,069-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 11:15:31,083-INFO-Traffic：post请求成功
+2020-07-29 11:15:31,088-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzg5MzExMjYsInBheWxvYWQiOiIxIn0.yKOtQJd7f-ugwSR_bxMbyvwOe5OHaZaftY6hiB9a2rU', 'timestamp': '2020-07-29 11:15:31:126'}
+2020-07-29 11:15:31,091-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 11:15:31,096-INFO-Traffic：测试通过
+2020-07-29 11:15:31,221-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzg5MzExMjYsInBheWxvYWQiOiIxIn0.yKOtQJd7f-ugwSR_bxMbyvwOe5OHaZaftY6hiB9a2rU","timestamp":"2020-07-29 11:15:31:126"}
+2020-07-29 11:15:31,225-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:15:31,380-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:15:31,383-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:15:31,387-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 11:15:31,390-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:15:31,439-INFO-Traffic：post请求成功
+2020-07-29 11:15:31,459-INFO-Traffic：数据库连接成功
+2020-07-29 11:15:31,465-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808260,)
+2020-07-29 11:15:31,486-INFO-Traffic：数据库连接成功
+2020-07-29 11:15:31,490-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808260,)
+2020-07-29 11:15:31,494-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:15:31:484'}
+2020-07-29 11:15:31,497-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:15:31,502-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:15:31,505-INFO-Traffic：测试通过
+2020-07-29 11:15:31,628-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:15:31:484"}
+2020-07-29 11:15:31,631-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:15:31,787-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:15:31,790-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:15:31,794-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 11:15:31,798-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:15:31,813-INFO-Traffic：post请求成功
+2020-07-29 11:15:31,819-INFO-Traffic：数据库连接成功
+2020-07-29 11:15:31,823-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808260,)
+2020-07-29 11:15:31,844-INFO-Traffic：数据库连接成功
+2020-07-29 11:15:31,851-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808260,)
+2020-07-29 11:15:31,856-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 11:15:31:856'}
+2020-07-29 11:15:31,861-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 11:15:31,865-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:15:31,869-INFO-Traffic：测试通过
+2020-07-29 11:15:31,999-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 11:15:31:856"}
+2020-07-29 11:15:32,002-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:15:32,159-INFO-Traffic：参数化的数据是：1562225808260
+2020-07-29 11:15:32,162-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 11:15:32,166-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 11:15:32,170-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808260, "name": "修改之后的测试test"}
+2020-07-29 11:15:32,355-INFO-Traffic：put请求成功
+2020-07-29 11:15:32,361-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:15:32:395'}
+2020-07-29 11:15:32,365-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:15:32,369-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:15:32,372-INFO-Traffic：测试通过
+2020-07-29 11:15:32,497-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:15:32:395"}
+2020-07-29 11:15:32,500-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:15:32,650-INFO-Traffic：参数化的数据是：1562225808260
+2020-07-29 11:15:32,654-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-07-29 11:15:32,659-INFO-Traffic：测试数据是： (
+    ('cameraId', '1562225808260'),
+)
+2020-07-29 11:15:32,669-INFO-Traffic：get请求成功
+2020-07-29 11:15:32,672-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-29 11:15:32:713'}
+2020-07-29 11:15:32,676-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:15:32,679-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:15:32,684-ERROR-Traffic：测试失败，断言错误
+2020-07-29 11:15:32,689-ERROR-Traffic：请检查请求参数------------------- param: (
+    ('cameraId', '1562225808260'),
+)
+ url: http://172.16.1.107:9088/api_traffic/camera/isAnalyzed
+ header: {'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'authorization': 'Basic ZWxhc3RpYzoxMjM0NTY=', 'keensense-traffic-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzg5MzExMjYsInBheWxvYWQiOiIxIn0.yKOtQJd7f-ugwSR_bxMbyvwOe5OHaZaftY6hiB9a2rU', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
+2020-07-29 11:15:32,817-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-29 11:15:32:713"}
+2020-07-29 11:15:32,820-INFO-Traffic：写入result成功 ：failed
+2020-07-29 11:15:33,177-INFO-Traffic：参数化的数据是：1562225808260
+2020-07-29 11:15:33,180-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-29 11:15:33,183-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-29 11:15:33,188-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', '1562225808260'),
+)
+2020-07-29 11:15:33,244-INFO-Traffic：delete请求成功
+2020-07-29 11:15:33,261-INFO-Traffic：数据库连接成功
+2020-07-29 11:15:33,266-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:15:33,273-INFO-Traffic：数据库连接成功
+2020-07-29 11:15:33,278-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:15:33,282-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:15:33:289'}
+2020-07-29 11:15:33,285-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-29 11:15:33,288-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:15:33,292-INFO-Traffic：测试通过
+2020-07-29 11:15:33,416-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:15:33:289"}
+2020-07-29 11:15:33,419-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:23:44,584-INFO-Traffic：数据库连接成功
+2020-07-29 11:23:44,588-INFO-Traffic：数据库查询数据成功，返回数据为('1595991771951418390',)
+2020-07-29 11:23:44,595-INFO-Traffic：数据库连接成功
+2020-07-29 11:23:44,599-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:23:46,034-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 11:23:46,037-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 11:23:46,051-INFO-Traffic：post请求成功
+2020-07-29 11:23:46,056-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzk0MjYwOTgsInBheWxvYWQiOiIxIn0.SJ2hAxsv22lzPTsU7Xd_DyFjOhRlgflDdC_EZUdnJys', 'timestamp': '2020-07-29 11:23:46:098'}
+2020-07-29 11:23:46,063-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 11:23:46,068-INFO-Traffic：测试通过
+2020-07-29 11:23:46,188-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzk0MjYwOTgsInBheWxvYWQiOiIxIn0.SJ2hAxsv22lzPTsU7Xd_DyFjOhRlgflDdC_EZUdnJys","timestamp":"2020-07-29 11:23:46:098"}
+2020-07-29 11:23:46,191-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:23:46,347-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:23:46,350-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:23:46,354-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 11:23:46,358-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:23:46,410-INFO-Traffic：post请求成功
+2020-07-29 11:23:46,426-INFO-Traffic：数据库连接成功
+2020-07-29 11:23:46,431-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808261,)
+2020-07-29 11:23:46,447-INFO-Traffic：数据库连接成功
+2020-07-29 11:23:46,452-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808261,)
+2020-07-29 11:23:46,456-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:23:46:457'}
+2020-07-29 11:23:46,459-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:23:46,462-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:23:46,467-INFO-Traffic：测试通过
+2020-07-29 11:23:46,590-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:23:46:457"}
+2020-07-29 11:23:46,595-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:23:46,753-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:23:46,757-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:23:46,760-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 11:23:46,764-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:23:46,776-INFO-Traffic：post请求成功
+2020-07-29 11:23:46,795-INFO-Traffic：数据库连接成功
+2020-07-29 11:23:46,800-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808261,)
+2020-07-29 11:23:46,818-INFO-Traffic：数据库连接成功
+2020-07-29 11:23:46,822-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808261,)
+2020-07-29 11:23:46,826-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 11:23:46:824'}
+2020-07-29 11:23:46,830-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 11:23:46,833-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:23:46,836-INFO-Traffic：测试通过
+2020-07-29 11:23:46,961-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 11:23:46:824"}
+2020-07-29 11:23:46,966-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:23:47,120-INFO-Traffic：参数化的数据是：1562225808261
+2020-07-29 11:23:47,127-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 11:23:47,130-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 11:23:47,134-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808261, "name": "修改之后的测试test"}
+2020-07-29 11:23:47,193-INFO-Traffic：put请求成功
+2020-07-29 11:23:47,196-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:23:47:241'}
+2020-07-29 11:23:47,200-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:23:47,203-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:23:47,206-INFO-Traffic：测试通过
+2020-07-29 11:23:47,328-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:23:47:241"}
+2020-07-29 11:23:47,333-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:23:47,485-INFO-Traffic：参数化的数据是：1562225808261
+2020-07-29 11:23:47,490-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-07-29 11:23:47,493-INFO-Traffic：测试数据是： (
+    ('cameraId', '1562225808261'),
+)
+2020-07-29 11:23:47,506-INFO-Traffic：get请求成功
+2020-07-29 11:23:47,510-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-29 11:23:47:554'}
+2020-07-29 11:23:47,513-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:23:47,518-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:23:47,524-ERROR-Traffic：测试失败，断言错误
+2020-07-29 11:23:47,530-ERROR-Traffic：请检查请求参数------------------- param: (
+    ('cameraId', '1562225808261'),
+)
+ url: http://172.16.1.107:8089/camera/isAnalyzed
+ header: {'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'authorization': 'Basic ZWxhc3RpYzoxMjM0NTY=', 'keensense-traffic-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwNzk0MjYwOTgsInBheWxvYWQiOiIxIn0.SJ2hAxsv22lzPTsU7Xd_DyFjOhRlgflDdC_EZUdnJys', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
+2020-07-29 11:23:47,668-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-29 11:23:47:554"}
+2020-07-29 11:23:47,674-INFO-Traffic：写入result成功 ：failed
+2020-07-29 11:23:48,023-INFO-Traffic：参数化的数据是：1562225808261
+2020-07-29 11:23:48,026-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-29 11:23:48,031-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-29 11:23:48,035-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', '1562225808261'),
+)
+2020-07-29 11:23:48,153-INFO-Traffic：delete请求成功
+2020-07-29 11:23:48,170-INFO-Traffic：数据库连接成功
+2020-07-29 11:23:48,175-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:23:48,193-INFO-Traffic：数据库连接成功
+2020-07-29 11:23:48,197-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:23:48,202-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:23:48:201'}
+2020-07-29 11:23:48,207-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-29 11:23:48,211-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:23:48,214-INFO-Traffic：测试通过
+2020-07-29 11:23:48,338-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:23:48:201"}
+2020-07-29 11:23:48,342-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:40:05,926-INFO-Traffic：数据库连接成功
+2020-07-29 11:40:05,929-INFO-Traffic：数据库查询数据成功，返回数据为('1595993503517186865',)
+2020-07-29 11:40:05,946-INFO-Traffic：数据库连接成功
+2020-07-29 11:40:05,951-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808263,)
+2020-07-29 11:40:07,386-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 11:40:07,390-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 11:40:07,403-INFO-Traffic：post请求成功
+2020-07-29 11:40:07,408-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwODA0MDc0NjksInBheWxvYWQiOiIxIn0.0usgBYzZbMofTbx0-JEiuzvB1b4q5aMRF-QP-YN6hcQ', 'timestamp': '2020-07-29 11:40:07:469'}
+2020-07-29 11:40:07,412-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 11:40:07,420-INFO-Traffic：测试通过
+2020-07-29 11:40:07,537-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwODA0MDc0NjksInBheWxvYWQiOiIxIn0.0usgBYzZbMofTbx0-JEiuzvB1b4q5aMRF-QP-YN6hcQ","timestamp":"2020-07-29 11:40:07:469"}
+2020-07-29 11:40:07,541-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:40:07,700-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:40:07,704-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:40:07,707-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 11:40:07,711-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:40:07,761-INFO-Traffic：post请求成功
+2020-07-29 11:40:07,778-INFO-Traffic：数据库连接成功
+2020-07-29 11:40:07,782-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808264,)
+2020-07-29 11:40:07,799-INFO-Traffic：数据库连接成功
+2020-07-29 11:40:07,804-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808264,)
+2020-07-29 11:40:07,807-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:40:07:827'}
+2020-07-29 11:40:07,812-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:40:07,815-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:40:07,819-INFO-Traffic：测试通过
+2020-07-29 11:40:07,945-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:40:07:827"}
+2020-07-29 11:40:07,949-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:40:08,094-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:40:08,098-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:40:08,102-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 11:40:08,105-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:40:08,123-INFO-Traffic：post请求成功
+2020-07-29 11:40:08,141-INFO-Traffic：数据库连接成功
+2020-07-29 11:40:08,145-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808264,)
+2020-07-29 11:40:08,162-INFO-Traffic：数据库连接成功
+2020-07-29 11:40:08,166-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808264,)
+2020-07-29 11:40:08,170-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 11:40:08:184'}
+2020-07-29 11:40:08,174-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 11:40:08,177-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:40:08,180-INFO-Traffic：测试通过
+2020-07-29 11:40:08,305-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 11:40:08:184"}
+2020-07-29 11:40:08,308-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:40:08,463-INFO-Traffic：参数化的数据是：1562225808264
+2020-07-29 11:40:08,466-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 11:40:08,470-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 11:40:08,475-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808264, "name": "修改之后的测试test"}
+2020-07-29 11:40:08,552-INFO-Traffic：put请求成功
+2020-07-29 11:40:08,555-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:40:08:618'}
+2020-07-29 11:40:08,558-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:40:08,561-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:40:08,565-INFO-Traffic：测试通过
+2020-07-29 11:40:08,685-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:40:08:618"}
+2020-07-29 11:40:08,689-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:40:08,838-INFO-Traffic：参数化的数据是：1562225808264
+2020-07-29 11:40:08,841-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-07-29 11:40:08,845-INFO-Traffic：测试数据是： (
+    ('cameraId', '1562225808264'),
+)
+2020-07-29 11:40:08,857-INFO-Traffic：get请求成功
+2020-07-29 11:40:08,861-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-29 11:40:08:923'}
+2020-07-29 11:40:08,865-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:40:08,868-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:40:08,874-ERROR-Traffic：测试失败，断言错误
+2020-07-29 11:40:08,877-ERROR-Traffic：请检查请求参数------------------- param: (
+    ('cameraId', '1562225808264'),
+)
+ url: http://172.16.1.107:9088/api_traffic/camera/isAnalyzed
+ method: get
+ header: {'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'authorization': 'Basic ZWxhc3RpYzoxMjM0NTY=', 'keensense-traffic-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwODA0MDc0NjksInBheWxvYWQiOiIxIn0.0usgBYzZbMofTbx0-JEiuzvB1b4q5aMRF-QP-YN6hcQ', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
+2020-07-29 11:40:09,007-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-29 11:40:08:923"}
+2020-07-29 11:40:09,010-INFO-Traffic：写入result成功 ：failed
+2020-07-29 11:40:09,357-INFO-Traffic：参数化的数据是：1562225808264
+2020-07-29 11:40:09,361-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-29 11:40:09,364-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-29 11:40:09,367-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', '1562225808264'),
+)
+2020-07-29 11:40:09,430-INFO-Traffic：delete请求成功
+2020-07-29 11:40:09,437-INFO-Traffic：数据库连接成功
+2020-07-29 11:40:09,441-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:40:09,458-INFO-Traffic：数据库连接成功
+2020-07-29 11:40:09,463-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:40:09,466-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:40:09:496'}
+2020-07-29 11:40:09,470-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-29 11:40:09,473-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:40:09,476-INFO-Traffic：测试通过
+2020-07-29 11:40:09,600-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:40:09:496"}
+2020-07-29 11:40:09,603-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:47:57,525-INFO-Traffic：数据库连接成功
+2020-07-29 11:47:57,529-INFO-Traffic：数据库查询数据成功，返回数据为('1595994118334145057',)
+2020-07-29 11:47:57,536-INFO-Traffic：数据库连接成功
+2020-07-29 11:47:57,540-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808263,)
+2020-07-29 11:47:58,971-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 11:47:58,975-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 11:47:59,045-INFO-Traffic：post请求成功
+2020-07-29 11:47:59,049-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwODA4NzkxMjAsInBheWxvYWQiOiIxIn0.ExON-jqhuD2BwuY3Rw5ybYSlLVfP42rrORF42VIlJZ4', 'timestamp': '2020-07-29 11:47:59:121'}
+2020-07-29 11:47:59,052-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 11:47:59,057-INFO-Traffic：测试通过
+2020-07-29 11:47:59,184-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwODA4NzkxMjAsInBheWxvYWQiOiIxIn0.ExON-jqhuD2BwuY3Rw5ybYSlLVfP42rrORF42VIlJZ4","timestamp":"2020-07-29 11:47:59:121"}
+2020-07-29 11:47:59,187-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:47:59,344-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:47:59,348-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:47:59,352-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 11:47:59,355-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:47:59,400-INFO-Traffic：post请求成功
+2020-07-29 11:47:59,407-INFO-Traffic：数据库连接成功
+2020-07-29 11:47:59,411-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808265,)
+2020-07-29 11:47:59,427-INFO-Traffic：数据库连接成功
+2020-07-29 11:47:59,431-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808265,)
+2020-07-29 11:47:59,434-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:47:59:476'}
+2020-07-29 11:47:59,437-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:47:59,441-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:47:59,445-INFO-Traffic：测试通过
+2020-07-29 11:47:59,577-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:47:59:476"}
+2020-07-29 11:47:59,581-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:47:59,739-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 11:47:59,742-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 11:47:59,748-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 11:47:59,752-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 11:47:59,766-INFO-Traffic：post请求成功
+2020-07-29 11:47:59,773-INFO-Traffic：数据库连接成功
+2020-07-29 11:47:59,777-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808265,)
+2020-07-29 11:47:59,793-INFO-Traffic：数据库连接成功
+2020-07-29 11:47:59,798-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808265,)
+2020-07-29 11:47:59,802-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 11:47:59:841'}
+2020-07-29 11:47:59,805-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 11:47:59,808-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:47:59,811-INFO-Traffic：测试通过
+2020-07-29 11:47:59,939-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 11:47:59:841"}
+2020-07-29 11:47:59,943-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:48:00,104-INFO-Traffic：参数化的数据是：1562225808265
+2020-07-29 11:48:00,109-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 11:48:00,113-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 11:48:00,117-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808265, "name": "修改之后的测试test"}
+2020-07-29 11:48:00,226-INFO-Traffic：put请求成功
+2020-07-29 11:48:00,230-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:48:00:302'}
+2020-07-29 11:48:00,235-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:48:00,238-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:48:00,241-INFO-Traffic：测试通过
+2020-07-29 11:48:00,368-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:48:00:302"}
+2020-07-29 11:48:00,372-INFO-Traffic：写入result成功 ：pass
+2020-07-29 11:48:00,524-INFO-Traffic：参数化的数据是：1562225808265
+2020-07-29 11:48:00,527-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-07-29 11:48:00,531-INFO-Traffic：测试数据是： (
+    ('cameraId', '1562225808265'),
+)
+2020-07-29 11:48:00,545-INFO-Traffic：get请求成功
+2020-07-29 11:48:00,548-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '您还未登录', 'data': None, 'timestamp': '2020-07-29 11:48:00:619'}
+2020-07-29 11:48:00,552-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 11:48:00,556-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:48:00,561-ERROR-Traffic：测试失败，断言错误
+2020-07-29 11:48:00,565-ERROR-Traffic：请检查请求参数------------------- param: (
+    ('cameraId', '1562225808265'),
+)
+ url: http://172.16.1.107:9088/api_traffic/camera/isAnalyzed
+ method: get
+ header: {'User-Agent': 'python-requests/2.22.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'authorization': 'Basic ZWxhc3RpYzoxMjM0NTY=', 'keensense-traffic-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwODA4NzkxMjAsInBheWxvYWQiOiIxIn0.ExON-jqhuD2BwuY3Rw5ybYSlLVfP42rrORF42VIlJZ4', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
+2020-07-29 11:48:00,701-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"您还未登录","data":null,"timestamp":"2020-07-29 11:48:00:619"}
+2020-07-29 11:48:00,704-INFO-Traffic：写入result成功 ：failed
+2020-07-29 11:48:01,059-INFO-Traffic：参数化的数据是：1562225808265
+2020-07-29 11:48:01,063-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-29 11:48:01,067-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-29 11:48:01,071-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', '1562225808265'),
+)
+2020-07-29 11:48:01,173-INFO-Traffic：delete请求成功
+2020-07-29 11:48:01,180-INFO-Traffic：数据库连接成功
+2020-07-29 11:48:01,185-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:48:01,203-INFO-Traffic：数据库连接成功
+2020-07-29 11:48:01,207-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 11:48:01,210-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 11:48:01:245'}
+2020-07-29 11:48:01,214-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-29 11:48:01,218-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 11:48:01,223-INFO-Traffic：测试通过
+2020-07-29 11:48:01,344-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 11:48:01:245"}
+2020-07-29 11:48:01,348-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:11:47,020-INFO-Traffic：数据库连接成功
+2020-07-29 12:11:47,024-INFO-Traffic：数据库查询数据成功，返回数据为('1595994118334145057',)
+2020-07-29 12:11:47,041-INFO-Traffic：数据库连接成功
+2020-07-29 12:11:47,046-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808262,)
+2020-07-29 12:11:48,460-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 12:11:48,463-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 12:11:48,538-INFO-Traffic：post请求成功
+2020-07-29 12:11:48,541-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwODIzMDg2MzMsInBheWxvYWQiOiIxIn0.i6yZPt8_HbNKFFzFoKdmqdedGrg8VWYlWJg4hdUUjgg', 'timestamp': '2020-07-29 12:11:48:633'}
+2020-07-29 12:11:48,545-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 12:11:48,551-INFO-Traffic：测试通过
+2020-07-29 12:11:48,678-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwODIzMDg2MzMsInBheWxvYWQiOiIxIn0.i6yZPt8_HbNKFFzFoKdmqdedGrg8VWYlWJg4hdUUjgg","timestamp":"2020-07-29 12:11:48:633"}
+2020-07-29 12:11:48,683-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:11:49,068-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 12:11:49,072-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 12:11:49,078-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 12:11:49,081-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 12:11:49,132-INFO-Traffic：post请求成功
+2020-07-29 12:11:49,141-INFO-Traffic：数据库连接成功
+2020-07-29 12:11:49,145-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808266,)
+2020-07-29 12:11:49,151-INFO-Traffic：数据库连接成功
+2020-07-29 12:11:49,156-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808266,)
+2020-07-29 12:11:49,160-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 12:11:49:223'}
+2020-07-29 12:11:49,163-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 12:11:49,168-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 12:11:49,172-INFO-Traffic：测试通过
+2020-07-29 12:11:49,302-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 12:11:49:223"}
+2020-07-29 12:11:49,305-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:11:49,559-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 12:11:49,564-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 12:11:49,567-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 12:11:49,571-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 12:11:49,585-INFO-Traffic：post请求成功
+2020-07-29 12:11:49,601-INFO-Traffic：数据库连接成功
+2020-07-29 12:11:49,606-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808266,)
+2020-07-29 12:11:49,613-INFO-Traffic：数据库连接成功
+2020-07-29 12:11:49,616-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808266,)
+2020-07-29 12:11:49,620-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 12:11:49:680'}
+2020-07-29 12:11:49,625-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 12:11:49,628-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 12:11:49,631-INFO-Traffic：测试通过
+2020-07-29 12:11:49,758-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 12:11:49:680"}
+2020-07-29 12:11:49,761-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:11:49,974-INFO-Traffic：参数化的数据是：1562225808266
+2020-07-29 12:11:49,977-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 12:11:49,981-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 12:11:49,986-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808266, "name": "修改之后的测试test"}
+2020-07-29 12:11:50,051-INFO-Traffic：put请求成功
+2020-07-29 12:11:50,058-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 12:11:50:140'}
+2020-07-29 12:11:50,064-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 12:11:50,067-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 12:11:50,071-INFO-Traffic：测试通过
+2020-07-29 12:11:50,198-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 12:11:50:140"}
+2020-07-29 12:11:50,204-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:11:50,416-INFO-Traffic：参数化的数据是：1562225808266
+2020-07-29 12:11:50,421-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-07-29 12:11:50,424-INFO-Traffic：测试数据是： (
+    ('cameraId', '1562225808266'),
+)
+2020-07-29 12:11:50,436-INFO-Traffic：get请求成功
+2020-07-29 12:11:50,440-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': False, 'timestamp': '2020-07-29 12:11:50:532'}
+2020-07-29 12:11:50,444-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 12:11:50,447-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 12:11:50,452-INFO-Traffic：测试通过
+2020-07-29 12:11:50,580-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":false,"timestamp":"2020-07-29 12:11:50:532"}
+2020-07-29 12:11:50,584-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:11:50,828-INFO-Traffic：参数化的数据是：1562225808266
+2020-07-29 12:11:50,832-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-29 12:11:50,835-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-29 12:11:50,839-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', '1562225808266'),
+)
+2020-07-29 12:11:50,901-INFO-Traffic：delete请求成功
+2020-07-29 12:11:50,919-INFO-Traffic：数据库连接成功
+2020-07-29 12:11:50,924-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 12:11:50,941-INFO-Traffic：数据库连接成功
+2020-07-29 12:11:50,945-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 12:11:50,949-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 12:11:50:991'}
+2020-07-29 12:11:50,955-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-29 12:11:50,958-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 12:11:50,962-INFO-Traffic：测试通过
+2020-07-29 12:11:51,091-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 12:11:50:991"}
+2020-07-29 12:11:51,095-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:12:11,187-INFO-Traffic：数据库连接成功
+2020-07-29 12:12:11,191-INFO-Traffic：数据库查询数据成功，返回数据为('1595994118334145057',)
+2020-07-29 12:12:11,198-INFO-Traffic：数据库连接成功
+2020-07-29 12:12:11,202-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808262,)
+2020-07-29 12:12:12,815-INFO-Traffic：正在发起登录模块中的第1条用例:登录接口正常验证
+2020-07-29 12:12:12,819-INFO-Traffic：测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+2020-07-29 12:12:12,890-INFO-Traffic：post请求成功
+2020-07-29 12:12:12,893-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwODIzMzI5ODQsInBheWxvYWQiOiIxIn0.irMoa7Wi477G_RIZviEFcxPEbQktcDg6j7iVrbHweP8', 'timestamp': '2020-07-29 12:12:12:984'}
+2020-07-29 12:12:12,896-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
+2020-07-29 12:12:12,902-INFO-Traffic：测试通过
+2020-07-29 12:12:13,024-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTYwODIzMzI5ODQsInBheWxvYWQiOiIxIn0.irMoa7Wi477G_RIZviEFcxPEbQktcDg6j7iVrbHweP8","timestamp":"2020-07-29 12:12:12:984"}
+2020-07-29 12:12:13,028-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:12:13,176-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 12:12:13,179-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 12:12:13,182-INFO-Traffic：正在发起新增监控点模块中的第2条用例:新增监控点
+2020-07-29 12:12:13,186-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 12:12:13,240-INFO-Traffic：post请求成功
+2020-07-29 12:12:13,250-INFO-Traffic：数据库连接成功
+2020-07-29 12:12:13,255-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808267,)
+2020-07-29 12:12:13,262-INFO-Traffic：数据库连接成功
+2020-07-29 12:12:13,266-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808267,)
+2020-07-29 12:12:13,269-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 12:12:13:331'}
+2020-07-29 12:12:13,274-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 12:12:13,279-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 12:12:13,283-INFO-Traffic：测试通过
+2020-07-29 12:12:13,411-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 12:12:13:331"}
+2020-07-29 12:12:13,414-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:12:13,563-INFO-Traffic：参数化的数据是：测试test
+2020-07-29 12:12:13,567-INFO-Traffic：参数化的数据是：'测试test'
+2020-07-29 12:12:13,571-INFO-Traffic：正在发起重复添加监控点模块中的第3条用例:添加监控点重复
+2020-07-29 12:12:13,574-INFO-Traffic：测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":25,"direction":"111","crossingNumber":"111"}
+2020-07-29 12:12:13,591-INFO-Traffic：post请求成功
+2020-07-29 12:12:13,600-INFO-Traffic：数据库连接成功
+2020-07-29 12:12:13,604-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808267,)
+2020-07-29 12:12:13,610-INFO-Traffic：数据库连接成功
+2020-07-29 12:12:13,615-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808267,)
+2020-07-29 12:12:13,618-INFO-Traffic：测试结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在', 'data': None, 'timestamp': '2020-07-29 12:12:13:683'}
+2020-07-29 12:12:13,622-INFO-Traffic：预期结果：{'code': 1000, 'codeMsg': '非法请求', 'msg': '该监控点名称已存在'}
+2020-07-29 12:12:13,626-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 12:12:13,629-INFO-Traffic：测试通过
+2020-07-29 12:12:13,759-INFO-Traffic：写入test_result成功 ：{"code":1000,"codeMsg":"非法请求","msg":"该监控点名称已存在","data":null,"timestamp":"2020-07-29 12:12:13:683"}
+2020-07-29 12:12:13,762-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:12:13,914-INFO-Traffic：参数化的数据是：1562225808267
+2020-07-29 12:12:13,917-INFO-Traffic：参数化的数据是：修改之后的测试test
+2020-07-29 12:12:13,921-INFO-Traffic：正在发起修改监控点模块中的第4条用例:修改监控点
+2020-07-29 12:12:13,925-INFO-Traffic：测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":1562225808267, "name": "修改之后的测试test"}
+2020-07-29 12:12:14,009-INFO-Traffic：put请求成功
+2020-07-29 12:12:14,015-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 12:12:14:098'}
+2020-07-29 12:12:14,020-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 12:12:14,023-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 12:12:14,028-INFO-Traffic：测试通过
+2020-07-29 12:12:14,154-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 12:12:14:098"}
+2020-07-29 12:12:14,158-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:12:14,304-INFO-Traffic：参数化的数据是：1562225808267
+2020-07-29 12:12:14,309-INFO-Traffic：正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+2020-07-29 12:12:14,312-INFO-Traffic：测试数据是： (
+    ('cameraId', '1562225808267'),
+)
+2020-07-29 12:12:14,326-INFO-Traffic：get请求成功
+2020-07-29 12:12:14,329-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': False, 'timestamp': '2020-07-29 12:12:14:420'}
+2020-07-29 12:12:14,332-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功'}
+2020-07-29 12:12:14,336-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 12:12:14,339-INFO-Traffic：测试通过
+2020-07-29 12:12:14,469-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":false,"timestamp":"2020-07-29 12:12:14:420"}
+2020-07-29 12:12:14,473-INFO-Traffic：写入result成功 ：pass
+2020-07-29 12:12:14,627-INFO-Traffic：参数化的数据是：1562225808267
+2020-07-29 12:12:14,630-INFO-Traffic：参数化的数据是：'修改之后的测试test'
+2020-07-29 12:12:14,633-INFO-Traffic：正在发起删除监控点模块中的第6条用例:删除已添加监控点
+2020-07-29 12:12:14,636-INFO-Traffic：测试数据是：
+    
+(
+    ('cameraId', '1562225808267'),
+)
+2020-07-29 12:12:14,721-INFO-Traffic：delete请求成功
+2020-07-29 12:12:14,738-INFO-Traffic：数据库连接成功
+2020-07-29 12:12:14,742-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 12:12:14,758-INFO-Traffic：数据库连接成功
+2020-07-29 12:12:14,764-INFO-Traffic：数据库查询数据成功，返回数据为(1562225808254,)
+2020-07-29 12:12:14,768-INFO-Traffic：测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': None, 'timestamp': '2020-07-29 12:12:14:816'}
+2020-07-29 12:12:14,771-INFO-Traffic：预期结果：{'code': 0, 'codeMsg': '成功', 'msg': None, 'data': None, 'timestamp': '2020-04-09 14:43:41:209'}
+2020-07-29 12:12:14,774-INFO-Traffic：此用例暂无深度检查点---------进行浅度检查
+2020-07-29 12:12:14,778-INFO-Traffic：测试通过
+2020-07-29 12:12:14,905-INFO-Traffic：写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":null,"timestamp":"2020-07-29 12:12:14:816"}
+2020-07-29 12:12:14,908-INFO-Traffic：写入result成功 ：pass
