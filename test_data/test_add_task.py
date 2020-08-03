@@ -10,13 +10,12 @@ from common import get_data
 from common.do_requests import DoRequests
 from common.learn_do_excel import DoExcel
 from common import project_path
-from common.my_log import MyLogg
+from common.log_demo import logger
 import requests
 import json
 import warnings
 import time
 
-my_log = MyLogg()
 test_data = DoExcel(project_path.test_case_path, "add_task").read_data()
 video_data = DoExcel(project_path.test_case_path, "video").read_data()[2]
 
@@ -78,8 +77,8 @@ class TestCases():
             print("从数据库获取的参数化sql:{}".format(sql))
         param = get_data.GetData().replace(param)
         print("目前的param是{}".format(param))
-        my_log.my_info("正在发起{}模块中的第{}条用例:{}".format(modular, case_id, title))
-        my_log.my_info("测试数据是：{}".format(param))
+        logger.info("正在发起{}模块中的第{}条用例:{}".format(modular, case_id, title))
+        logger.info("测试数据是：{}".format(param))
         # 执行接口测试，cookies利用反射进行动态的获取
 
         test_result = DoRequests.be_result(item, param, url, method, header)
@@ -94,7 +93,7 @@ class TestCases():
         if sql is not None and "sql_1" in eval(sql):
             delete_cameraId = DoMysql().do_mysql(eval(sql)["sql_1"], 1)
             if delete_cameraId is None:
-                my_log.my_info("监控点删除成功")
+                logger.info("监控点删除成功")
             else:
                 cameraId = DoMysql().do_mysql(eval(sql)["sql_1"], 1)[0]
                 setattr(get_data.GetData, 'cameraId', str(cameraId))
@@ -103,26 +102,26 @@ class TestCases():
         if sql is not None and "sql_2" in eval(sql):
             task_data = DoMysql().do_mysql(eval(sql)["sql_2"], 1)
             print(task_data)
-            my_log.my_info("新增任务获取的任务号数据为{}".format(task_data))
+            logger.info("新增任务获取的任务号数据为{}".format(task_data))
 
         if test_result.cookies:  # 判断请求cookies是否为空
             cookies = requests.utils.dict_from_cookiejar(test_result.cookies)
             setattr(get_data.GetData, "COOKIES", cookies)
         new_expected = json.loads(expected)  # 处理Null无法识别的问题
         # 输出测试结果和实际结果，进行断言比对，注意这里需要将实际结果的数据和预期结果的数据都改成字典类型，方便比对
-        my_log.my_info("测试结果是：{}".format(test_result.json()))
-        my_log.my_info("预期结果是：{}".format(new_expected))
+        logger.info("测试结果是：{}".format(test_result.json()))
+        logger.info("预期结果是：{}".format(new_expected))
         try:
             if "code" in test_result.json():
                 assert new_expected["code"] == test_result.json()["code"]
                 result = "pass"
-                my_log.my_info("测试通过了")
+                logger.info("测试通过了")
             elif "state" in test_result.json():
                 assert new_expected["state"] == test_result.json()["state"]
                 result = "pass"
-                my_log.my_info("测试通过了")
+                logger.info("测试通过了")
         except AssertionError as e:
-            my_log.my_error("测试失败，断言错误")
+            logger.error("测试失败，断言错误")
             result = "failed"
             raise e
         finally:

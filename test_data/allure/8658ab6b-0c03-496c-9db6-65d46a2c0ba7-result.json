@@ -1,0 +1,58 @@
+{
+  "name": "添加监控点重复",
+  "status": "passed",
+  "description": "添加监控点重复",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "8f011d03-aaed-4c4a-a9f9-892cca4abf7f-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 3, 'modular': '重复添加监控点', 'method': 'post', 'url': 'http://172.16.1.107:9088/api_traffic/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '添加监控点重复', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":25,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}', 'check': None}"
+    }
+  ],
+  "start": 1596435946822,
+  "stop": 1596435947141,
+  "uuid": "c67b408f-dd1f-4610-bc6e-4d532ba41325",
+  "historyId": "b301937261e73fe6052759c8f6e72b07",
+  "testCaseId": "565e234bb174e60baa6bb37285894daf",
+  "fullName": "test_camera.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "监控点"
+    },
+    {
+      "name": "suite",
+      "value": "test_camera"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "125720-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_camera"
+    }
+  ]
+}

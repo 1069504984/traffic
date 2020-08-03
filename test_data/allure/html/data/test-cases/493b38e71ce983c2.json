@@ -1,0 +1,126 @@
+{
+  "uid": "493b38e71ce983c2",
+  "name": "查询点位下有无任务",
+  "fullName": "test_camera.TestCases#test_001",
+  "historyId": "e9042ad6342500a0189f15b1264845ca",
+  "time": {
+    "start": 1596435947511,
+    "stop": 1596435947778,
+    "duration": 267
+  },
+  "description": "查询点位下有无任务",
+  "descriptionHtml": "<p>查询点位下有无任务</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [
+    {
+      "name": "setUp0",
+      "time": {
+        "start": 1596435947510,
+        "stop": 1596435947510,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    },
+    {
+      "name": "setup1",
+      "time": {
+        "start": 1596435947496,
+        "stop": 1596435947510,
+        "duration": 14
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "description": "查询点位下有无任务",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "25ea8f94cb63f509",
+        "name": "log",
+        "source": "25ea8f94cb63f509.txt",
+        "type": "text/plain",
+        "size": 927
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 1,
+    "shouldDisplayMessage": false,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "监控点"
+    },
+    {
+      "name": "suite",
+      "value": "test_camera"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "125720-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_camera"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 5, 'modular': '查询监控点', 'method': 'get', 'url': 'http://172.16.1.107:9088/api_traffic/camera/isAnalyzed', 'header': \"{'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '查询点位下有无任务', 'param': \" (\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "493b38e71ce983c2.json",
+  "parameterValues": [
+    "{'case_id': 5, 'modular': '查询监控点', 'method': 'get', 'url': 'http://172.16.1.107:9088/api_traffic/camera/isAnalyzed', 'header': \"{'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '查询点位下有无任务', 'param': \" (\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None}"
+  ]
+}

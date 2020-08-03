@@ -2,9 +2,9 @@ __author__ = '李开'
 # 学习如何利用反射来完成多个请求之间数据的传递，比如cookies的传递
 from common.read_conf import ReadConf
 from common import project_path
-from common.my_log import MyLogg
+from common.log_demo import logger
 
-mylog = MyLogg()
+# logger = loggerg()
 from common.do_mysql import DoMysql
 import jsonpath
 import re
@@ -42,9 +42,9 @@ class GetData:
             if len(key) < 20:
                 try:
                     value = getattr(GetData, key)
-                    mylog.my_info("参数化的数据是：{}".format(value))
+                    logger.info("参数化的数据是：{}".format(value))
                 except Exception as e:
-                    mylog.my_error("参数化失败")
+                    logger.error("参数化失败")
                     raise e
                 target = re.sub(p_2, value, target, count=1)
             else:

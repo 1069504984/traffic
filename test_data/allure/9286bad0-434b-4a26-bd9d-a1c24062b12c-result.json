@@ -1,0 +1,58 @@
+{
+  "name": "修改监控点",
+  "status": "passed",
+  "description": "修改监控点",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "b1762c26-fc78-48b6-8ff0-4b5f299d485a-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 4, 'modular': '修改监控点', 'method': 'put', 'url': 'http://172.16.1.107:9088/api_traffic/camera', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '修改监控点', 'param': '{ \"crossingNumber\": \"修改之后111\", \"direction\": \"修改之后往北\", \"extcameraid\": \"修改之后11222\", \"id\":#cameraId#, \"name\": \"#sql_update_name#\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None}"
+    }
+  ],
+  "start": 1596435947173,
+  "stop": 1596435947483,
+  "uuid": "bb0f1dde-53da-4d0b-b654-4c1272d4fe25",
+  "historyId": "c3ac09ea634516bc5b718e44b4ba09b7",
+  "testCaseId": "565e234bb174e60baa6bb37285894daf",
+  "fullName": "test_camera.TestCases#test_001",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "监控点"
+    },
+    {
+      "name": "suite",
+      "value": "test_camera"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "125720-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_camera"
+    }
+  ]
+}

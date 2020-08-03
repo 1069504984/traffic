@@ -2,21 +2,20 @@
   "288983516d81e58373d5c05ec158228f": {
     "statistic": {
       "failed": 0,
-      "broken": 1,
+      "broken": 0,
       "skipped": 0,
-      "passed": 0,
+      "passed": 1,
       "unknown": 0,
       "total": 1
     },
     "items": [
       {
-        "uid": "804d441b19fbcb14",
-        "status": "broken",
-        "statusDetails": "KeyError: 'check'",
+        "uid": "29a113de91c0da6",
+        "status": "passed",
         "time": {
-          "start": 1595670755991,
-          "stop": 1595670755992,
-          "duration": 1
+          "start": 1596435947806,
+          "stop": 1596435948155,
+          "duration": 349
         }
       }
     ]
@@ -24,21 +23,20 @@
   "c3ac09ea634516bc5b718e44b4ba09b7": {
     "statistic": {
       "failed": 0,
-      "broken": 1,
+      "broken": 0,
       "skipped": 0,
-      "passed": 0,
+      "passed": 1,
       "unknown": 0,
       "total": 1
     },
     "items": [
       {
-        "uid": "8500ffc81b3c8126",
-        "status": "broken",
-        "statusDetails": "KeyError: 'check'",
+        "uid": "458f6e985f6b1ede",
+        "status": "passed",
         "time": {
-          "start": 1595670755949,
-          "stop": 1595670755949,
-          "duration": 0
+          "start": 1596435947173,
+          "stop": 1596435947483,
+          "duration": 310
         }
       }
     ]
@@ -46,21 +44,20 @@
   "8b183280bc718061c1401424339938cc": {
     "statistic": {
       "failed": 0,
-      "broken": 1,
+      "broken": 0,
       "skipped": 0,
-      "passed": 0,
+      "passed": 1,
       "unknown": 0,
       "total": 1
     },
     "items": [
       {
-        "uid": "31ffc9afde0b8e42",
-        "status": "broken",
-        "statusDetails": "KeyError: 'check'",
+        "uid": "85c333d366b35440",
+        "status": "passed",
         "time": {
-          "start": 1595670755692,
-          "stop": 1595670755694,
-          "duration": 2
+          "start": 1596435946008,
+          "stop": 1596435946422,
+          "duration": 414
         }
       }
     ]
@@ -68,21 +65,20 @@
   "9d7fccb53994c7f703dc2bd87ead05c3": {
     "statistic": {
       "failed": 0,
-      "broken": 1,
+      "broken": 0,
       "skipped": 0,
-      "passed": 0,
+      "passed": 1,
       "unknown": 0,
       "total": 1
     },
     "items": [
       {
-        "uid": "3e72128536d14dfa",
-        "status": "broken",
-        "statusDetails": "KeyError: 'check'",
+        "uid": "1e6712c685d2b0e0",
+        "status": "passed",
         "time": {
-          "start": 1595670755908,
-          "stop": 1595670755909,
-          "duration": 1
+          "start": 1596435946463,
+          "stop": 1596435946794,
+          "duration": 331
         }
       }
     ]
@@ -90,21 +86,20 @@
   "e9042ad6342500a0189f15b1264845ca": {
     "statistic": {
       "failed": 0,
-      "broken": 1,
+      "broken": 0,
       "skipped": 0,
-      "passed": 0,
+      "passed": 1,
       "unknown": 0,
       "total": 1
     },
     "items": [
       {
-        "uid": "21497001aec12dc1",
-        "status": "broken",
-        "statusDetails": "KeyError: 'check'",
+        "uid": "493b38e71ce983c2",
+        "status": "passed",
         "time": {
-          "start": 1595670755971,
-          "stop": 1595670755971,
-          "duration": 0
+          "start": 1596435947511,
+          "stop": 1596435947778,
+          "duration": 267
         }
       }
     ]
@@ -112,21 +107,20 @@
   "b301937261e73fe6052759c8f6e72b07": {
     "statistic": {
       "failed": 0,
-      "broken": 1,
+      "broken": 0,
       "skipped": 0,
-      "passed": 0,
+      "passed": 1,
       "unknown": 0,
       "total": 1
     },
     "items": [
       {
-        "uid": "e93af3b1fe230e62",
-        "status": "broken",
-        "statusDetails": "KeyError: 'check'",
+        "uid": "b71861c361c14dbd",
+        "status": "passed",
         "time": {
-          "start": 1595670755929,
-          "stop": 1595670755929,
-          "duration": 0
+          "start": 1596435946822,
+          "stop": 1596435947141,
+          "duration": 319
         }
       }
     ]

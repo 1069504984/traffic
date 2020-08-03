@@ -1,0 +1,126 @@
+{
+  "uid": "458f6e985f6b1ede",
+  "name": "修改监控点",
+  "fullName": "test_camera.TestCases#test_001",
+  "historyId": "c3ac09ea634516bc5b718e44b4ba09b7",
+  "time": {
+    "start": 1596435947173,
+    "stop": 1596435947483,
+    "duration": 310
+  },
+  "description": "修改监控点",
+  "descriptionHtml": "<p>修改监控点</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "beforeStages": [
+    {
+      "name": "setup1",
+      "time": {
+        "start": 1596435947157,
+        "stop": 1596435947171,
+        "duration": 14
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    },
+    {
+      "name": "setUp0",
+      "time": {
+        "start": 1596435947172,
+        "stop": 1596435947172,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "description": "修改监控点",
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "2ea08a90062c4b86",
+        "name": "log",
+        "source": "2ea08a90062c4b86.txt",
+        "type": "text/plain",
+        "size": 1122
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 1,
+    "shouldDisplayMessage": false,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "监控点"
+    },
+    {
+      "name": "suite",
+      "value": "test_camera"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCases"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C04F7E5"
+    },
+    {
+      "name": "thread",
+      "value": "125720-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_camera"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "item",
+      "value": "{'case_id': 4, 'modular': '修改监控点', 'method': 'put', 'url': 'http://172.16.1.107:9088/api_traffic/camera', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '修改监控点', 'param': '{ \"crossingNumber\": \"修改之后111\", \"direction\": \"修改之后往北\", \"extcameraid\": \"修改之后11222\", \"id\":#cameraId#, \"name\": \"#sql_update_name#\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None}"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "458f6e985f6b1ede.json",
+  "parameterValues": [
+    "{'case_id': 4, 'modular': '修改监控点', 'method': 'put', 'url': 'http://172.16.1.107:9088/api_traffic/camera', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '修改监控点', 'param': '{ \"crossingNumber\": \"修改之后111\", \"direction\": \"修改之后往北\", \"extcameraid\": \"修改之后11222\", \"id\":#cameraId#, \"name\": \"#sql_update_name#\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None}"
+  ]
+}

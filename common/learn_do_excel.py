@@ -3,14 +3,12 @@ from openpyxl import load_workbook
 from openpyxl import workbook
 from openpyxl.styles import Font, PatternFill, colors
 from openpyxl.styles.colors import RED, GREEN
-from common.my_log import MyLogg
-from common.my_log import do_log
+from common.log_demo import logger
 
 Fail_font = Font(color=RED)
 Fail_pattern = PatternFill("solid", fgColor=colors.RED)
 Pass_font = Font(color=GREEN)
 Pass_pattern = PatternFill("solid", fgColor=colors.GREEN)
-my_log = MyLogg()
 from common.read_conf import ReadConf
 from common import project_path
 
@@ -48,7 +46,7 @@ class DoExcel(GetTel):
             sheet = wb[self.sheetname]
 
         except Exception as e:
-            my_log.my_error("文件打开异常")
+            logger.error("文件打开异常")
         print(sheet.max_row)
         list_1 = []
         for i in range(2, sheet.max_row + 1):
@@ -82,9 +80,9 @@ class DoExcel(GetTel):
         wb = load_workbook(self.filename)
         sheet = wb[self.sheetname]
         sheet.cell(row, 10).value = test_result
-        my_log.my_info("写入test_result成功 ：{}".format(test_result))
+        logger.info("写入test_result成功 ：{}".format(test_result))
         sheet.cell(row, 11).value = result
-        my_log.my_info("写入result成功 ：{}".format(result))
+        logger.info("写入result成功 ：{}".format(result))
         if result == 'pass':
             sheet.cell(row, 11).fill = Pass_pattern
         else:

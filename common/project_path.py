@@ -12,6 +12,7 @@ report_path = os.path.join(project_path, "test_result", "test_report", "test_1.h
 # 3日志输出文件的路径
 log_dir_path = os.path.join(project_path, "test_result", "test_log")
 log_path = os.path.join(project_path, "test_result", "test_log", "cs.log")
+log_dir_path = os.path.join(project_path, "test_result", "test_log")
 
 # 4配置文件的路径
 conf_path = os.path.join(project_path, "conf", "case.conf")

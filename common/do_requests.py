@@ -3,9 +3,9 @@ from common import get_data
 __author__ = '李开'
 import requests
 import json
-from common.my_log import MyLogg
+from common.log_demo import logger
 
-mylog = MyLogg()
+
 
 
 class DoRequests:
@@ -24,35 +24,35 @@ class DoRequests:
         if method == "get":
             try:
                 rsp = self.session.get(url, headers=headers, params=param, cookies=cookies)
-                mylog.my_info("get请求成功")
+                logger.info("get请求成功")
             except Exception as e:
-                mylog.my_error("get请求发生异常".format(e))
+                logger.error("get请求发生异常".format(e))
                 raise e
         elif method == "delete":
             try:
                 rsp = self.session.delete(url, headers=headers, cookies=cookies, data=param, verify=False)
-                mylog.my_info("delete请求成功")
+                logger.info("delete请求成功")
 
             except Exception as e:
-                mylog.my_error("delete请求发生异常".format(e))
+                logger.error("delete请求发生异常".format(e))
                 raise e
         elif method == "post":
             try:
                 rsp = self.session.post(url, headers=headers, cookies=cookies, data=param, files=files,
                                         verify=False)
-                mylog.my_info("post请求成功")
+                logger.info("post请求成功")
             except Exception as e:
-                mylog.my_error("post请求发生异常".format(e))
+                logger.error("post请求发生异常".format(e))
                 raise e
         elif method == "put":
             try:
                 rsp = self.session.put(url, headers=headers, cookies=cookies, data=param, verify=False)
-                mylog.my_info("put请求成功")
+                logger.info("put请求成功")
             except Exception as e:
-                mylog.my_error("put请求发生异常".format(e))
+                logger.error("put请求发生异常".format(e))
                 raise e
         else:
-            mylog.my_error("请求方式异常")
+            logger.error("请求方式异常")
             rsp = None
         return rsp
 

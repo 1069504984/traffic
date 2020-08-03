@@ -9,7 +9,7 @@ from common import get_data
 from common.do_requests import DoRequests
 from common.learn_do_excel import DoExcel
 from common import project_path
-from common.my_log import MyLogg
+from common.log_demo import logger
 import requests
 import json
 import warnings
@@ -20,7 +20,6 @@ import os
 
 current_path = os.path.dirname(__file__)
 json_path = os.path.split(current_path)[0] + r"/Json_file"
-my_log = MyLogg()
 test_data = DoExcel(project_path.test_case_path, "structuring").read_data()[0:2]
 
 
@@ -61,20 +60,20 @@ class TestCases():
         if sql is not None:
             sql = get_data.GetData().replace(sql)
             print("现在的sql是{}".format(sql))
-        my_log.my_info("正在发起{}模块中的第{}条用例:{}".format(modular, case_id, title))
-        my_log.my_info("测试数据是：{}".format(param))
+        logger.info("正在发起{}模块中的第{}条用例:{}".format(modular, case_id, title))
+        logger.info("测试数据是：{}".format(param))
         test_result = DoRequests.be_result(item, param, url, method, header)
         print(len(test_result.json()['data']))
         new_expected = json.loads(expected)  # 处理Null无法识别的问题
-        my_log.my_info("测试结果是：{}".format(test_result.json()))
-        my_log.my_info("预期结果是：{}".format(new_expected))
+        logger.info("测试结果是：{}".format(test_result.json()))
+        logger.info("预期结果是：{}".format(new_expected))
         try:
             assert new_expected["code"] == test_result.json()["code"]
             assert len(test_result.json()['data']) >= 0
             result = "pass"
-            my_log.my_info("测试通过了")
+            logger.info("测试通过了")
         except AssertionError as e:
-            my_log.my_error("测试失败，断言错误")
+            logger.error("测试失败，断言错误")
             result = "failed"
             raise e
         finally:

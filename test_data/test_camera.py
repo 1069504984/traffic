@@ -7,7 +7,7 @@ from common import get_data
 from common.do_requests import DoRequests
 from common.learn_do_excel import DoExcel
 from common import project_path
-from common.my_log import MyLogg
+from common.log_demo import logger
 from common.do_yaml import do_conf_yaml
 import requests
 import json
@@ -15,8 +15,9 @@ import warnings
 import allure
 import pytest
 import os
-import logging
-my_log = MyLogg()
+
+# import logging
+# logger = MyLogg()
 sheet_name = "camera"
 test_data = DoExcel(project_path.test_case_path, sheet_name).read_data()
 
@@ -39,7 +40,7 @@ class TestCases():
 
     def analysis_check(self, expected, api_check, response):
         if api_check == []:
-            my_log.my_info("此用例暂无深度检查点---------进行浅度检查")
+            logger.info("此用例暂无深度检查点---------进行浅度检查")
             if "code" in response:
                 assert expected["code"] == response["code"]
             elif "state" in response:
@@ -50,7 +51,7 @@ class TestCases():
             if right_param in response.keys():
                 assert expected.get(right_param) == response.get(right_param)
             else:
-                my_log.my_error(F"key: {right_param} --不存在，请check返回值")
+                logger.error(F"key: {right_param} --不存在，请check返回值")
         elif len(api_check) > 1:
             for j in api_check:
                 left_param = j.split("==")[0]
@@ -58,7 +59,7 @@ class TestCases():
                 if right_param in response.keys():
                     assert expected.get(right_param) == response.get(right_param)
                 else:
-                    my_log.my_error(F"key: {right_param} --不存在，请check返回值")
+                    logger.error(F"key: {right_param} --不存在，请check返回值")
 
     def extra_check(self, item):
         check_ponit = item["check"]
@@ -108,8 +109,8 @@ class TestCases():
         if sql is not None:
             sql = get_data.GetData().replace(sql)
             print("最终sql------{}".format(sql))
-        my_log.my_info("正在发起{}模块中的第{}条用例:{}".format(modular, case_id, title))
-        my_log.my_info("测试数据是：{}".format(param))
+        logger.info("正在发起{}模块中的第{}条用例:{}".format(modular, case_id, title))
+        logger.info("测试数据是：{}".format(param))
         test_result = DoRequests.be_result(item, param, url, method, self.do_request.session.headers)  # 发起请求
         print(test_result.text)
         if getattr(get_data.GetData, 'cameraId') is not None:
@@ -119,7 +120,7 @@ class TestCases():
         if sql is not None and eval(sql)["sql_1"]:
             delete_cameraId = DoMysql().do_mysql(eval(sql)["sql_1"], 1)
             if delete_cameraId is None:
-                my_log.my_info("监控点删除成功")
+                logger.info("监控点删除成功")
             else:
                 cameraId = DoMysql().do_mysql(eval(sql)["sql_1"], 1)[0]
                 setattr(get_data.GetData, 'cameraId', str(cameraId))
@@ -133,17 +134,17 @@ class TestCases():
                 setattr(get_data.GetData, "token", token)
         new_expected = json.loads(expected)  # 处理Null无法识别的问题
         # 输出测试结果和实际结果，进行断言比对，注意这里需要将实际结果的数据和预期结果的数据都改成字典类型，方便比对
-        my_log.my_info("测试结果：{}".format(test_result.json()))
-        my_log.my_info("预期结果：{}".format(new_expected))
+        logger.info("测试结果：{}".format(test_result.json()))
+        logger.info("预期结果：{}".format(new_expected))
         try:
             # assert new_expected.get(check[0]) == test_result.json().get(check[0])
             self.analysis_check(new_expected, check_ponit_list, test_result.json())
             result = "pass"
-            my_log.my_info("测试通过")
+            logger.info("测试通过")
         except AssertionError as e:
-            my_log.my_error("测试失败，断言错误")
+            logger.error("测试失败，断言错误")
             result = "failed"
-            my_log.my_error(
+            logger.error(
                 F"请检查请求参数------------------- param:{param}\n url: {url}\n method: {method}\n header: {self.do_request.session.headers}")
             raise e
         finally:

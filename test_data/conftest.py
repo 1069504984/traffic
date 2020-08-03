@@ -11,11 +11,11 @@ from common.do_requests import DoRequests
 from common.learn_do_excel import DoExcel
 from common import project_path
 from common import get_data
-from common.my_log import MyLogg
+from common.log_demo import logger
 
 import pytest
 
-my_log = MyLogg()
+
 
 
 @pytest.fixture()
@@ -43,7 +43,7 @@ def add_camera_task():
     if test_result.cookies:
         cookies = requests.utils.dict_from_cookiejar(test_result.cookies)
         setattr(get_data.GetData, "COOKIES", cookies)
-    my_log.my_info("登录成功--------------后续执行添加监控点")
+    logger.info("登录成功--------------后续执行添加监控点")
     test_data1 = DoExcel(project_path.test_case_path, "video").read_data()[1]
     DoRequests(test_data1["url"],
                test_data1["method"],
@@ -58,7 +58,7 @@ def add_camera_task():
     if sql is not None and eval(sql)["sql_1"]:
         cameraId = DoMysql().do_mysql(eval(sql)["sql_1"], 1)[0]
         setattr(get_data.GetData, 'cameraId', str(cameraId))
-    my_log.my_info("监控点步骤完成----------------后续执行添加视频")
+    logger.info("监控点步骤完成----------------后续执行添加视频")
 
     test_data3 = DoExcel(project_path.test_case_path, "video").read_data()[2]
     qurey_cameraid = "SELECT id FROM u2s_traffic.camera WHERE name='测试test'"
@@ -75,7 +75,7 @@ def add_camera_task():
     setattr(get_data.GetData, "cameraFileId", str(fileid))
     setattr(get_data.GetData, "cameraId", str(cameraid))
     time.sleep(15)
-    my_log.my_info("添加视频完成-------------------------后续执行添加结构化任务")
+    logger.info("添加视频完成-------------------------后续执行添加结构化任务")
 
     test_data4 = DoExcel(project_path.test_case_path, "add_task").read_data()[2]
     test_result4 = DoRequests(test_data4["url"],
@@ -101,4 +101,4 @@ def add_camera_task():
         cookies=getattr(get_data.GetData,
                         "COOKIES"))
     print(json.dumps(test_result5.json(), indent=3))
-    my_log.my_info("数据清理完毕---------------------------")
+    logger.info("数据清理完毕---------------------------")

@@ -1,68 +1,68 @@
 [
   {
-    "uid": "21497001aec12dc1",
-    "name": "查询点位下有无任务",
-    "time": {
-      "start": 1595670755971,
-      "stop": 1595670755971,
-      "duration": 0
-    },
-    "status": "broken",
-    "severity": "normal"
-  },
-  {
-    "uid": "e93af3b1fe230e62",
-    "name": "添加监控点重复",
-    "time": {
-      "start": 1595670755929,
-      "stop": 1595670755929,
-      "duration": 0
-    },
-    "status": "broken",
-    "severity": "normal"
-  },
-  {
-    "uid": "3e72128536d14dfa",
+    "uid": "1e6712c685d2b0e0",
     "name": "新增监控点",
     "time": {
-      "start": 1595670755908,
-      "stop": 1595670755909,
-      "duration": 1
+      "start": 1596435946463,
+      "stop": 1596435946794,
+      "duration": 331
     },
-    "status": "broken",
+    "status": "passed",
     "severity": "normal"
   },
   {
-    "uid": "804d441b19fbcb14",
+    "uid": "29a113de91c0da6",
     "name": "删除已添加监控点",
     "time": {
-      "start": 1595670755991,
-      "stop": 1595670755992,
-      "duration": 1
+      "start": 1596435947806,
+      "stop": 1596435948155,
+      "duration": 349
     },
-    "status": "broken",
+    "status": "passed",
     "severity": "normal"
   },
   {
-    "uid": "31ffc9afde0b8e42",
+    "uid": "b71861c361c14dbd",
+    "name": "添加监控点重复",
+    "time": {
+      "start": 1596435946822,
+      "stop": 1596435947141,
+      "duration": 319
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "85c333d366b35440",
     "name": "登录接口正常验证",
     "time": {
-      "start": 1595670755692,
-      "stop": 1595670755694,
-      "duration": 2
+      "start": 1596435946008,
+      "stop": 1596435946422,
+      "duration": 414
     },
-    "status": "broken",
+    "status": "passed",
     "severity": "normal"
   },
   {
-    "uid": "8500ffc81b3c8126",
+    "uid": "493b38e71ce983c2",
+    "name": "查询点位下有无任务",
+    "time": {
+      "start": 1596435947511,
+      "stop": 1596435947778,
+      "duration": 267
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "458f6e985f6b1ede",
     "name": "修改监控点",
     "time": {
-      "start": 1595670755949,
-      "stop": 1595670755949,
-      "duration": 0
+      "start": 1596435947173,
+      "stop": 1596435947483,
+      "duration": 310
     },
-    "status": "broken",
+    "status": "passed",
     "severity": "normal"
   }
 ]
