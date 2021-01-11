@@ -3,15 +3,30 @@ from openpyxl import load_workbook
 from openpyxl import workbook
 from openpyxl.styles import Font, PatternFill, colors
 from openpyxl.styles.colors import RED, GREEN
+import json
+from utils.utils import get_uniform_comparator
+from common.do_yaml import do_conf_yaml
 from common.log_demo import logger
-
+# from test_data.test_camera import extra_check
+from common.read_conf import ReadConf
+from common import project_path, get_data
 Fail_font = Font(color=RED)
 Fail_pattern = PatternFill("solid", fgColor=colors.RED)
 Pass_font = Font(color=GREEN)
 Pass_pattern = PatternFill("solid", fgColor=colors.GREEN)
-from common.read_conf import ReadConf
-from common import project_path
 
+
+def extra_check(item):
+    '''将[{'check': 'status_code', 'expected':200, 'comparator': 'equals'}]'''
+    validator_list = []
+    validator = {}
+    check = eval(item["check"])
+    comparator = eval(item["comparator"])
+    expected = eval(item['expected'])
+    validator["check"] = check
+    validator["comparator"] = comparator
+    validator["expected"] = expected
+    validator_list.append(validator)
 
 class GetTel:
     def get_tel(self, filename):
@@ -67,6 +82,9 @@ class DoExcel(GetTel):
             dict_1["sql"] = sheet.cell(i, 8).value
             dict_1["expected"] = sheet.cell(i, 9).value
             dict_1["check"] = sheet.cell(i, 12).value
+            dict_1["comparator"] = sheet.cell(i, 13).value
+            dict_1["expected"] = sheet.cell(i, 14).value
+            dict_1["extra"] = sheet.cell(i, 15).value
             list_1.append(dict_1)
         final_data = []  # 空的列表 储存最终的测试用例数据
         if case_id == "all":  # 获取所有的用例，否则如果是列表就获取列表中的指定ID的用例数据
@@ -94,14 +112,22 @@ class DoExcel(GetTel):
         wb = workbook.Workbook()
         wb.save(new_filename)
 
-    def analysis_check(self, api_no, api_name, api_check, response):
-        param = api_check.spilt("==")[1]
-        value = response
-        for key in param:
-            temp = value.get(key)
-            value = temp
 
 
+    @staticmethod
+    def iter_excel_params(item):
+        url = do_conf_yaml.read("url", "test_url") + ":" + str(do_conf_yaml.read("url", "port"))+ item["url"]
+        url = get_data.GetData().replace(url)
+        method = item["method"]
+        param = item["param"]  # 返回的是字符串类型的数据
+        case_id = item["case_id"]
+        modular = item["modular"]
+        title = item["title"]
+        expected = item["expected"]
+        check_ponit_dict = extra_check(item)
+        header = eval(item["header"])
+        extra =item["extra"]
+        return url,method,param,case_id,modular,title,expected,check_ponit_dict,header,extra
 
 
 if __name__ == '__main__':

@@ -1,0 +1,5 @@
+INFO     Traffic:get_data.py:45 参数化的数据是：None
+INFO     Traffic:get_data.py:45 参数化的数据是：修改之后的测试test
+INFO     Traffic:test_camera.py:94 正在发起修改监控点模块中的第4条用例:修改监控点
+INFO     Traffic:test_camera.py:95 测试数据是：{ "crossingNumber": "修改之后111", "direction": "修改之后往北", "extcameraid": "修改之后11222", "id":None, "name": "修改之后的测试test"}
+INFO     Traffic:do_requests.py:50 put请求成功

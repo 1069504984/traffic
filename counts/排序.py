@@ -99,3 +99,10 @@ if __name__ == '__main__':
     # print(li)
     # print(li_2)
     # print(li_3)
+
+ignore_dict = {
+    'youzan.retail.stock.receiving.order.export.1.0.0': ['response'],
+    'youzan.retail.trademanager.refundorder.export.1.0.0': ['response'],
+    'youzan.retail.trade.api.service.pay.qrcode.1.0.1': ['url'],
+    'youzan.retail.product.spu.queryone.1.0.0': ['list']
+}

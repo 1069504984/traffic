@@ -8,6 +8,7 @@ import pytest
 from common.do_mysql import DoMysql
 from common import get_data
 from common.do_requests import DoRequests
+from common.do_yaml import do_conf_yaml
 from common.learn_do_excel import DoExcel
 from common import project_path
 from common.log_demo import logger
@@ -29,8 +30,14 @@ def setUp():  # 测试之前的准备工作
 
 @allure.feature("结构化任务添加")
 class TestCases():
+    @pytest.fixture()
+    def setup1(self):
+        self.do_request = DoRequests()
+        self.do_request.add_headers(do_conf_yaml.read("api", "authorization"))
+
 
     @pytest.mark.parametrize('item', test_data)
+    @pytest.mark.usefixtures("setup1")
     def test_001(self, item, setUp):
         '''
         任务模块接口流程用例
@@ -48,6 +55,13 @@ class TestCases():
         modular = item["modular"]
         header = eval(item["header"])
         title = item["title"]
+
+        self.do_request.add_headers(do_conf_yaml.read("api", "authorization"))  # 添加认证信息
+        extra_token = getattr(get_data.GetData, "token")
+        token_header = {'keensense-traffic-token': extra_token}
+        self.do_request.add_headers(token_header)  # 添加token
+        self.do_request.add_headers(header)  # 添加原始头部
+
         if title == "添加结构化任务":
             qurey_cameraid = "SELECT id FROM u2s_traffic.camera WHERE name='测试test'"
             cameraid = DoMysql().do_mysql(qurey_cameraid)[0]

@@ -6,6 +6,14 @@ from common import project_path
 
 
 class HandleYaml(object):
+    func = None
+
+    def __new__(cls, *args, **kwargs):
+        if not cls.func:
+            cls.func = super().__new__(cls)
+            return cls.func
+        return cls.func
+
     def __init__(self, filename):
         self.filename = filename
 
@@ -23,8 +31,6 @@ class HandleYaml(object):
 do_conf_yaml = HandleYaml(project_path.yaml_conf_path)
 
 if __name__ == '__main__':
-    datas = {
-        "peopleMsg": {"name": "leon"},
-        "peopleScore": {"math": 95, "english": 120}
-    }
-    do_conf_yaml.write(datas, project_path.yaml_conf_path)
+
+    url=do_conf_yaml.read("url", "test_url")
+    print(url)

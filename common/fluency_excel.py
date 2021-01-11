@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/7/29 14:28
+# @Time    : 2020/9/25 14:28
 # @Author  : Fighter
 import openpyxl
 import os
@@ -49,4 +49,4 @@ class HandleExcel(object):
 
 if __name__ == '__main__':
     test_case = HandleExcel("camera").read_data()
-    print(dir(test_case[0]))
+    print(test_case[0].header)

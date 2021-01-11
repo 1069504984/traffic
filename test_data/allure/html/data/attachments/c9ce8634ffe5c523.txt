@@ -1,0 +1,2 @@
+INFO     Traffic:learn_do_excel.py:22 检查点-------------->code
+INFO     Traffic:learn_do_excel.py:22 检查点-------------->codeMsg

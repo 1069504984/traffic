@@ -1,0 +1,96 @@
+{
+  "uid" : "eec308d71f684076",
+  "name" : "查询点位下有无任务",
+  "fullName" : "test_camera.TestCases#test_001",
+  "historyId" : "e9042ad6342500a0189f15b1264845ca",
+  "time" : {
+    "start" : 1602833591411,
+    "stop" : 1602833591469,
+    "duration" : 58
+  },
+  "description" : "查询点位下有无任务",
+  "descriptionHtml" : "<p>查询点位下有无任务</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: eval() arg 1 must be a string, bytes or code object",
+  "statusTrace" : "self = <api_practise_1.test_data.test_camera.TestCases object at 0x00000232A942A708>\nitem = {'case_id': 5, 'check': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'extra': None, ...}\nsetUp0 = None\n\n    @pytest.mark.parametrize('item', test_data)\n    @pytest.mark.usefixtures(\"setup1\")\n    def test_001(self, item, setUp0):\n        '''\n        监控点接口\n        '''\n        global result  # 指明全Ju变量\n        global COOKIES  # 设置cookies为全局变量\n    \n        allure.dynamic.title(item['title'])\n        allure.dynamic.description(item['title'])\n>       url,method,param,case_id,modular,title,expected,check_point_dict,header,extra=DoExcel.iter_excel_params(item)\n\ntest_camera.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\common\\learn_do_excel.py:122: in iter_excel_params\n    check_ponit_dict = extra_check(item)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nitem = {'case_id': 5, 'check': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'extra': None, ...}\n\n    def extra_check(item):\n>       check_ponit = eval(item[\"check\"])\nE       TypeError: eval() arg 1 must be a string, bytes or code object\n\n..\\common\\learn_do_excel.py:19: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup1",
+    "time" : {
+      "start" : 1602833591369,
+      "stop" : 1602833591407,
+      "duration" : 38
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp0",
+    "time" : {
+      "start" : 1602833591408,
+      "stop" : 1602833591408,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "监控点"
+  }, {
+    "name" : "suite",
+    "value" : "test_camera"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C04F7E5"
+  }, {
+    "name" : "thread",
+    "value" : "134404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_camera"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_id': 5, 'modular': '查询监控点', 'method': 'get', 'url': '/camera/isAnalyzed', 'header': \"{'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '查询点位下有无任务', 'param': \" (\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None, 'extra': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eec308d71f684076.json",
+  "parameterValues" : [ "{'case_id': 5, 'modular': '查询监控点', 'method': 'get', 'url': '/camera/isAnalyzed', 'header': \"{'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '查询点位下有无任务', 'param': \" (\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None, 'extra': None}" ]
+}

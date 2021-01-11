@@ -1,0 +1,96 @@
+{
+  "uid" : "5e4049a876ad3d53",
+  "name" : "修改监控点",
+  "fullName" : "test_camera.TestCases#test_001",
+  "historyId" : "c3ac09ea634516bc5b718e44b4ba09b7",
+  "time" : {
+    "start" : 1602833591133,
+    "stop" : 1602833591237,
+    "duration" : 104
+  },
+  "description" : "修改监控点",
+  "descriptionHtml" : "<p>修改监控点</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: eval() arg 1 must be a string, bytes or code object",
+  "statusTrace" : "self = <api_practise_1.test_data.test_camera.TestCases object at 0x00000232A92D6808>\nitem = {'case_id': 4, 'check': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'extra': None, ...}\nsetUp0 = None\n\n    @pytest.mark.parametrize('item', test_data)\n    @pytest.mark.usefixtures(\"setup1\")\n    def test_001(self, item, setUp0):\n        '''\n        监控点接口\n        '''\n        global result  # 指明全Ju变量\n        global COOKIES  # 设置cookies为全局变量\n    \n        allure.dynamic.title(item['title'])\n        allure.dynamic.description(item['title'])\n>       url,method,param,case_id,modular,title,expected,check_point_dict,header,extra=DoExcel.iter_excel_params(item)\n\ntest_camera.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\common\\learn_do_excel.py:122: in iter_excel_params\n    check_ponit_dict = extra_check(item)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nitem = {'case_id': 4, 'check': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'extra': None, ...}\n\n    def extra_check(item):\n>       check_ponit = eval(item[\"check\"])\nE       TypeError: eval() arg 1 must be a string, bytes or code object\n\n..\\common\\learn_do_excel.py:19: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup1",
+    "time" : {
+      "start" : 1602833591091,
+      "stop" : 1602833591130,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp0",
+    "time" : {
+      "start" : 1602833591131,
+      "stop" : 1602833591131,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "监控点"
+  }, {
+    "name" : "suite",
+    "value" : "test_camera"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C04F7E5"
+  }, {
+    "name" : "thread",
+    "value" : "134404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_camera"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_id': 4, 'modular': '修改监控点', 'method': 'put', 'url': '/camera', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '修改监控点', 'param': '{ \"crossingNumber\": \"修改之后111\", \"direction\": \"修改之后往北\", \"extcameraid\": \"修改之后11222\", \"id\":#cameraId#, \"name\": \"#sql_update_name#\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None, 'extra': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5e4049a876ad3d53.json",
+  "parameterValues" : [ "{'case_id': 4, 'modular': '修改监控点', 'method': 'put', 'url': '/camera', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '修改监控点', 'param': '{ \"crossingNumber\": \"修改之后111\", \"direction\": \"修改之后往北\", \"extcameraid\": \"修改之后11222\", \"id\":#cameraId#, \"name\": \"#sql_update_name#\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None, 'extra': None}" ]
+}

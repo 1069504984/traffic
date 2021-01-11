@@ -10,6 +10,13 @@ from common.log_demo import logger
 
 class DoRequests:
     '''完成http的get和post请求，并返回结果'''
+    func = None
+
+    def __new__(cls, *args, **kwargs):
+        if not cls.func:
+            cls.func = super().__new__(cls)
+            return cls.func
+        return cls.func
 
     def __init__(self):
         self.session = requests.Session()
@@ -87,6 +94,13 @@ class HandleRequest(object):
     # def __init__(self, url, headers):
     #     self.url = url
     #     self.headers = headers
+    func = None
+
+    def __new__(cls, *args, **kwargs):
+        if not cls.func:
+            cls.func = super().__new__(cls)
+            return cls.func
+        return cls.func
 
     def __init__(self):
         # 会话请求  适用于会话认证的项目

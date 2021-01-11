@@ -1,0 +1,6 @@
+INFO     Traffic:get_data.py:45 参数化的数据是：None
+INFO     Traffic:test_camera.py:94 正在发起查询监控点模块中的第5条用例:查询点位下有无任务
+INFO     Traffic:test_camera.py:95 测试数据是： (
+    ('cameraId', 'None'),
+)
+INFO     Traffic:do_requests.py:27 get请求成功

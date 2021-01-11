@@ -26,7 +26,7 @@ class GetData:
     serialnumber = str(ReadConf(project_path.conf_path, "CaseData", "serialnumber").get_str())
     update_name = repr(ReadConf(project_path.conf_path, "CaseData", "update_name").get_str())
     sql_update_name = ReadConf(project_path.conf_path, "CaseData", "update_name").get_str()
-
+    normal_user = str(1)
     Max_serialnumber = str(DoMysql().do_mysql("SELECT max(serialnumber) FROM u2s.vsd_task", 1)[0])
     Max_cameraId = str(DoMysql().do_mysql("SELECT max(id) FROM u2s_traffic.camera", 1)[0])
     fileId = None
@@ -68,44 +68,102 @@ class GetData:
 
         return key_value
 
-
-if __name__ == '__main__':
-    json = {
-        "store": {
-            "book": [
-                {
-                    "category": "reference",
-                    "book": "Nigel Rees",
-                    "title": "Sayings of the Century",
-                    "price": 8.95
+def query_json(json_content, query, delimiter='.'):
+    """ Do an xpath-like query with json_content.
+    @param (dict/list/string) json_content
+        json_content = {
+            "ids": [1, 2, 3, 4],
+            "person": {
+                "name": {
+                    "first_name": "Leo",
+                    "last_name": "Lee",
                 },
-                {
-                    "category": "fiction",
-                    "author": "Evelyn Waugh",
-                    "title": "Sword of Honour",
-                    "price": 12.99
-                },
-                {
-                    "category": "fiction",
-                    "author": "Herman Melville",
-                    "title": "Moby Dick",
-                    "isbn": "0-553-21311-3",
-                    "price": 8.99
-                },
-                {
-                    "category": "fiction",
-                    "author": "J. R. R. Tolkien",
-                    "title": "The Lord of the Rings",
-                    "isbn": "0-395-19395-8",
-                    "price": 22.99
-                }
-            ],
-            "bicycle": {
-                "color": "red",
-                "price": 19.95
+                "age": 29,
+                "cities": ["Guangzhou", "Shenzhen"]
             }
-        },
-        "expensive": 10}
-    print(GetData.get_json_value(json, "book"))
-    print(jsonpath.jsonpath(json, '$..book[?(@.price<10)]'))
-    print(GetData.get_json_value(json, key0="book", key1="price", num=10, type="gt"))
+        }
+    @param (str) query
+        "person.name.first_name"  =>  "Leo"
+        "person.name.first_name.0"  =>  "L"
+        "person.cities.0"         =>  "Guangzhou"
+    @return queried result
+    """
+    raise_flag = False
+    response_body = u"response body: {}\n".format(json_content)
+    # 如果提取响应值属性失败，用户可提供一个值，用户值可带在提取路径后，以冒号接在提取后
+    # 如："person.name.first_name.0:no first"  =>  "L"
+    # 用户提供的取值只能是字串类型，应对一般接口的情况是够用了
+    # 如果要提取空串作为错误值，直接写冒号即可
+    query_list = query.split(':')
+    query = query_list[0]
+    basestring = (str, bytes)
+    try:
+        for key in query.split(delimiter):
+            if isinstance(json_content, (list, basestring)):
+                json_content = json_content[int(key)]
+            elif isinstance(json_content, dict):
+                json_content = json_content[key]
+            else:
+                logger.error(
+                    "invalid type value: {}({})".format(json_content, type(json_content)))
+                raise_flag = True
+    except (KeyError, ValueError, IndexError):
+        if len(query_list) == 1:
+            # 如果此列表长度为1，即说明用户未提供错误值，可报错
+            raise_flag = True
+        else:
+            json_content = query_list[1]
+
+    if raise_flag:
+        err_msg = u"Failed to extract! => {}\n".format(query)
+        err_msg += response_body
+        logger.error(err_msg)
+
+
+    return json_content
+
+def collection_get(obj, attr, default=None):
+    """
+    从复杂的数据结构中提取字段数据
+    :param obj: 数据
+    :param attr: 字段路径, 列表/数组使用索引,字典使用key,多层路径以点连接.
+    :param default:取值失败时,返回的默认值
+    :return:字段数据
+    """
+    try:
+        if '.' in attr:
+            attr_path = attr.split('.')
+            for a in attr_path:
+                obj = obj[int(a)] if str.isdigit(a) else obj.get(a)
+                # 如果obj为None,则当前a是不存在的key
+                if obj is None:
+                    raise Exception('路径错误,{}不存在'.format(a))
+            # 遍历到最后,此即为目标取值
+            return obj
+        else:
+            return obj[int(attr)] if str.isdigit(attr) else obj.get(attr, default)
+    except Exception as e:
+        logger.error('数据获取失败，{}'.format(e))
+        return default or str(e)
+if __name__ == '__main__':
+    # json_content = {
+    #             "ids": [1, 2, 3, 4],
+    #             "person": {
+    #                 "name": {
+    #                     "first_name": "Leo",
+    #                     "last_name": "Lee",
+    #                 },
+    #                 "age": 29,
+    #                 "cities": ["Guangzhou", "Shenzhen"]
+    #             }
+    #         }
+    # response=collection_get(json_content,attr="perso",default=3)
+    # print(response)
+    target="#sql_name#"
+    a=GetData().replace(target)
+    print(a)
+# response=query_json(json_content,query="person.name.first_name.2")
+# print(response) # 输出结果 str -> o
+
+
+

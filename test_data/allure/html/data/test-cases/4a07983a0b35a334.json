@@ -1,0 +1,115 @@
+{
+  "uid" : "4a07983a0b35a334",
+  "name" : "添加监控点重复",
+  "fullName" : "test_camera.TestCases#test_001",
+  "historyId" : "b301937261e73fe6052759c8f6e72b07",
+  "time" : {
+    "start" : 1602833590892,
+    "stop" : 1602833590955,
+    "duration" : 63
+  },
+  "description" : "添加监控点重复",
+  "descriptionHtml" : "<p>添加监控点重复</p>\n",
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'check_ponit_dict' referenced before assignment",
+  "statusTrace" : "self = <api_practise_1.test_data.test_camera.TestCases object at 0x00000232A93199C8>\nitem = {'case_id': 3, 'check': '{\"code\":\"0\",\\n\"codeMsg\":\"1000\"}\\n', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}', 'extra': None, ...}\nsetUp0 = None\n\n    @pytest.mark.parametrize('item', test_data)\n    @pytest.mark.usefixtures(\"setup1\")\n    def test_001(self, item, setUp0):\n        '''\n        监控点接口\n        '''\n        global result  # 指明全Ju变量\n        global COOKIES  # 设置cookies为全局变量\n    \n        allure.dynamic.title(item['title'])\n        allure.dynamic.description(item['title'])\n>       url,method,param,case_id,modular,title,expected,check_point_dict,header,extra=DoExcel.iter_excel_params(item)\n\ntest_camera.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\common\\learn_do_excel.py:122: in iter_excel_params\n    check_ponit_dict = extra_check(item)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nitem = {'case_id': 3, 'check': '{\"code\":\"0\",\\n\"codeMsg\":\"1000\"}\\n', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}', 'extra': None, ...}\n\n    def extra_check(item):\n        check_ponit = eval(item[\"check\"])\n        if check_ponit is not None:\n            for check in check_ponit:\n                logger.info(F\"检查点-------------->{check}\")\n        else:\n            check_ponit_dict = {}\n>       return check_ponit_dict\nE       UnboundLocalError: local variable 'check_ponit_dict' referenced before assignment\n\n..\\common\\learn_do_excel.py:25: UnboundLocalError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup1",
+    "time" : {
+      "start" : 1602833590843,
+      "stop" : 1602833590888,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp0",
+    "time" : {
+      "start" : 1602833590889,
+      "stop" : 1602833590889,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "添加监控点重复",
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'check_ponit_dict' referenced before assignment",
+    "statusTrace" : "self = <api_practise_1.test_data.test_camera.TestCases object at 0x00000232A93199C8>\nitem = {'case_id': 3, 'check': '{\"code\":\"0\",\\n\"codeMsg\":\"1000\"}\\n', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}', 'extra': None, ...}\nsetUp0 = None\n\n    @pytest.mark.parametrize('item', test_data)\n    @pytest.mark.usefixtures(\"setup1\")\n    def test_001(self, item, setUp0):\n        '''\n        监控点接口\n        '''\n        global result  # 指明全Ju变量\n        global COOKIES  # 设置cookies为全局变量\n    \n        allure.dynamic.title(item['title'])\n        allure.dynamic.description(item['title'])\n>       url,method,param,case_id,modular,title,expected,check_point_dict,header,extra=DoExcel.iter_excel_params(item)\n\ntest_camera.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\common\\learn_do_excel.py:122: in iter_excel_params\n    check_ponit_dict = extra_check(item)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nitem = {'case_id': 3, 'check': '{\"code\":\"0\",\\n\"codeMsg\":\"1000\"}\\n', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}', 'extra': None, ...}\n\n    def extra_check(item):\n        check_ponit = eval(item[\"check\"])\n        if check_ponit is not None:\n            for check in check_ponit:\n                logger.info(F\"检查点-------------->{check}\")\n        else:\n            check_ponit_dict = {}\n>       return check_ponit_dict\nE       UnboundLocalError: local variable 'check_ponit_dict' referenced before assignment\n\n..\\common\\learn_do_excel.py:25: UnboundLocalError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c9ce8634ffe5c523",
+      "name" : "log",
+      "source" : "c9ce8634ffe5c523.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "监控点"
+  }, {
+    "name" : "suite",
+    "value" : "test_camera"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C04F7E5"
+  }, {
+    "name" : "thread",
+    "value" : "134404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_camera"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_id': 3, 'modular': '重复添加监控点', 'method': 'post', 'url': '/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '添加监控点重复', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":25,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}', 'check': '{\"code\":\"0\",\\n\"codeMsg\":\"1000\"}\\n', 'extra': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4a07983a0b35a334.json",
+  "parameterValues" : [ "{'case_id': 3, 'modular': '重复添加监控点', 'method': 'post', 'url': '/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '添加监控点重复', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":25,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}', 'check': '{\"code\":\"0\",\\n\"codeMsg\":\"1000\"}\\n', 'extra': None}" ]
+}

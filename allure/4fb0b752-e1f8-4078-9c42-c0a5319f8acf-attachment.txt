@@ -1,0 +1,6 @@
+INFO     Traffic:get_data.py:45 参数化的数据是：测试test
+INFO     Traffic:get_data.py:45 参数化的数据是：'测试test'
+INFO     Traffic:test_camera.py:94 正在发起新增监控点模块中的第2条用例:新增监控点
+INFO     Traffic:test_camera.py:95 测试数据是：{"name":"测试test","region":"42407631","isHighSpeedIntersection":1,"cameratype":2,"latitude":22.551171315231063,"longitude":114.06369779966558,"url":"","sceneId":2,"direction":"111","crossingNumber":"111"}
+INFO     Traffic:do_requests.py:43 post请求成功
+INFO     Traffic:test_camera.py:106 监控点删除成功

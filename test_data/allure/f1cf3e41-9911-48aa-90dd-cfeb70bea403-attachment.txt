@@ -1,8 +1,0 @@
-INFO     Traffic:test_camera.py:111 正在发起登录模块中的第1条用例:登录接口正常验证
-INFO     Traffic:test_camera.py:112 测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
-INFO     Traffic:do_requests.py:43 post请求成功
-INFO     Traffic:test_camera.py:136 测试结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTY1MjIzNDc5MTQsInBheWxvYWQiOiIxIn0.ccS4D43E4lPdT1F_JW8NgdcKXNE8TnQ7BH_emWjhB8I', 'timestamp': '2020-08-03 14:25:47:915'}
-INFO     Traffic:test_camera.py:137 预期结果：{'code': 0, 'codeMsg': '成功', 'msg': '', 'data': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU'}
-INFO     Traffic:test_camera.py:142 测试通过
-INFO     Traffic:learn_do_excel.py:83 写入test_result成功 ：{"code":0,"codeMsg":"成功","msg":"","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTY1MjIzNDc5MTQsInBheWxvYWQiOiIxIn0.ccS4D43E4lPdT1F_JW8NgdcKXNE8TnQ7BH_emWjhB8I","timestamp":"2020-08-03 14:25:47:915"}
-INFO     Traffic:learn_do_excel.py:85 写入result成功 ：pass

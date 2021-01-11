@@ -44,18 +44,18 @@ class DoMysql:
         return resp
 
 
-if __name__ == '__main__':
-    pass
-    # data = DoMysql().do_mysql("SELECT * FROM `vsd_task_info`  where from_type=3 LIMIT 0, 10", flag=2)
-    # print(data)
-    # print(type(data))
-    # print(len(data))
-    # print((data[0]))
-    # # print(int(data["LeaveAmount"]))
-    # sql='{"sql_1":"select id from member where mobilephone=15111420847","sql_2":None}'
-    #
-    # member_id=DoMysql().do_mysql(eval(sql)["sql_1"],1)[0]
-    # print(member_id)
-    #
-    # member_id=DoMysql().do_mysql("select id from member where mobilephone=15111420847",1)[0]
-    # print(member_id)
+# if __name__ == '__main__':
+#     pass
+#     # data = DoMysql().do_mysql("SELECT * FROM `vsd_task_info`  where from_type=3 LIMIT 0, 10", flag=2)
+#     # print(data)
+#     # print(type(data))
+#     # print(len(data))
+#     # print((data[0]))
+#     # # print(int(data["LeaveAmount"]))
+#     # sql='{"sql_1":"select id from member where mobilephone=15111420847","sql_2":None}'
+#     #
+#     # member_id=DoMysql().do_mysql(eval(sql)["sql_1"],1)[0]
+#     # print(member_id)
+#     #
+#     # member_id=DoMysql().do_mysql("select id from member where mobilephone=15111420847",1)[0]
+#     # print(member_id)

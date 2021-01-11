@@ -1,108 +1,85 @@
 {
-  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name": "timeline",
-  "children": [
-    {
-      "name": "DESKTOP-C04F7E5",
-      "children": [
-        {
-          "name": "125720-MainThread",
-          "children": [
-            {
-              "name": "新增监控点",
-              "uid": "1e6712c685d2b0e0",
-              "parentUid": "cf2daef367be4ab547048884fb24b4c4",
-              "status": "passed",
-              "time": {
-                "start": 1596435946463,
-                "stop": 1596435946794,
-                "duration": 331
-              },
-              "flaky": false,
-              "parameters": [
-                "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': 'http://172.16.1.107:9088/api_traffic/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":25,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None}"
-              ]
-            },
-            {
-              "name": "删除已添加监控点",
-              "uid": "29a113de91c0da6",
-              "parentUid": "cf2daef367be4ab547048884fb24b4c4",
-              "status": "passed",
-              "time": {
-                "start": 1596435947806,
-                "stop": 1596435948155,
-                "duration": 349
-              },
-              "flaky": false,
-              "parameters": [
-                "{'case_id': 6, 'modular': '删除监控点', 'method': 'delete', 'url': 'http://172.16.1.107:9088/api_traffic/camera', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.107:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '删除已添加监控点', 'param': \"\\n    \\n(\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#update_name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null,\"timestamp\":\"2020-04-09 14:43:41:209\"}', 'check': None}"
-              ]
-            },
-            {
-              "name": "添加监控点重复",
-              "uid": "b71861c361c14dbd",
-              "parentUid": "cf2daef367be4ab547048884fb24b4c4",
-              "status": "passed",
-              "time": {
-                "start": 1596435946822,
-                "stop": 1596435947141,
-                "duration": 319
-              },
-              "flaky": false,
-              "parameters": [
-                "{'case_id': 3, 'modular': '重复添加监控点', 'method': 'post', 'url': 'http://172.16.1.107:9088/api_traffic/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '添加监控点重复', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":25,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}', 'check': None}"
-              ]
-            },
-            {
-              "name": "登录接口正常验证",
-              "uid": "85c333d366b35440",
-              "parentUid": "cf2daef367be4ab547048884fb24b4c4",
-              "status": "passed",
-              "time": {
-                "start": 1596435946008,
-                "stop": 1596435946422,
-                "duration": 414
-              },
-              "flaky": false,
-              "parameters": [
-                "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': 'http://172.16.1.107:9088/api_traffic/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/plain, */*',\\n    'Origin': 'http://172.16.1.107:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json;charset=UTF-8',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'authorization': 'Basic ZWxhc3RpYzoxMjM0NTY=',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":\"\",\"data\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU\"}', 'check': '0==code\\n成功==codeMsg\\n'}"
-              ]
-            },
-            {
-              "name": "查询点位下有无任务",
-              "uid": "493b38e71ce983c2",
-              "parentUid": "cf2daef367be4ab547048884fb24b4c4",
-              "status": "passed",
-              "time": {
-                "start": 1596435947511,
-                "stop": 1596435947778,
-                "duration": 267
-              },
-              "flaky": false,
-              "parameters": [
-                "{'case_id': 5, 'modular': '查询监控点', 'method': 'get', 'url': 'http://172.16.1.107:9088/api_traffic/camera/isAnalyzed', 'header': \"{'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '查询点位下有无任务', 'param': \" (\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None}"
-              ]
-            },
-            {
-              "name": "修改监控点",
-              "uid": "458f6e985f6b1ede",
-              "parentUid": "cf2daef367be4ab547048884fb24b4c4",
-              "status": "passed",
-              "time": {
-                "start": 1596435947173,
-                "stop": 1596435947483,
-                "duration": 310
-              },
-              "flaky": false,
-              "parameters": [
-                "{'case_id': 4, 'modular': '修改监控点', 'method': 'put', 'url': 'http://172.16.1.107:9088/api_traffic/camera', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '修改监控点', 'param': '{ \"crossingNumber\": \"修改之后111\", \"direction\": \"修改之后往北\", \"extcameraid\": \"修改之后11222\", \"id\":#cameraId#, \"name\": \"#sql_update_name#\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None}"
-              ]
-            }
-          ],
-          "uid": "cf2daef367be4ab547048884fb24b4c4"
-        }
-      ],
-      "uid": "58839370ee39bd1756f89405c05466fc"
-    }
-  ]
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-C04F7E5",
+    "children" : [ {
+      "name" : "134404-MainThread",
+      "children" : [ {
+        "name" : "删除已添加监控点",
+        "uid" : "96e2cf343acdd8ae",
+        "parentUid" : "6b31e725038384e4db74f6c25847a6bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602833591556,
+          "stop" : 1602833591588,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 6, 'modular': '删除监控点', 'method': 'delete', 'url': '/camera', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Origin': 'http://172.16.1.107:9088',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'token': '',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '删除已添加监控点', 'param': \"\\n    \\n(\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#update_name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":null,\"data\":null,\"timestamp\":\"2020-04-09 14:43:41:209\"}', 'check': None, 'extra': None}" ]
+      }, {
+        "name" : "新增监控点",
+        "uid" : "5b1f913df4b26b00",
+        "parentUid" : "6b31e725038384e4db74f6c25847a6bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602833590707,
+          "stop" : 1602833590777,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 2, 'modular': '新增监控点', 'method': 'post', 'url': '/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '新增监控点', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":2,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None, 'extra': 'cameraId'}" ]
+      }, {
+        "name" : "登录接口正常验证",
+        "uid" : "ad244c55046ae534",
+        "parentUid" : "6b31e725038384e4db74f6c25847a6bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602833589926,
+          "stop" : 1602833589962,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': '/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.107:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.107:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":\"\",\"data\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU\"}', 'check': '{\"code\":\"0\",\\n{\"codeMsg\":\"成功\"}\\n\\n\\n', 'extra': 'data'}" ]
+      }, {
+        "name" : "查询点位下有无任务",
+        "uid" : "eec308d71f684076",
+        "parentUid" : "6b31e725038384e4db74f6c25847a6bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602833591411,
+          "stop" : 1602833591469,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 5, 'modular': '查询监控点', 'method': 'get', 'url': '/camera/isAnalyzed', 'header': \"{'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'\\n}\", 'title': '查询点位下有无任务', 'param': \" (\\n    ('cameraId', '#cameraId#'),\\n)\", 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None, 'extra': None}" ]
+      }, {
+        "name" : "修改监控点",
+        "uid" : "5e4049a876ad3d53",
+        "parentUid" : "6b31e725038384e4db74f6c25847a6bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602833591133,
+          "stop" : 1602833591237,
+          "duration" : 104
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 4, 'modular': '修改监控点', 'method': 'put', 'url': '/camera', 'header': \"{'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '修改监控点', 'param': '{ \"crossingNumber\": \"修改之后111\", \"direction\": \"修改之后往北\", \"extcameraid\": \"修改之后11222\", \"id\":#cameraId#, \"name\": \"#sql_update_name#\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\"}', 'check': None, 'extra': None}" ]
+      }, {
+        "name" : "添加监控点重复",
+        "uid" : "4a07983a0b35a334",
+        "parentUid" : "6b31e725038384e4db74f6c25847a6bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602833590892,
+          "stop" : 1602833590955,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_id': 3, 'modular': '重复添加监控点', 'method': 'post', 'url': '/camera', 'header': \" {'Content-Type': 'application/json;charset=UTF-8'}\", 'title': '添加监控点重复', 'param': '{\"name\":\"#sql_name#\",\"region\":\"42407631\",\"isHighSpeedIntersection\":1,\"cameratype\":2,\"latitude\":22.551171315231063,\"longitude\":114.06369779966558,\"url\":\"\",\"sceneId\":25,\"direction\":\"111\",\"crossingNumber\":\"111\"}', 'sql': '{\"sql_1\":\"SELECT id FROM u2s_traffic.camera WHERE name=#name#\"}', 'expected': '{\"code\":1000, \"codeMsg\":\"非法请求\", \"msg\":\"该监控点名称已存在\"}', 'check': '{\"code\":\"0\",\\n\"codeMsg\":\"1000\"}\\n', 'extra': None}" ]
+      } ],
+      "uid" : "6b31e725038384e4db74f6c25847a6bc"
+    } ],
+    "uid" : "58839370ee39bd1756f89405c05466fc"
+  } ]
 }

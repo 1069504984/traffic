@@ -32,3 +32,10 @@ api:
   regist: /member/register
   login: /member/login
   recharge: /member/recharge
+
+url:
+  test_url: http://172.16.1.107
+  dev_url: http://172.16.1.129
+  port: 9088
+
+

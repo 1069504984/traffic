@@ -1,0 +1,3 @@
+INFO     Traffic:test_camera.py:94 正在发起登录模块中的第1条用例:登录接口正常验证
+INFO     Traffic:test_camera.py:95 测试数据是：{"username":"admin","password":"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a"}
+INFO     Traffic:do_requests.py:43 post请求成功

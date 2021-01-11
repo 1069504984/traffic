@@ -1,0 +1,96 @@
+{
+  "uid" : "ad244c55046ae534",
+  "name" : "登录接口正常验证",
+  "fullName" : "test_camera.TestCases#test_001",
+  "historyId" : "8b183280bc718061c1401424339938cc",
+  "time" : {
+    "start" : 1602833589926,
+    "stop" : 1602833589962,
+    "duration" : 36
+  },
+  "description" : "登录接口正常验证",
+  "descriptionHtml" : "<p>登录接口正常验证</p>\n",
+  "status" : "broken",
+  "statusMessage" : "  File \"<string>\", line 4\n    \n    ^\nSyntaxError: unexpected EOF while parsing",
+  "statusTrace" : "self = <api_practise_1.test_data.test_camera.TestCases object at 0x00000232A92D6608>\nitem = {'case_id': 1, 'check': '{\"code\":\"0\",\\n{\"codeMsg\":\"成功\"}\\n\\n\\n', 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":\"\",\"data\":...9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU\"}', 'extra': 'data', ...}\nsetUp0 = None\n\n    @pytest.mark.parametrize('item', test_data)\n    @pytest.mark.usefixtures(\"setup1\")\n    def test_001(self, item, setUp0):\n        '''\n        监控点接口\n        '''\n        global result  # 指明全Ju变量\n        global COOKIES  # 设置cookies为全局变量\n    \n        allure.dynamic.title(item['title'])\n        allure.dynamic.description(item['title'])\n>       url,method,param,case_id,modular,title,expected,check_point_dict,header,extra=DoExcel.iter_excel_params(item)\n\ntest_camera.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\common\\learn_do_excel.py:122: in iter_excel_params\n    check_ponit_dict = extra_check(item)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nitem = {'case_id': 1, 'check': '{\"code\":\"0\",\\n{\"codeMsg\":\"成功\"}\\n\\n\\n', 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":\"\",\"data\":...9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU\"}', 'extra': 'data', ...}\n\n    def extra_check(item):\n>       check_ponit = eval(item[\"check\"])\nE         File \"<string>\", line 4\nE           \nE           ^\nE       SyntaxError: unexpected EOF while parsing\n\n..\\common\\learn_do_excel.py:19: SyntaxError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp0",
+    "time" : {
+      "start" : 1602833589923,
+      "stop" : 1602833589924,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup1",
+    "time" : {
+      "start" : 1602833589905,
+      "stop" : 1602833589923,
+      "duration" : 18
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "监控点"
+  }, {
+    "name" : "suite",
+    "value" : "test_camera"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C04F7E5"
+  }, {
+    "name" : "thread",
+    "value" : "134404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_camera"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': '/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.107:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.107:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":\"\",\"data\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU\"}', 'check': '{\"code\":\"0\",\\n{\"codeMsg\":\"成功\"}\\n\\n\\n', 'extra': 'data'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ad244c55046ae534.json",
+  "parameterValues" : [ "{'case_id': 1, 'modular': '登录', 'method': 'post', 'url': '/user/login', 'header': \"{\\n    'Connection': 'keep-alive',\\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\\n    'Origin': 'http://172.16.1.107:9088',\\n    'X-Requested-With': 'XMLHttpRequest',\\n    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrZW4iLCJpYXQiOjE1Mzc1NTQzMDksImRhdGEiOnsidXNlcm5hbWUiOiJ4dXRvbmdiYW8iLCJpc19zdXBlcnVzZXIiOjEsImlkIjoxNywibG9naW5fdGltZSI6MTUzNzU1NDMwOX0sImV4cCI6MTUzODE1NDMwOX0.32Lys4hjjY2XRpM2r9YSmpYA798u821m_M5Tzb6wxIU',\\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',\\n    'Content-Type': 'application/json',\\n    'Referer': 'http://172.16.1.107:9088/user/login',\\n    'Accept-Encoding': 'gzip, deflate',\\n    'Accept-Language': 'zh-CN,zh;q=0.9',\\n}\", 'title': '登录接口正常验证', 'param': '{\"username\":\"admin\",\"password\":\"1cd73874884db6a0f9f21d853d7e9eacdc773c39ee389060f5e96ae0bcb4773a\"}', 'sql': None, 'expected': '{\"code\":0,\"codeMsg\":\"成功\",\"msg\":\"\",\"data\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTU5OTE1MzI1OTQsInBheWxvYWQiOiIxIn0.IWTvNs_4aweo7zJs2O9aHnKdZV9KtFhQ8CPOnyizdTU\"}', 'check': '{\"code\":\"0\",\\n{\"codeMsg\":\"成功\"}\\n\\n\\n', 'extra': 'data'}" ]
+}
